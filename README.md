@@ -1,2 +1,3 @@
-# aws-for-bioinformatics
+# AWS for Bioinformatics
+
 AWS Essentials for Bioinformatic Researchers
