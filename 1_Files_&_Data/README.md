@@ -10,3 +10,7 @@ Here are the topic pages in this section:
 - Use RDS to store tabular data
 - Use reference Genomic Datasets
 
+## Hello World for AWS Data Services
+
+See this repo --> https://github.com/lynnlangit/Hello-AWS-Data-Services for examples and links to other courses which cover more AWS data services in depth.
+
