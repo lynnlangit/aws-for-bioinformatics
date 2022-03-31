@@ -2,7 +2,7 @@
 
 Five key patterns used in creating reproducible genomic-scale cloud analysis pipelines include the following:
 
-1.  **Functional programming** for side-effect free parallel processing (rather than OOP)
+1. **Functional programming** for side-effect free parallel processing (rather than OOP)
 
 2. **Use of tools**, such as GATK, Hail, VariantSpark, etc... (rather than scripts) to process the data
 
