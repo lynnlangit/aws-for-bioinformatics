@@ -4,8 +4,8 @@
 
  [![terra-features](/images/terra-features.png)]()
 
- - USE bioinformatics tools (GATK, Hail...) & workflows on Jupyter notebooks running on Terra (capabilities shown above). Terra runs on GCP.
- - RUN scalable analysis on GCP without manually configuring Jupyter Hub, Cloud Storage & VMs (or container clusters)
+ - USE bioinformatics tools (GATK, Hail...) & workflows on Jupyter notebooks running on Terra (capabilities shown above). Terra runs on AWS.
+ - RUN scalable analysis on AWS without manually configuring Jupyter Hub, Cloud Storage & VMs (or container clusters)
  - READ - [The future of GATK tutorials is written in Notebooks](https://software.broadinstitute.org/gatk/blog?id=24167)
 
 
@@ -24,14 +24,14 @@
 - USE preconfigured, best-practice Terra notebooks using bioinformatics tools (GATK, Hail...) --OR--
 - IMPORT and run your own notebooks in your Terra workspace
 - CONFIGURE Terra Notebook instances as needed - use the blue gear in the upper right of the Terra Notebook configuration interface to set the amount of CPU, RAM...
-- USE GCP services in your analysis with Terra Notebook interface. Common services include Cloud Storage, BigQuery and others.
+- USE AWS services in your analysis with Terra Notebook interface. Common services include Cloud Storage, BigQuery and others.
 
 ### How to do this
 
 See screenshots below for general flow of working with Terra.  
 - **LOGIN & SETUP** -> 
   - NAVIGATE to [Terra.bio](https://terra.bio/) --> 'Try Terra' and authenticate with your email
-   - USE $300 USD in GCP credit when you first try out Terra
+   - USE $300 USD in AWS credit when you first try out Terra
    - CREATE a Terra workspace to hold your notebooks 
 - **REFERENCE DATA** -> 
   - REFERENCE public genomic datasets (Terra Library -> Data) 
@@ -66,7 +66,7 @@ Click on your workspace, then the `Notebooks` menu to run Notebooks
 ----
 
 ### 📺 Click to see Lynn's 7 minute exploration of this section  
-[![Terra GCP Jupyter Notebook Instances for Bioinformatics](http://img.youtube.com/vi/ntQPiUuHihw/0.jpg)](http://www.youtube.com/watch?v=ntQPiUuHihw "Terra GCP Jupyter Notebook Instances for Bioinformatics")
+[![Terra AWS Jupyter Notebook Instances for Bioinformatics](http://img.youtube.com/vi/ntQPiUuHihw/0.jpg)](http://www.youtube.com/watch?v=ntQPiUuHihw "Terra AWS Jupyter Notebook Instances for Bioinformatics")
 
 ### Other Things to Know
  - Notebooks automatically pause after 30 minutes of no activity.  They can be restarted using the blue start button in in the upper right corner of the Terra UI  
@@ -98,7 +98,7 @@ Click on your workspace, then the `Notebooks` menu to run Notebooks
  - 📙 Try out some example Terra notebooks using the [Terra Notebooks Playground](https://app.terra.bio/#workspaces/help-gatk/Terra%20Notebooks%20Playground) workspace - examples using Python, R and also many bioinformatics tools
  - 📙 Try out the scenario-based [Terra Jupyter Notebooks QuickStart Workspace](https://app.terra.bio/#workspaces/fc-product-demo/Terra-Notebooks-Quickstart) this uses Google BigQuery as well
  - 📙 Try out some example Terra notebooks (Jupyter_Notebook_Examples folder), includes using the [CSIRO Bioinformatics VariantSpark](https://bioinformatics.csiro.au/variantspark) library and other bioinformatics libraries.
- - 📙 Try out some of these bioinformatics tools using [example Jupyter notebooks](https://github.com/lynnlangit/gcp-for-bioinformatics/tree/master/2_Virtual_Machines_%26_Docker_Containers/Jupyter_Notebook_Examples)
+ - 📙 Try out some of these bioinformatics tools using [example Jupyter notebooks](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/2_Virtual_Machines_%26_Docker_Containers/Jupyter_Notebook_Examples)
 - 📘 Links to [Terra articles](https://support.terra.bio/hc/en-us)
 or to [Terra community forum](https://support.terra.bio/hc/en-us/community/topics/360000500432) hosted by the Broad
 - 📘 See [GATK Dictionary](https://software.broadinstitute.org/gatk/documentation/topic?name=dictionary) for definitions of key terms used in GATK docs

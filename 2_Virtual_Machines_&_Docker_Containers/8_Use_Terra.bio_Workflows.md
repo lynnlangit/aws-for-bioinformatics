@@ -2,10 +2,10 @@
 
 ### Why do this
 
- - USE bioinformatics tools (GATK, Hail...) in Terra workflows on GCP
- - RUN **scalable** analysis on GCP without manually configuring Cloud Storage & VMs (or container clusters)
+ - USE bioinformatics tools (GATK, Hail...) in Terra workflows on AWS
+ - RUN **scalable** analysis on AWS without manually configuring Cloud Storage & VMs (or container clusters)
  - READ "Getting Stated with GATK via Terra Workspaces" - [link](https://support.terra.bio/hc/en-us/articles/360046095192-The-workspace-your-dedicated-project-space-on-Terra)
- - UNDERSTAND the GCP services used for your workflow (analysis) job using Terra Job Manager tools
+ - UNDERSTAND the AWS services used for your workflow (analysis) job using Terra Job Manager tools
  
 ### What is this
  
@@ -13,7 +13,7 @@
 
 [![terra-wk-arch](/images/terra-wk-arch.png)]()
  
- Terra Workflows are written with WDL workflow scripts.  Terra implements a persistent cromwell server cluster on GCP.  Terra workflows run using Google Cloud Storage buckets, GCP Virtual Machines and the Cloud Life Sciences API (also called PAPI for pipelines API).    
+ Terra Workflows are written with WDL workflow scripts.  Terra implements a persistent cromwell server cluster on AWS.  Terra workflows run using AWS Storage buckets, AWS Virtual Machines and the Cloud AWS Batch (also called PAPI for pipelines API).    
  
  You can configure existing workflows or create your own workflows.  Terra includes examples - these are runnable pre-configured workflows. Workflows can implement standard bioinformatics tools, such as [GATK](https://software.broadinstitute.org/gatk/) - shown below, or [Hail](https://hail.is/). Workflows can also run your own custom tools or scripts.
  
@@ -27,15 +27,15 @@
     - WRITE WDL scripts for your custom tools / workflows 
 - CONFIGURE input data and output data for both pre-created and custom workflows
 - CONSIDER costs 
-    - Terra workflows use resources from GCP and The Broad Institute 
-    - From GCP, Terra uses Compute Engine, Google Pipelines/Genomics API, Cloud Storage and other services
-    - Terra includes a UI called `Job Manager` that helps you understand the overhead on GCP of running your jobs
+    - Terra workflows use resources from AWS and The Broad Institute 
+    - From AWS, Terra uses Compute Engine, Google Pipelines/Genomics API, Cloud Storage and other services
+    - Terra includes a UI called `Job Manager` that helps you understand the overhead on AWS of running your jobs
 
 ### How to do this
  
 - **LOGIN** -> 
   - NAVIGATE to [Terra.bio](https://terra.bio/) --> 'Try Terra' and authenticate with your email
-   - USE $300 USD in GCP credit when you first try out Terra
+   - USE $300 USD in AWS credit when you first try out Terra
 - **SELECT DATA** -> 
   - USE reference public data (Terra Library -> Data)
   - UPLOAD your own research data for analysis (Your Terra Workspace -> Data Section)
@@ -49,7 +49,7 @@
 -----
 
 ### 📺 Click to see Lynn's 10 minute exploration of this section  
-[![Terra.bio Workflows on GCP for Bioinformatics](http://img.youtube.com/vi/tdpWXYcFSVA/0.jpg)](http://www.youtube.com/watch?v=tdpWXYcFSVA "Terra.bio Workflows on GCP for Bioinformatics")
+[![Terra.bio Workflows on AWS for Bioinformatics](http://img.youtube.com/vi/tdpWXYcFSVA/0.jpg)](http://www.youtube.com/watch?v=tdpWXYcFSVA "Terra.bio Workflows on AWS for Bioinformatics")
 
 ----
 
@@ -72,7 +72,7 @@
 
 ### Other Things to Know
 
-Terra runs on GCE VMs & the GCP Genomics/Pipelines API.
+Terra runs on GCE VMs & the AWS Genomics/Pipelines API.
 Terra is the next generation of The Broad Institute's Firecloud tool. Shown below is a conceptual diagram of a Terra workspace.  
  [![terra-concepts](/images/terra-concepts.png)]()
 
@@ -108,8 +108,8 @@ Terra is the next generation of The Broad Institute's Firecloud tool. Shown belo
 
 ### Using Terra 
 - 📺 Watch [Terra in a Nutshell](https://www.youtube.com/watch?v=hj0SGlVb4H0) - 2 minute video from the Broad
-- 📺 Watch [use a MindMap to understand where data is stored on GCP with Terra](https://www.youtube.com/watch?v=tYmJ2n8YqNc) - 20 minute video covering GCP services (GCS and BigQuery) with Terra
-- 📺 Watch [understanding Terra (GCP service) costs](https://www.youtube.com/watch?v=SRVrzXHkZKU) - 27 minute video from the Broad
+- 📺 Watch [use a MindMap to understand where data is stored on AWS with Terra](https://www.youtube.com/watch?v=tYmJ2n8YqNc) - 20 minute video covering AWS services (GCS and BigQuery) with Terra
+- 📺 Watch [understanding Terra (AWS service) costs](https://www.youtube.com/watch?v=SRVrzXHkZKU) - 27 minute video from the Broad
 - 📘 Link to [Terra community forum](https://support.terra.bio/hc/en-us/community/topics/360000500432)
 - 📘 Link to [Terra support forums](https://support.terra.bio/hc/en-us)
 - 📘 Link to [GATK Dictionary](https://software.broadinstitute.org/gatk/documentation/topic?name=dictionary) for definitions of key terms used in GATK docs

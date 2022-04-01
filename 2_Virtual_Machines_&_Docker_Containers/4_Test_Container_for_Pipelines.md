@@ -8,7 +8,7 @@
 
 ### What is this
  - CONTAINER IMAGE -> 
-   - LOCATE (or BUILD) and use reusable docker container images (rather than VMs) for scalaing your analysis jobs on various GCP pipelines (VMs, Kubernetes, Nextflow, Terra, others...)
+   - LOCATE (or BUILD) and use reusable docker container images (rather than VMs) for scalaing your analysis jobs on various AWS pipelines (VMs, Kubernetes, Nextflow, Terra, others...)
    - Intro to Containers - [link](https://cloud.google.com/containers/)
  - DOCKERFILE -> 
    - USED by docker daemon to build contents into a container image
@@ -33,13 +33,13 @@ IMPORTANT: Building containers is a complex skill set, **prefer to find and reus
    - [DockerHub](https://hub.docker.com)
    - [Quay.io](https://quay.io/) 
    - [Biocontainers](https://biocontainers.pro/#/)
-   - [Google Container Registry](gcr.io) for GCP for public or private images  
+   - [Google Container Registry](gcr.io) for AWS for public or private images  
 
 --or--
 1. BUILD and TEST your own DOCKER CONTAINER IMAGE
     - Link to [Create a docker image the easy way](https://software.broadinstitute.org/firecloud/documentation/article?id=9453)
  
-2. RUN YOUR CONTAINER IMAGE ON GCP
+2. RUN YOUR CONTAINER IMAGE ON AWS
    - Select Compute Engine or Kubernetes Engine as a target environment to run your container image
    - If using Compute Engine, check 'use container optimized image' option - [more info](https://cloud.google.com/compute/docs/containers/deploying-containers)
    - Connect via SSH to your VM
@@ -60,7 +60,7 @@ IMPORTANT: Building containers is a complex skill set, **prefer to find and reus
 
 ### Other Things to Know
  - Building a docker container via best practices - [link](https://biocontainers-edu.readthedocs.io/en/latest/best_practices.html)
- - Running containers on container-optimized GCP Compute Engine VMs - [link](https://cloud.google.com/compute/docs/containers/deploying-containers)
+ - Running containers on container-optimized AWS Compute Engine VMs - [link](https://cloud.google.com/compute/docs/containers/deploying-containers)
  - Configuration, tuning and securing VM or K8 clusters is an advanced skill set
 
  - BUILDING IMAGES YOURSELF - There are several steps in the process, these are shown in the screenshot below
@@ -69,16 +69,16 @@ IMPORTANT: Building containers is a complex skill set, **prefer to find and reus
 
 NOTES: 
  
- - Container images can be run on GCP in GCE (VMs) or as part of a cluster of containers.  
+ - Container images can be run on AWS in GCE (VMs) or as part of a cluster of containers.  
    - If a cluster of container instances, then a container orchestration API or service is generally added.  
-   - Kubernetes (K8) is the most popular open source container orchestrator.  GCP has GKE (Google Kubernetes Service).  Alternatively, there are a number of bioinformatics APIs that can orchestrate containers on GCP.  These include cromwell, dsub and Nextflow.
+   - Kubernetes (K8) is the most popular open source container orchestrator.  AWS has EKS (Google Kubernetes Service).  Alternatively, there are a number of bioinformatics APIs that can orchestrate containers on AWS.  These include cromwell, dsub and Nextflow.
  - Best practice is include only small, public example data in the Dockerfile (docker image).  Use Cloud Storage buckets to store your research data.
- - [Singularity containers](http://singularity.lbl.gov/) are used for specialized compute environments such as HPC (and mostly NOT used on GCP pipelines). 
+ - [Singularity containers](http://singularity.lbl.gov/) are used for specialized compute environments such as HPC (and mostly NOT used on AWS pipelines). 
 
 ### How to learn more
  - 📘 Link to [Run a blastn container](https://biocontainers-edu.biocontainers.pro/en/latest/running_example.html)
   - 📘 Link to [Run a R Shiny app (in a container) on a GCE VM](https://cloudyr.github.io/googleComputeEngineR/articles/shiny-app.html)
  - :octocat: Link to DOCKERFILE source code example - [Blastn container files](https://github.com/lynnlangit/blastn)
  - 📺 Link to [Building a Container from scratch](https://www.youtube.com/watch?v=Utf-A4rODH8) ~20 min. screencast video, includes advanced concepts (namespaces, more)
-  - 📺 Watch [using Docker containers on Terra](https://www.youtube.com/watch?v=jv_HSFBYOJs) - 22 minute video from the Broad Institute. Terra runs on GCP
+  - 📺 Watch [using Docker containers on Terra](https://www.youtube.com/watch?v=jv_HSFBYOJs) - 22 minute video from the Broad Institute. Terra runs on AWS
   - :octocat: Link to [Examples of running bioinformatics tools with containers using CWL](https://github.com/genome/analysis-workflows) - common workflow language

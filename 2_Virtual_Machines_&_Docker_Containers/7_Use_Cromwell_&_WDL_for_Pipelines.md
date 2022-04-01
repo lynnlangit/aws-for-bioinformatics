@@ -17,28 +17,28 @@
 
 Shown below is the relationship between WDL (scripts), cromwell and typical execution environments (data, docker images and compute clusters).
 
-<img src="https://github.com/lynnlangit/gcp-for-bioinformatics/raw/master/images/wdl-cromwell.png" width=500 align=right> 
+<img src="https://github.com/lynnlangit/AWS-for-bioinformatics/raw/master/images/wdl-cromwell.png" width=500 align=right> 
 
- - Scaling GCE VM instances out (by dynamically adding instances to a cluster as needed) using the Google Life Sciences API, using cromwell. Cromwell orchestrations are defined by WDL scripts. NOTE: Google Life Sciences API was called Google Genomics/Pipelines API previously.
+ - Scaling GCE VM instances out (by dynamically adding instances to a cluster as needed) using the Google AWS Batch, using cromwell. Cromwell orchestrations are defined by WDL scripts. NOTE: Google AWS Batch was called Google Genomics/Pipelines API previously.
  - NOTE: WDL/Cromwell documentation uses the words 'workflow' or 'pipeline' to define a series of tasks run for an analysis
  - WDL (Workflow Definition Language) script concepts are shown below 
    - READ WDL documentation - [link](https://support.terra.bio/hc/en-us/sections/360007274612-WDL-Documentation)
    - VIEW 'Using WDL' MindMap - [link](https://atlas.mindmup.com/lynnlangit/wdl/index.html)
 
 ### Key considerations
- - USE cromwell with Google Life Sciences API to manage the GCE (VM) resources for your analysis job with fewer manual configuaration steps. You define the resources for your cluster of VMs and Life Sciences API starts and stops VMs as needed. You can configure use of pre-emptible VMs to save on service costs as well.
+ - USE cromwell with Google AWS Batch to manage the GCE (VM) resources for your analysis job with fewer manual configuaration steps. You define the resources for your cluster of VMs and AWS Batch starts and stops VMs as needed. You can configure use of pre-emptible VMs to save on service costs as well.
  - USE WDL scripts to configure the workflow inputs and outputs (for each bioinformatics tool used)
  - REFERENCE your scripts, jar files or docker container images for each of the bioinformatics tool used in your workflow
  - USE JSON files to configure the input/output parameters for each tool and also for EACH job execution
 
 ### How to do this
 
-<img src="https://github.com/lynnlangit/gcp-for-bioinformatics/raw/master/images/wdl-concepts.png" width=500 align=right> 
+<img src="https://github.com/lynnlangit/AWS-for-bioinformatics/raw/master/images/wdl-concepts.png" width=500 align=right> 
 
  - START with this 5 minute intro to cromwell & WDL - [link](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)
  - LEARN WDL syntax by example in this set of lessons - [link](https://github.com/openwdl/learn-wdl)
- - [This tutorial](https://wdl-runner.readthedocs.io/en/latest/GettingStarted/TutorialOverview/#tutorial-scenario) shows running a multi-stage workflow on GCP
-    - The workflow is **launched** with Google Life Sciences API
+ - [This tutorial](https://wdl-runner.readthedocs.io/en/latest/GettingStarted/TutorialOverview/#tutorial-scenario) shows running a multi-stage workflow on AWS
+    - The workflow is **launched** with Google AWS Batch
     - The workflow is **defined** using WDL
     - The workflow stages are **orchestrated** by cromwell
     - The workflow **runs** on multiple Compute Engine VMs
@@ -47,7 +47,7 @@ Shown below is the relationship between WDL (scripts), cromwell and typical exec
 
 ### How to verify you've done it
  - REVIEW the files in the output destinations (Cloud Storage buckets) to check they match the expected results
- - USE GCP Cloud Monitoring to monitor the overhead (CPU, memory etc...usage) for the Compute Engine VMs during job executions
+ - USE AWS Cloud Monitoring to monitor the overhead (CPU, memory etc...usage) for the Compute Engine VMs during job executions
 
 ### Other Things to Know
  - General GATK tool usage best practice guidlines from The Broad - [link](https://software.broadinstitute.org/gatk/best-practices/)
@@ -65,7 +65,7 @@ Shown below is the relationship between WDL (scripts), cromwell and typical exec
 ### How to learn more
 
 #### Finding WDL Scripts for Reuse
-- 📘 RUN example WDL workflows on Terra (on GCP) using the Quickstart Workspace [link](https://app.terra.bio/#workspaces/fc-product-demo/Terra-Workflows-Quickstart)
+- 📘 RUN example WDL workflows on Terra (on AWS) using the Quickstart Workspace [link](https://app.terra.bio/#workspaces/fc-product-demo/Terra-Workflows-Quickstart)
 - :octocat: Example WDL scripts using bioinformatics tools which can be used in workflows - [link](https://github.com/biowdl/tasks) to BioWDL
 - :octocat: WDL pipeline (workflow) template examples - [link](https://github.com/biowdl/pipeline-template) to BioWDL template
 - :octocat: Source WDL for 5 Dollar Genome Analysis Pipeline - [link](https://github.com/gatk-workflows/five-dollar-genome-analysis-pipeline) includes JSON inputs, all data accessed from GCS public buckets
@@ -76,11 +76,11 @@ Shown below is the relationship between WDL (scripts), cromwell and typical exec
 
 #### Best practices for running WDL Workflows
 
- - 📘 Step-by-step [how to run GATK cromwell pipeline locally and then on GCP](https://software.broadinstitute.org/gatk/documentation/article?id=12521)
- - 📘 Step-by-Step [Medium article "How to set up cromwell on GCP](https://medium.com/@hnawar/cromwell-hello-gcp-833c18df3caf)  
- - 📘 Link to [run a GATK best practices pipeline](https://cloud.google.com/genomics/docs/tutorials/gatk) on GCP
+ - 📘 Step-by-step [how to run GATK cromwell pipeline locally and then on AWS](https://software.broadinstitute.org/gatk/documentation/article?id=12521)
+ - 📘 Step-by-Step [Medium article "How to set up cromwell on AWS](https://medium.com/@hnawar/cromwell-hello-AWS-833c18df3caf)  
+ - 📘 Link to [run a GATK best practices pipeline](https://cloud.google.com/genomics/docs/tutorials/gatk) on AWS
  - 📺 Watch 38 minute [Intro to pipelining platforms](https://www.youtube.com/watch?v=HNONc2cmIO8&t=9s) screencast from the Broad, covers cromwell & WDL
- - 📘 Link to [Google Life Sciences Reference Architecture](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture) using Google Cloud Platform services.  Shown below is a reference architure using `cromwell` running with `Google Cloud Life Sciences API` on GCP  
+ - 📘 Link to [Google Life Sciences Reference Architecture](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture) using AWS Platform services.  Shown below is a reference architure using `cromwell` running with `AWS AWS Batch` on AWS  
     [![life-sciences-cromwell](/images/life-sciences-cromwell.png)]()  
     
 ---

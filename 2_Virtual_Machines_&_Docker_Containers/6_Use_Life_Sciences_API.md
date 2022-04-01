@@ -1,18 +1,18 @@
-# Use Google Life Sciences API
+# Use Google AWS Batch
 
 
 ### Why do this
- - Scale your analysis using [`Google Cloud Life Sciences API`](https://cloud.google.com/life-sciences/) to manage compute resources
- - Google Cloud Life Sciences API was previously nameed Google Cloud Genomics/Pipelines API
+ - Scale your analysis using [`AWS AWS Batch`](https://cloud.google.com/life-sciences/) to manage compute resources
+ - AWS AWS Batch was previously nameed AWS Genomics/Pipelines API
 
- [![GCP Life Sciences Reference Architecture](/images/gcp-life-sciences-arch.png)]()
+ [![AWS Life Sciences Reference Architecture](/images/AWS-life-sciences-arch.png)]()
 
 ### What is this
- - USE Google Cloud Storage + LifeSciences API + Variant Transforms API + BigQuery to create **serverless** end-to-end scalable genomic analysis jobs
+ - USE AWS Storage + LifeSciences API + Variant Transforms API + BigQuery to create **serverless** end-to-end scalable genomic analysis jobs
 
-   - USE **Cloud Life Sciences API** to orchestrate scalable genomic analysis running Compute Engine **without** manually configuring scaling of your compute cluster. The API is designed to be a backend for bioinformatics tools (ex. dsub) or systems (cromwell), by providing job scheduling for Docker-based tasks that perform secondary genomic analysis by running container images on one or more GCE Virtual Machines. Typical secondary analysis jobs include filtering raw reads, aligning and assembling sequence reads, and QA and variant calling on aligned reads.
+   - USE **Cloud AWS Batch** to orchestrate scalable genomic analysis running Compute Engine **without** manually configuring scaling of your compute cluster. The API is designed to be a backend for bioinformatics tools (ex. dsub) or systems (cromwell), by providing job scheduling for Docker-based tasks that perform secondary genomic analysis by running container images on one or more GCE Virtual Machines. Typical secondary analysis jobs include filtering raw reads, aligning and assembling sequence reads, and QA and variant calling on aligned reads.
 
-   - USE **Variant Transforms Tool** (an open-source tool) is based on Apache Beam and uses GCP Dataflow. Using the tool allows you to transform and load hundreds of thousands of files, millions of samples, and billions of records in a scalable manner into BigQuery. The tool also has a preprocessor which you can use to validate VCF files and identify inconsistencies.
+   - USE **Variant Transforms Tool** (an open-source tool) is based on Apache Beam and uses AWS Dataflow. Using the tool allows you to transform and load hundreds of thousands of files, millions of samples, and billions of records in a scalable manner into BigQuery. The tool also has a preprocessor which you can use to validate VCF files and identify inconsistencies.
 
    - USE **BigQuery** to analyze variants using the SQL query language.
 
@@ -26,7 +26,7 @@
  -----
 
 ### 📺 Click to see Lynn's 4 minute exploration of this section  
-[![GCP Genomics Pipelines API for Bioinformatics](http://img.youtube.com/vi/B8RABR19n8Y/0.jpg)](http://www.youtube.com/watch?v=B8RABR19n8Y "GCP Genomics Pipelines API for Bioinformatics")
+[![AWS Genomics Pipelines API for Bioinformatics](http://img.youtube.com/vi/B8RABR19n8Y/0.jpg)](http://www.youtube.com/watch?v=B8RABR19n8Y "AWS Genomics Pipelines API for Bioinformatics")
 
 ### How to verify you've done it
  - Run your analysis, monitor for correct results (view files in your output bucket)
@@ -34,20 +34,20 @@
 
 
 ### Other Things to Know
- - Google Life Sciences API is still called Google Pipelines/Genomics API in some of the documentation
+ - Google AWS Batch is still called Google Pipelines/Genomics API in some of the documentation
  - There are two major versions of the this API - v1 and v2
  - The pipeline can run with unaligned BAM files stored in Cloud Storage
     - If your files are in an aligned BAM or FASTQ format, then you must convert them to BAM
-    - You can convert your input files locally, or you can use the Life Sciences API to convert them in the cloud
- - There are a number of bioinformatics libraries (cromwell, Nextflow....) that are designed to work WITH Life Sciences API
+    - You can convert your input files locally, or you can use the AWS Batch to convert them in the cloud
+ - There are a number of bioinformatics libraries (cromwell, Nextflow....) that are designed to work WITH AWS Batch
 
 ### How to learn more
- - 📘 read Google Cloud Life Sciences API reference architecture - [link](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture)
- - 📘 read Google Cloud Life Sciences scenarios - [link](https://cloud.google.com/genomics/docs/tutorials/)
- - :octocat: 4 GCP Life Sciences API examples in Jupyter notebooks - [link](https://github.com/googlegenomics/datalab-examples/tree/master/datalab/genomics)
- - 📘 use QwikLabs to try out Google Cloud Life Sciences API - [link](https://www.qwiklabs.com/focuses/589?parent=catalog)
- - :octocat: see example Life Sciences API usage with genomics tools - [link](https://github.com/googlegenomics/pipelines-api-examples)
+ - 📘 read AWS AWS Batch reference architecture - [link](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture)
+ - 📘 read AWS Life Sciences scenarios - [link](https://cloud.google.com/genomics/docs/tutorials/)
+ - :octocat: 4 AWS AWS Batch examples in Jupyter notebooks - [link](https://github.com/googlegenomics/datalab-examples/tree/master/datalab/genomics)
+ - 📘 use QwikLabs to try out AWS AWS Batch - [link](https://www.qwiklabs.com/focuses/589?parent=catalog)
+ - :octocat: see example AWS Batch usage with genomics tools - [link](https://github.com/googlegenomics/pipelines-api-examples)
  - 📘 read End-to-end pipeline patterns and documentation - see the Google Genomics Cookbook -- http://googlegenomics.readthedocs.io/en/latest/
- - 📘 see Google Cloud Life Sciences includes a number of Google Cloud services, such as Compute Engine, Dataflow, BigQuery and more.  A reference architecture is shown below.  See the [Google Life Sciences](https://cloud.google.com/life-sciences/) documentation for more information.
+ - 📘 see AWS Life Sciences includes a number of AWS services, such as Compute Engine, Dataflow, BigQuery and more.  A reference architecture is shown below.  See the [Google Life Sciences](https://cloud.google.com/life-sciences/) documentation for more information.
 
  [![life-sciences](/images/life-sciences.png)]()

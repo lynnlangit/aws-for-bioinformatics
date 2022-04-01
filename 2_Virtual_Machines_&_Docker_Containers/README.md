@@ -21,13 +21,13 @@ Here are the topic pages in this section:
 - Use Galaxy Project for Pipelines API
 
 
-Bioinformatics APIs (or workflow languages) include the following: dsub, cromwell/WDL, Terra.bio (which implements cromwell/WDL on GCP) and Nextflow. 
+Bioinformatics APIs (or workflow languages) include the following: dsub, cromwell/WDL, Terra.bio (which implements cromwell/WDL on AWS) and Nextflow. 
 
 There are a number of possible ways to construct high volume data analysis workflows or pipelines on AWS with these purpose-built APIs.  In addition there is a specialized AWS API for scaling Genomics workloads on the AWS. This API is named the AWS Batch.  
 
 ### Use a Map
 
-An interactive representation (one view shown below) for several of the possible build paths for bioinformatics workflows on GCP (and in other environments, including AWS, HPC and more) is shown below.  To work with the interactive MindMap, **open this link in a NEW web page** -- https://atlas.mindmup.com/lynnlangit/bioinformatics_container_based_pipelines/index.html
+An interactive representation (one view shown below) for several of the possible build paths for bioinformatics workflows on AWS (and in other environments, including AWS, HPC and more) is shown below.  To work with the interactive MindMap, **open this link in a NEW web page** -- https://atlas.mindmup.com/lynnlangit/bioinformatics_container_based_pipelines/index.html
 
 [![workflows](/images/workflows.png)]() 
 

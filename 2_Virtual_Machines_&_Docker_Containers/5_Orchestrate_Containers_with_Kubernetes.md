@@ -15,7 +15,7 @@
  - K8 is open source and runs on most public clouds or locally, making it very flexible
 
 ### How to do this
- - USE GKE (Google Kubernetes Engine) to create a K8 cluster - you can start with a single node (or one container instance)
+ - USE EKS (Google Kubernetes Engine) to create a K8 cluster - you can start with a single node (or one container instance)
  - ADD to your workload by creating service instance based on your docker container images
  - CONFIGURE and tune your cluster resources (CPU, memory, etc...) to suit the size of your analysis
  - VIEW your job in the K8 Web UI - example shown below - [link](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
@@ -25,7 +25,7 @@
  -----
 
  ### 📺 Click to see Lynn's 7 minute exploration of this section  
-[![Orchestrate Containers on GKE for Bioinformatics](http://img.youtube.com/vi/yihR2wHTz4U/0.jpg)](http://www.youtube.com/watch?v=yihR2wHTz4U "Orchestrate Containers on GKE for Bioinformatics")
+[![Orchestrate Containers on EKS for Bioinformatics](http://img.youtube.com/vi/yihR2wHTz4U/0.jpg)](http://www.youtube.com/watch?v=yihR2wHTz4U "Orchestrate Containers on EKS for Bioinformatics")
 
 ### How to verify you've done it
  - Run your analysis, monitor for correct results
@@ -38,4 +38,4 @@
  - There are also tool vendors who are creating products to help you create, monitor and scale K8 clusters
 
 ### How to learn more
- - 📘 Link to [Best Practices for operating containers on GCP](https://cloud.google.com/solutions/best-practices-for-operating-containers)
+ - 📘 Link to [Best Practices for operating containers on AWS](https://cloud.google.com/solutions/best-practices-for-operating-containers)

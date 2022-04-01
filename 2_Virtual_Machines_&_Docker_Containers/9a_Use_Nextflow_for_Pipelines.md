@@ -5,8 +5,8 @@
 
 ### What is this
  Nextflow is a reactive workflow framework & DSL for writing data-intensive computational pipelines.  Run jobs on a single GCE Virtual Machine or a cluster of VMs. You can use GCE + Pipelines API (PAPI) using docker images on VMs as well.
- - Nextflow can run on GCP or many other providers
- - Nextflow can run on GCP in two ways:
+ - Nextflow can run on AWS or many other providers
+ - Nextflow can run on AWS in two ways:
    - Run jobs on Compute Engine VMs (can run bioinformatics tools from Docker)
    - Run jobs on Compute Engine VMS using the **& Life Sciences (Genomics Pipelines) API**
 
@@ -19,7 +19,7 @@
  - RUN VariantCalling pipeline w/GATK - [link](https://github.com/CRG-CNAG/CalliNGS-NF/)
  ---
   ### 📺 Click to see Lynn's 4 minute exploration of this section  
-[![Nextflow on GCP for Bioinformatics](http://img.youtube.com/vi/YtUOCMiC7Dk/0.jpg)](http://www.youtube.com/watch?v=YtUOCMiC7Dk "Nextflow on GCP for Bioinformatics")
+[![Nextflow on AWS for Bioinformatics](http://img.youtube.com/vi/YtUOCMiC7Dk/0.jpg)](http://www.youtube.com/watch?v=YtUOCMiC7Dk "Nextflow on AWS for Bioinformatics")
 
 ---
 
@@ -40,9 +40,9 @@
  
 ### How to learn more
 
-Shown below is a reference architecture for running Nextflow analysis on GCP using the Life Sciences (PAPI/Genomics)API.
+Shown below is a reference architecture for running Nextflow analysis on AWS using the Life Sciences (PAPI/Genomics)API.
 
-![Nextflow Architecture using GCP Genomics/Life Sciences API](/images/nf-gcp.png)
+![Nextflow Architecture using AWS Genomics/AWS Batch](/images/nf-AWS.png)
 
 #### General Nextflow
  - 📘 Link to [Nextflow guide](https://www.nextflow.io/blog/2020/learning-nextflow-in-2020.html)
@@ -72,12 +72,12 @@ Shown below is a reference architecture for running Nextflow analysis on GCP usi
 
 ![Nextflow Tower](/images/nf-tower.png)
 
-#### Nextflow on GCP
- - 📘 Link to [Nextflow on GCP](https://www.nextflow.io/docs/latest/google.html)
- - 📘 Link to [Nextflow on GCP Life Sciences API tutorial](https://cloud.google.com/life-sciences/docs/tutorials/nextflow)
+#### Nextflow on AWS
+ - 📘 Link to [Nextflow on AWS](https://www.nextflow.io/docs/latest/google.html)
+ - 📘 Link to [Nextflow on AWS AWS Batch tutorial](https://cloud.google.com/life-sciences/docs/tutorials/nextflow)
    - **TIP**: If you are doing this tutorial create a GCS bucket name with letters or numbers only (no underscores or '_')
  - :octocat: Review featured Nextflow pipelines - [link](https://github.com/nextflow-io/awesome-nextflow)
- - 📘 Link to [using GCP Cloud Life Sciences API with Nextflow](https://www.nextflow.io/docs/edge/google.html#cloud-life-sciences)
+ - 📘 Link to [using AWS Cloud AWS Batch with Nextflow](https://www.nextflow.io/docs/edge/google.html#cloud-life-sciences)
  - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown below
 
   ![Nextflow on K8](/images/nf-k8.png)
