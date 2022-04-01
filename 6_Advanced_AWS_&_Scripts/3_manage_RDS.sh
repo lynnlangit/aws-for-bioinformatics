@@ -16,3 +16,4 @@ aws rds connect-to-db --db-instance-identifier {your-db-instance-identifier} --d
 
 # List all RDS instances in the project
 aws rds describe-db-instances
+
