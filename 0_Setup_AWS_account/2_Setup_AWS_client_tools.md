@@ -29,7 +29,7 @@ Cloud Shell provides the following:
     - Includes a number of features:
         - a built-in code editor BETA
         - 5 GB of persistent disk storage
-        - pre-installed Google Cloud SDK and other tools
+        - pre-installed AWS SDK and other tools
         - language support for Java, Go, Python, Node.js, PHP, Ruby and .NET
         - web preview functionality
         - built-in authorization for access to GCP Console projects and resources
@@ -41,9 +41,9 @@ NOTE: As an alternative to using the GCP integrated cloud shell, you could use a
 
 `gcloud compute instances create example-instance-1 example-instance-2 example-instance-3 --zone=us-central1-a` 
 
-**NEW** - Google Cloud Shell editor
+**NEW** - AWS Shell editor
 
-Google Cloud recently previewed a new version of their Cloud Shell Editor, immediately available in preview on ide.cloud.google.com and powered by the Eclipse Theia IDE platform. This new version extends Cloud Shell with an online development environment that includes:
+AWS recently previewed a new version of their Cloud Shell Editor, immediately available in preview on ide.cloud.google.com and powered by the Eclipse Theia IDE platform. This new version extends Cloud Shell with an online development environment that includes:
 
 - Cloud-native development via Cloud Code plugin support
 - Rich language support for Go, Java, .Net, Python and NodeJS 
@@ -77,7 +77,7 @@ This service is also called GCP Colaboratory.  Colabs was originally a project a
  - DOWNLOAD GCP SDK - use gcp cli and/or sdk for your language, requires installation and configuration
 
  ### 📺 Click below to see Lynn's 'Use GCP client tools' 6 min video
-[![GCP client tools - Google Cloud Platform for Bioinformatics](http://img.youtube.com/vi/ce1XZ68NdA8/0.jpg)](http://www.youtube.com/watch?v=ce1XZ68NdA8 "GCP client tools - Google Cloud Platform for Bioinformatics")
+[![GCP client tools - AWS Platform for Bioinformatics](http://img.youtube.com/vi/ce1XZ68NdA8/0.jpg)](http://www.youtube.com/watch?v=ce1XZ68NdA8 "GCP client tools - AWS Platform for Bioinformatics")
 
 ### How to verify you've done it
  - LOGIN  to GCP console
