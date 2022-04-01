@@ -1,6 +1,6 @@
 # Genomic File Types
 
-This page lists types of files used in genomic analysis.  To work with actual (sub-sampled size) example genomic files of the types listed below go to this [link](https://github.com/lynnlangit/gcp-for-bioinformatics/tree/master/1_Files_%26_Data/genomic-data-samples)
+This page lists types of files used in genomic analysis.  To work with actual (sub-sampled size) example genomic files of the types listed below go to this [link](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/1_Files_%26_Data/genomic-data-samples)
 
 ## Summary Table
 
@@ -14,7 +14,7 @@ This page lists types of files used in genomic analysis.  To work with actual (s
 |[CRAM](https://software.broadinstitute.org/gatk/documentation/article?id=11014   ) | compressed binary alignment file| 2c-align to reference | binary format                     | no image                                                               |
 |[VCF](https://software.broadinstitute.org/gatk/documentation/article?id=11005   )  | variant call format             | 3a-find variants      | plain text                        | ![VCF](/images/vcf-file.png ) ![VCF-format](/images/vcf.png)                                                                  |
 |[GVCF](https://software.broadinstitute.org/gatk/documentation/article?id=11004    ) | genomic variant call format     | 3b-find variants      |contains extra info                | ![GVCF](/images/gvcf.png)                                                                   |
-|[Other text files - TSV, CSV, BED, BZ2 (compressed text)](https://github.com/lynnlangit/gcp-for-bioinformatics/tree/master/1_Files_%26_Data/genomic-data-samples/    ) | text files for genomics     | 4-any phase      |contains extra info                | no image                                                                   |
+|[Other text files - TSV, CSV, BED, BZ2 (compressed text)](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/1_Files_%26_Data/genomic-data-samples/    ) | text files for genomics     | 4-any phase      |contains extra info                | no image                                                                   |
 
 ### Learn More -> Links
  - 📘Big List of genomic file types and descriptions - [link](http://software.broadinstitute.org/software/igv/?q=book/export/html/16) from The Broad

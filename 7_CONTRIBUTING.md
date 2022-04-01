@@ -30,7 +30,7 @@ The section headings on each page are the same by design, i.e.
     - Text here...(quick service description)
 ...  
 - **How to do this**
-    - Text here...(step-by-step instructions using the GCP console)  
+    - Text here...(step-by-step instructions using the AWS console)  
 - **How to verify you've done it** 
     - Text here...(what to review to verify that you've been able to use the service )  
 ...  
@@ -60,6 +60,6 @@ All written content should follow these principles:
 * **Brevity:** Keep it simple, link to outside content for deeper dives
 * **Curation:** Amplify community best practices vs. any individual's point of view
 
-Content should maintain a quickly scanable tone. This course is meant as an introduction to using GCP services for those who are new to cloud and working in bioinformatics research.
+Content should maintain a quickly scanable tone. This course is meant as an introduction to using AWS services for those who are new to cloud and working in bioinformatics research.
 
 
