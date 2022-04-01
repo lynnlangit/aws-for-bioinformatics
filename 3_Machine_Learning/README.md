@@ -15,12 +15,6 @@ Use AutoML for Text to analyze text and natural language
 - USE Jupyter notebook with BigQuery API
 - USE Jupyter notebook with BigQuery and BQ ML APIs
 
-### 📺 Click below to see Lynn's 2 minute intro to this section  
-[![AWS Machine Learning](http://img.youtube.com/vi/DMBDc4vMABk/0.jpg)](http://www.youtube.com/watch?v=DMBDc4vMABk "Intro AWS Services for Machine Learning")
-
-The sections of the reference architecture outlined in red will be covered.
-
-[![AWS-iam](/images/ml.png)]()
 
 NOTE: Right click on the 'Open in Colab' button at the top of the *.ipynb (IPython notebook file) and 'open link in a new tab' as directly opening this link is blocked in GitHub.
 
