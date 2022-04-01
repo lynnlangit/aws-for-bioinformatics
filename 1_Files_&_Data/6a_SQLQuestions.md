@@ -1,15 +1,15 @@
-# BigQuery Bioinformatics SQL Query Lessons 
-The original source bioinformatics Dataset and base SQL queries used in this open source course are from [wikibooks](https://en.wikibooks.org/wiki/Data_Management_in_Bioinformatics/SQL_Exercises). I significantly modified both the example dataset (table structure and data) and also the example queries to work with the Google BigQuery service.  I also added more intermediate SQL queries to enable students to 'level-up' their query writing more deliberately. If you are new to Big Query - here's a 4 min 'What is BigQuery?' video - [link](https://www.youtube.com/watch?v=d3MDxC_iuaw)
+# Athena Bioinformatics SQL Query Lessons 
+The original source bioinformatics Dataset and base SQL queries used in this open source course are from [wikibooks](https://en.wikibooks.org/wiki/Data_Management_in_Bioinformatics/SQL_Exercises). I significantly modified both the example dataset (table structure and data) and also the example queries to work with the Google Athena service.  I also added more intermediate SQL queries to enable students to 'level-up' their query writing more deliberately. If you are new to Big Query - here's a 4 min 'What is Athena?' video - [link](https://www.youtube.com/watch?v=d3MDxC_iuaw)
 
 ### To Get Started
 
-- Sign up for a Google Cloud account (you can use $ 300 USD free trial credits if creating a new GCP account)
-  - **CREATE** a Google Cloud Project & then enable the BigQuery service for that project
-  - **NAVIGATE** to the BigQuery Web UI for your Google Cloud Project
-  - **WRITE & EXECUTE** your queries in the BigQuery Web UI Query Window, shown below
+- Sign up for a AWS account (you can use $ 300 USD free trial credits if creating a new AWS account)
+  - **CREATE** a AWS Project & then enable the Athena service for that project
+  - **NAVIGATE** to the Athena Web UI for your AWS Project
+  - **WRITE & EXECUTE** your queries in the Athena Web UI Query Window, shown below
     - Because of the tiny size of my example dataset, I can make this tutorial FREE for you 
 
-![BigQuery WebUI](/images/bq-webui.png)
+![Athena WebUI](/images/bq-webui.png)
 
 ---
 
@@ -19,52 +19,52 @@ The original source bioinformatics Dataset and base SQL queries used in this ope
 - Part 3 - Three-table complex SQL Queries
 - General Instructions - to complete this course for each part in this document:  
     - READ the entire section
-    - COPY the SQL query example (or pattern) into your Google Cloud Big Query query editor window
+    - COPY the SQL query example (or pattern) into your AWS Big Query query editor window
     - MODIFY the query so that there are no errors (red underlines or warnings)
     - RUN the query and review the results 
  
  #### What could go wrong?
 
- Shown below is the BigQuery query editor window with an error - indicated in RED. The error (on line 4) is that the table name is spelled incorrectly as `experiment`, when it should be `experiments`
+ Shown below is the Athena query editor window with an error - indicated in RED. The error (on line 4) is that the table name is spelled incorrectly as `experiment`, when it should be `experiments`
 
- ![BigQuery error](/images/error-bq.png)
+ ![Athena error](/images/error-bq.png)
 
  After you correct a query-time error, then the editor will update and show 'valid syntax' in GREEN (shown below).
 
- ![BigQuery error](/images/correct-bq.png)
+ ![Athena error](/images/correct-bq.png)
 
-  If you get stuck - here is a [link](https://github.com/lynnlangit/gcp-for-bioinformatics/blob/master/1_Files_%26_Data/6b_SQLQueries.sql) to completed queries for each question.
+  If you get stuck - here is a [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/6b_SQLQueries.sql) to completed queries for each question.
 
 ---
 ---
 ## Part 1 - Single Table Queries
 
-In this section you will execute or write (and execute) SQL queries against a single table in a **public** Google Cloud BigQuery bioinformatics dataset that I created for these lessons.  
+In this section you will execute or write (and execute) SQL queries against a single table in a **public** AWS Athena bioinformatics dataset that I created for these lessons.  
 
-The first table that you will be using was created from a CSV (text) file from the wikibook source referenced at the beginning of this article.  To be able to use the BigQuery 'auto-detect schema' feature when uploading the CSV file, I modified the original source file structure by removing a row, all white space and by adding a column with numbers (numeric data type).
+The first table that you will be using was created from a CSV (text) file from the wikibook source referenced at the beginning of this article.  To be able to use the Athena 'auto-detect schema' feature when uploading the CSV file, I modified the original source file structure by removing a row, all white space and by adding a column with numbers (numeric data type).
 
 ### Understand the Table Structure and Data
 
-To get started, I suggest that you run a couple of SQL queries to list all of the table data and also the table schema for the `experiments` table.  Simply copy and paste each queries in this section into your Google Cloud BigQuery query editor window and then click the blue 'run' button to execute each query and see the query results.
+To get started, I suggest that you run a couple of SQL queries to list all of the table data and also the table schema for the `experiments` table.  Simply copy and paste each queries in this section into your AWS Athena query editor window and then click the blue 'run' button to execute each query and see the query results.
 
-### ❓Q0a: Run a SQL query which returns all data (rows) in the `experiments` table from my example GCP BigQuery public dataset  
+### ❓Q0a: Run a SQL query which returns all data (rows) in the `experiments` table from my example AWS Athena public dataset  
 
     - SQL Example Query: 
 
         SELECT *
-        FROM `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+        FROM `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 
-**IMPORTANT: You must enclose the fully qualified table name in the backtick charachter (NOT a single quote) so that BigQuery can parse the table statement. Note the use of the `AS` keyword to alias the table name.**  
+**IMPORTANT: You must enclose the fully qualified table name in the backtick charachter (NOT a single quote) so that Athena can parse the table statement. Note the use of the `AS` keyword to alias the table name.**  
 
 ![backtick](/images/backtick.png)  
  
 
-### ❓Q0b: Run a SQL query to return the table structure of the `experiments` table from my example GCP BigQuery public dataset  
+### ❓Q0b: Run a SQL query to return the table structure of the `experiments` table from my example AWS Athena public dataset  
 
     - SQL Example Query: 
 
         SELECT * 
-        FROM `gcp-for-bioinformatics`.sql_genomics_examples.INFORMATION_SCHEMA.COLUMNS
+        FROM `AWS-for-bioinformatics`.sql_genomics_examples.INFORMATION_SCHEMA.COLUMNS
         WHERE table_name="experiments"
 
 ![experiments table](/images/experiments.png)
@@ -75,25 +75,25 @@ To get started, I suggest that you run a couple of SQL queries to list all of th
 - In this example, that would be 10 sample data rows.
 
 
-### ❓Q0c: Run a SQL query to return a count of the number of rows in the table of the `experiments` table from my example GCP BigQuery public dataset  
+### ❓Q0c: Run a SQL query to return a count of the number of rows in the table of the `experiments` table from my example AWS Athena public dataset  
 
     - SQL Example Query: 
 
         SELECT COUNT(*) AS NumberOfRows
-        FROM `gcp-for-bioinformatics.sql_genomics_examples.experiments`
+        FROM `AWS-for-bioinformatics.sql_genomics_examples.experiments`
 
 ---
 
 ### Write and Execute Single-Table SQL Queries
 
 In this section, you use the SQL Pattern Queries as a starter templates for you to write your own queries.  To do this
-- Copy and paste the SQL Pattern code into the Google BigQuery query editor window
+- Copy and paste the SQL Pattern code into the Google Athena query editor window
 - Modify the starter code to fill in the values so that the query returns the expected result set after you execute (or run) it
 - Run your query and verify that the results are correct
 ---
 
 ### ❓Q1a: Write a SQL query to return the names of experiments performed by Tommy Student.   
-    - GCP BigQuery DATASET: `gcp-for-bioinformatics.sql_genomics_examples.experiments`  
+    - AWS Athena DATASET: `AWS-for-bioinformatics.sql_genomics_examples.experiments`  
     - TABLE: `experiments`  
 
     - SQL Pattern: 
@@ -102,7 +102,7 @@ In this section, you use the SQL Pattern Queries as a starter templates for you 
         FROM {table1} AS {tableAlias} 
         WHERE {column1} = {'stringValue'}  
 
-**IMPORTANT: In WHERE clauses, you must enclose string values in the single (or double) quote charachter (NOT a backtick) so that BigQuery can parse the string equality statement. Also strings in WHERE clauses are case sensitive** 
+**IMPORTANT: In WHERE clauses, you must enclose string values in the single (or double) quote charachter (NOT a backtick) so that Athena can parse the string equality statement. Also strings in WHERE clauses are case sensitive** 
 
 ### ❓Q1b: Write a SQL query to return the names of experiments performed by Tommy Student after Jan 1, 2004.
 Rename the referenced table name to "experiments" using the SQL `AS` keyword in the `FROM` clause.
@@ -202,7 +202,7 @@ As an alternative to using a SQL **self-join**, you could use a SQL **subquery**
 
 Both approaches yield the correct result.  There are two factors in determining which query approach is best.  Those factors are the following:  
 1. Are you more comfortable writing set-based queries? Then use the self-join approach.  Alternatively, you can use the subquery approach if that is more natural for you.
-2. Performance overhead in BigQuery.  At these small example amounts, query performance won't differ.  However, with production-sized tables, performance can differ due to other factors (table partitioning for example). Query performance tuning is a complex topic is beyond the scope of this course.
+2. Performance overhead in Athena.  At these small example amounts, query performance won't differ.  However, with production-sized tables, performance can differ due to other factors (table partitioning for example). Query performance tuning is a complex topic is beyond the scope of this course.
 
 ### ❓Q4: Return the names of experiments that were performed before some Gasch experiment  
 
@@ -260,25 +260,25 @@ Because it's helpful to 'see' table structure when writing queries, I'll link a 
 
         CREATE VIEW upregulated AS
         SELECT gid, experimentid
-        FROM `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression
+        FROM `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression
         WHERE significance >= 1
         AND level >= 0.5;
 
         --SELECT all rows using the view name as a table source to see the results
         SELECT * 
-        FROM `gcp-for-bioinformatics.sql_genomics_examples.upregulated`
+        FROM `AWS-for-bioinformatics.sql_genomics_examples.upregulated`
   
         CREATE VIEW upInTwoOrMore AS
         SELECT DISTINCT u1.gid AS gid
         FROM 
-        `gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
-        `gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u2
+        `AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
+        `AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u2
         WHERE u1.gid = u2.gid
         AND u1.experimentid <> u2.experimentid;
 
         --Select using the view name as a table source to see the results
         SELECT * 
-        FROM `gcp-for-bioinformatics.sql_genomics_examples.upInTwoOrMore`
+        FROM `AWS-for-bioinformatics.sql_genomics_examples.upInTwoOrMore`
 
 --Use the views by determining which of these genes come from pine, and then returning their names.  You'll need to join the second view to the `gene` table to retrieve the required information.
 
@@ -286,8 +286,8 @@ Because it's helpful to 'see' table structure when writing queries, I'll link a 
 
         SELECT {column}
         FROM 
-        `gcp-for-bioinformatics.sql_genomics_examples.{table}` AS genes, 
-        `gcp-for-bioinformatics.sql_genomics_examples.{view}` AS upInTwoOrMore
+        `AWS-for-bioinformatics.sql_genomics_examples.{table}` AS genes, 
+        `AWS-for-bioinformatics.sql_genomics_examples.{view}` AS upInTwoOrMore
         WHERE genes.{id} = upInTwoOrMore.{id}
         AND {column} = {stringValue};
 
@@ -325,12 +325,12 @@ The caveat here is that while the equality evaluations are transitive, while ine
 
          - SQL Query Pattern
 
-        CREATE VIEW `gcp-for-bioinformatics.sql_genomics_examples.upInThreeOrMore` AS
+        CREATE VIEW `AWS-for-bioinformatics.sql_genomics_examples.upInThreeOrMore` AS
         SELECT DISTINCT u1.gid AS gid
         FROM 
-        `gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
-        `gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u2, 
-        `gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u3 
+        `AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
+        `AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u2, 
+        `AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u3 
         WHERE u1.gid = u2.gid
         AND u1.gid = u3.gid
         AND u1.experimentid <> u2.experimentid
@@ -351,9 +351,9 @@ The caveat here is that while the equality evaluations are transitive, while ine
    I also created a view using SQL keywords GROUP BY and HAVING to filter by COUNT evaluation.  Some people find this type of query syntax more readable than self-joins.
 
         - SQL Query Pattern
-        CREATE VIEW `gcp-for-bioinformatics.sql_genomics_examples.upInThreeOrMoreGrouped` AS
+        CREATE VIEW `AWS-for-bioinformatics.sql_genomics_examples.upInThreeOrMoreGrouped` AS
         SELECT gid
-        FROM `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression
+        FROM `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression
         WHERE level >= 0.5
         AND significance >= 1
         GROUP BY gid
@@ -378,9 +378,9 @@ Because this query is quite verbose, the completed query is shown below.  You ca
 
         SELECT DISTINCT name
         FROM 
-        `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
-        `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e1,
-        `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e2
+        `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
+        `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e1,
+        `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e2
         WHERE genes.gid = e1.gid
         AND e1.gid = e2.gid
         AND e1.level >= 0.5
@@ -392,10 +392,10 @@ Because this query is quite verbose, the completed query is shown below.  You ca
         EXCEPT DISTINCT 
         SELECT name
         FROM 
-        `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
-        `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e1,
-        `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e2,
-        `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e3
+        `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
+        `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e1,
+        `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e2,
+        `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e3
         WHERE genes.gid = e1.gid
         AND e1.gid = e2.gid
         AND e1.gid = e3.gid
@@ -498,10 +498,10 @@ Use a SQL conditional statement to test level value, i.e. `CASE`...
 
 ### Other Notes
 
-- SQL query answers to these lesson are on [this Repo page](https://github.com/lynnlangit/gcp-for-bioinformatics/blob/master/1_Files_%26_Data/6b_SQLQueries.sql)
-- LEARN more about using BigQuery optimally, see this [link](https://github.com/lynnlangit/gcp-for-bioinformatics/blob/master/1_Files_%26_Data/3_Use_BigQuery_to_query_files.md)
-- (Optional) If you wish to create your own Google BigQuery dataset rather than querying my public dataset, then you can follow these steps:
-    - **CREATE** your own BigQuery dataset 
-    - **CREATE** both the dataset TABLES and VIEWS from the source CSV files (in this repo `/genomic_data_samples/CSV-or-TXT/CSV-for-BigQuery-lessons/...`/)
-    - *Directions are [here](https://github.com/lynnlangit/gcp-for-bioinformatics/blob/master/1_Files_%26_Data/6c_BQ_dataset.md) on how to set up your own copy of my public BigQuery dataset
+- SQL query answers to these lesson are on [this Repo page](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/6b_SQLQueries.sql)
+- LEARN more about using Athena optimally, see this [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/3_Use_Athena_to_query_files.md)
+- (Optional) If you wish to create your own Google Athena dataset rather than querying my public dataset, then you can follow these steps:
+    - **CREATE** your own Athena dataset 
+    - **CREATE** both the dataset TABLES and VIEWS from the source CSV files (in this repo `/genomic_data_samples/CSV-or-TXT/CSV-for-Athena-lessons/...`/)
+    - *Directions are [here](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/6c_BQ_dataset.md) on how to set up your own copy of my public Athena dataset
 

@@ -2,14 +2,14 @@
 
 ### Why do this
  - USE genomic reference datasets in cloud-based analysis  
-    - GCP hosts a number of genomic reference datasets in GCS buckets. 
-    - Many of these datasets can be accessed by the Terra.bio platform (which runs on GCP).
+    - AWS hosts a number of genomic reference datasets in GCS buckets. 
+    - Many of these datasets can be accessed by the Terra.bio platform (which runs on AWS).
   - USE genomic reference data in your analysis **without having to upload any reference data** to the cloud. Examples of standard analysis tools (and other usages) are listed below:
     - [GATK](https://software.broadinstitute.org/gatk/) - genomic analysis toolkit
     - [Hail](https://hail.is/) - variant discovery library 
     - Your custom analysis 
-      - Interactive analysis with Jupyter notebooks on the GCP/Terra.bio platform --or-- 
-      - Scalable, batch workflows with WDL scripts/cromwell engine on the GCP/Terra.bio platform 
+      - Interactive analysis with Jupyter notebooks on the AWS/Terra.bio platform --or-- 
+      - Scalable, batch workflows with WDL scripts/cromwell engine on the AWS/Terra.bio platform 
  
  ---
 
@@ -18,7 +18,7 @@
 
 ### What is this
 
- USE Terra reference data in your analysis jobs. Terra interactive or batch analysis jobs include the ability to reference a number of datasets that are hosted in the cloud (on GCP) already. 
+ USE Terra reference data in your analysis jobs. Terra interactive or batch analysis jobs include the ability to reference a number of datasets that are hosted in the cloud (on AWS) already. 
 
  ### Terra Reference Datasets
  [![ref-datasets](/images/ref-datasets.png)]()  
@@ -26,7 +26,7 @@
 ---
 
 ### Key considerations
-- Many Terra (GCP) reference datasets require authenticated access because they consist of human health data.  To explore this feature, all users can use the **'1000 Genomes' dataset** because it has public access.
+- Many Terra (AWS) reference datasets require authenticated access because they consist of human health data.  To explore this feature, all users can use the **'1000 Genomes' dataset** because it has public access.
 - Import and use any subset of this reference data in your Terra analysis (notebook or workflow)
 
 ### How to do this and verify 
@@ -34,7 +34,7 @@
 See screenshots below for general flow of working with reference data and your own data in Terra.  
 - **LOGIN & SETUP** -> 
   - Navigate to [Terra.bio](https://terra.bio/) --> 'Try Terra' and authenticate with your email
-   - Use $300 USD in GCP credit when you first try out Terra
+   - Use $300 USD in AWS credit when you first try out Terra
    - Create a Terra workspace to run your Jupyter notebooks or WDL/cromwell workflows. These areas are where you will define your analysis using selected refernce datasets 
 - **REFERENCE DATA** -> 
   - IMPORT any subset from your authorized Terra reference data (Terra Library -> Data)  
@@ -81,7 +81,7 @@ See screenshots below for general flow of working with reference data and your o
       - **Table Inputs** -> this is the metadata for the input/output files that you will be analyzing in your pipeline
         - You can reference this data using the path to the GCS bucket, (i.e. `gs://<bucketName>/<fileName>) --or--
         - You can reference this data using a pointer to the GCS bucket path, i.e. (`this.myInputFile`)
-        - Defined by a structured .tsv metadata file creates aliases & pointers to your input files locations on GCS. These aliases are referenced in Terra worflows (as variables). TSV files for Terra.bio require the following structure - example [link](https://github.com/lynnlangit/gcp-for-bioinformatics/blob/master/1_Files_%26_Data/genomic-data-samples/TSV/terra_sample.tsv):
+        - Defined by a structured .tsv metadata file creates aliases & pointers to your input files locations on GCS. These aliases are referenced in Terra worflows (as variables). TSV files for Terra.bio require the following structure - example [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/genomic-data-samples/TSV/terra_sample.tsv):
           - First column includes the entity: with an id, i.e. 'entity:name_id', etc...
           - Each column is tab delimeted
           - Generally each column header refers to its rows which have links to the files for those column names in GCS buckets
@@ -114,7 +114,7 @@ See screenshots below for general flow of working with reference data and your o
 - 📺 Watch 15 minute [Understand Notebooks in Terra](https://www.youtube.com/watch?v=qP-1xk02AS0) screencast by the Broad
  - 📙 Try out some example Terra Jupyter notebooks using the [Terra Notebooks Quickstart](https://app.terra.bio/#workspaces/fc-product-demo/Terra-Notebooks-Quickstart) workspace - examples using R, BigQuery and also many bioinformatics tools
  - 📙 Try out some example Terra workflows includes using the [Terra Workflows Quickstart](https://app.terra.bio/#workspaces/fc-product-demo/Terra-Workflows-Quickstart) and other bioinformatics libraries.
- - 📙 Try out some of these bioinformatics tools using [example Jupyter notebooks](https://github.com/lynnlangit/gcp-for-bioinformatics/tree/master/2_Virtual_Machines_%26_Docker_Containers/Jupyter_Notebook_Examples)
+ - 📙 Try out some of these bioinformatics tools using [example Jupyter notebooks](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/2_Virtual_Machines_%26_Docker_Containers/Jupyter_Notebook_Examples)
 - 📘 Link to [The future of GATK tutorials is written in Notebooks](https://software.broadinstitute.org/gatk/blog?id=24167)
 - 📙 Try out an [example using Terra workflows on the controlled access TARGET dataset](https://app.terra.bio/#workspaces/help-gatk/Introduction-to-Target-Dataset)
 - 📘 Links to [Terra articles](https://support.terra.bio/hc/en-us)

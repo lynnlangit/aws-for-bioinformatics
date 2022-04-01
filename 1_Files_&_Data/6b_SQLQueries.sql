@@ -1,6 +1,6 @@
 ---SQL Query Answers
 ---Original Source: https://en.wikibooks.org/wiki/Data_Management_in_Bioinformatics/SQL_Exercises
----IMPORTANT: I significantly modified the original exercise to work with Google BigQuery, by changing table structure, data, query questions and answers
+---IMPORTANT: I significantly modified the original exercise to work with Google Athena, by changing table structure, data, query questions and answers
 
 ________________________________________0__________________________________________
 
@@ -8,13 +8,13 @@ ________________________________________0_______________________________________
 SELECT
   *
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 
 --Q0b: Return the structure of the experiments table
 SELECT
   *
 FROM
-  `gcp-for-bioinformatics`.sql_genomics_examples.INFORMATION_SCHEMA.COLUMNS
+  `AWS-for-bioinformatics`.sql_genomics_examples.INFORMATION_SCHEMA.COLUMNS
 WHERE
   table_name="experiments"
 
@@ -22,7 +22,7 @@ WHERE
 SELECT
   COUNT(*) AS NumOfRows
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments`
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments`
 
 ________________________________________1__________________________________________
 
@@ -30,7 +30,7 @@ ________________________________________1_______________________________________
 SELECT
   name
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` 
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` 
 WHERE
   whoperformed = 'Tommy Student'
 
@@ -38,7 +38,7 @@ WHERE
 SELECT
   name
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   whoperformed = 'Tommy Student'
   AND date > '2004-01-01';
@@ -48,7 +48,7 @@ WHERE
   name AS Experiment,
   experimentId AS ExperimentID
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   whoperformed = 'Tommy Student'
   AND date > '2004-01-01'
@@ -61,8 +61,8 @@ SELECT
   name,
   experimentId
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression,
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression,
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes
 WHERE
   expression.gid = genes.gid 
 AND
@@ -76,8 +76,8 @@ SELECT
   level,
   significance
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression,
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression,
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes
 WHERE
   expression.gid = genes.gid
   AND significance >= 2
@@ -91,9 +91,9 @@ SELECT
   level,
   significance
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression
 JOIN
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes
 ON
   expression.gid = genes.gid
 WHERE
@@ -107,8 +107,8 @@ ________________________________________3_______________________________________
 SELECT
   parents.parent_category
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.gotree` AS children,
-  `gcp-for-bioinformatics.sql_genomics_examples.gotree` AS parents
+  `AWS-for-bioinformatics.sql_genomics_examples.gotree` AS children,
+  `AWS-for-bioinformatics.sql_genomics_examples.gotree` AS parents
 WHERE
   children.category = 'glycine binding'
   AND children.parent_category = parents.category;
@@ -121,8 +121,8 @@ ________________________________________4_______________________________________
 SELECT
   e1.name
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS e1,
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS e2
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS e1,
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS e2
 WHERE
   e1.date < e2.date
   AND e2.whoperformed = 'Gasch';
@@ -131,13 +131,13 @@ WHERE
 SELECT
   name
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   experiments.date < (
   SELECT
     MAX(date)
   FROM
-    `gcp-for-bioinformatics.sql_genomics_examples.experiments`
+    `AWS-for-bioinformatics.sql_genomics_examples.experiments`
   WHERE
     whoperformed = 'Gasch' );
 
@@ -149,9 +149,9 @@ ________________________________________5_______________________________________
 SELECT
   DISTINCT name
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e1,
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e2
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e1,
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e2
 WHERE
   genes.gid = e1.gid
   AND e1.gid = e2.gid
@@ -166,32 +166,32 @@ WHERE
 --This view returns the experiments where genes are upregulated and significant.
 CREATE VIEW upregulated AS
 SELECT gid, experimentid
-FROM `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression
+FROM `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression
 WHERE significance >= 1
 AND level >= 0.5;
 
 --Select * using the view name as a table source to see the query results
 SELECT * 
-FROM `gcp-for-bioinformatics.sql_genomics_examples.upregulated`
+FROM `AWS-for-bioinformatics.sql_genomics_examples.upregulated`
 
 --This view determines the genes which were upregulated in at least two experiments. 
 CREATE VIEW upInTwoOrMore AS
 SELECT DISTINCT u1.gid AS gid
 FROM 
-  `gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
-  `gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u2
+  `AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
+  `AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u2
 WHERE u1.gid = u2.gid
 AND u1.experimentid <> u2.experimentid;
 
 --Select * using the view name as a table source to see the query results
 SELECT * 
-FROM `gcp-for-bioinformatics.sql_genomics_examples.upInTwoOrMore`
+FROM `AWS-for-bioinformatics.sql_genomics_examples.upInTwoOrMore`
 
 --Then determine which of these genes come from pine, and return their names. 
 SELECT name
 FROM 
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
-  `gcp-for-bioinformatics.sql_genomics_examples.upInTwoOrMore` AS upInTwoOrMore
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
+  `AWS-for-bioinformatics.sql_genomics_examples.upInTwoOrMore` AS upInTwoOrMore
 WHERE genes.gid = upInTwoOrMore.gid
 AND organism = 'pine';
 
@@ -203,10 +203,10 @@ ________________________________________6_______________________________________
 --Self-join Answer:
 SELECT DISTINCT name
 FROM
- `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,
- `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e1,
- `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e2,
- `gcp-for-bioinformatics.sql_genomics_examples.expression` AS e3
+ `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,
+ `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e1,
+ `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e2,
+ `AWS-for-bioinformatics.sql_genomics_examples.expression` AS e3
 WHERE genes.gid = e1.gid
 AND e1.gid = e2.gid
 AND e1.gid = e3.gid
@@ -222,12 +222,12 @@ AND e2.experimentid <> e3.experimentid
 AND organism = 'pine';
 
 --VIEWS Answer
-CREATE VIEW `gcp-for-bioinformatics.sql_genomics_examples.upInThreeOrMore` AS
+CREATE VIEW `AWS-for-bioinformatics.sql_genomics_examples.upInThreeOrMore` AS
 SELECT DISTINCT u1.gid AS gid
 FROM 
-`gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
-`gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u2, 
-`gcp-for-bioinformatics.sql_genomics_examples.upregulated` AS u3 
+`AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u1, 
+`AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u2, 
+`AWS-for-bioinformatics.sql_genomics_examples.upregulated` AS u3 
 WHERE u1.gid = u2.gid
 AND u1.gid = u3.gid
 AND u1.experimentid <> u2.experimentid
@@ -236,15 +236,15 @@ AND u2.experimentid <> u3.experimentid;
 
 SELECT name
 FROM
-`gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
-`gcp-for-bioinformatics.sql_genomics_examples.upInThreeOrMore` AS upInThreeOrMore
+`AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
+`AWS-for-bioinformatics.sql_genomics_examples.upInThreeOrMore` AS upInThreeOrMore
 WHERE genes.gid = upInThreeOrMore.gid
 AND organism = 'pine';
 
 --GROUP BY Answer--Simply adjust the count evaluation.
-CREATE VIEW `gcp-for-bioinformatics.sql_genomics_examples.upInThreeOrMoreGrouped` AS
+CREATE VIEW `AWS-for-bioinformatics.sql_genomics_examples.upInThreeOrMoreGrouped` AS
 SELECT gid
-FROM `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression
+FROM `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression
 WHERE level >= 0.5
 AND significance >= 1
 GROUP BY gid
@@ -252,8 +252,8 @@ HAVING COUNT(*) > 2;
 
 SELECT name
 FROM 
- `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,  
- `gcp-for-bioinformatics.sql_genomics_examples.upInThreeOrMoreGrouped` AS upInThreeOrMoreGrouped
+ `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,  
+ `AWS-for-bioinformatics.sql_genomics_examples.upInThreeOrMoreGrouped` AS upInThreeOrMoreGrouped
 WHERE genes.gid = upInThreeOrMoreGrouped.gid
 AND organism = 'pine';
 
@@ -265,9 +265,9 @@ ________________________________________7_______________________________________
 --Self-join answer
 SELECT DISTINCT name
 FROM 
-`gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
-`gcp-for-bioinformatics.sql_genomics_examples.expression` AS e1,
-`gcp-for-bioinformatics.sql_genomics_examples.expression` AS e2
+`AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
+`AWS-for-bioinformatics.sql_genomics_examples.expression` AS e1,
+`AWS-for-bioinformatics.sql_genomics_examples.expression` AS e2
 WHERE genes.gid = e1.gid
 AND e1.gid = e2.gid
 AND e1.level >= 0.5
@@ -279,10 +279,10 @@ AND organism = 'pine'
 EXCEPT DISTINCT 
 SELECT name
 FROM 
-`gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
-`gcp-for-bioinformatics.sql_genomics_examples.expression` AS e1,
-`gcp-for-bioinformatics.sql_genomics_examples.expression` AS e2,
-`gcp-for-bioinformatics.sql_genomics_examples.expression` AS e3
+`AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes, 
+`AWS-for-bioinformatics.sql_genomics_examples.expression` AS e1,
+`AWS-for-bioinformatics.sql_genomics_examples.expression` AS e2,
+`AWS-for-bioinformatics.sql_genomics_examples.expression` AS e3
 WHERE genes.gid = e1.gid
 AND e1.gid = e2.gid
 AND e1.gid = e3.gid
@@ -308,9 +308,9 @@ SELECT
   genes.name AS gene,
   experiments.name AS experiment
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression,
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression,
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   genes.gid = expression.gid
   AND experiments.experimentid = expression.experimentid
@@ -325,9 +325,9 @@ SELECT
   genes.name AS gene,
   experiments.name AS experiment
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression,
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression,
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   genes.gid = expression.gid
   AND experiments.experimentid = expression.experimentid
@@ -342,9 +342,9 @@ SELECT
   genes.name,
   level
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression,
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression,
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   genes.gid = expression.gid
   AND experiments.experimentid = expression.experimentid
@@ -363,9 +363,9 @@ SELECT
   genes.name,
   level
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression,
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression,
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   genes.gid = expression.gid
   AND experiments.experimentid = expression.experimentid
@@ -394,9 +394,9 @@ SELECT
   END
    AS results
 FROM
-  `gcp-for-bioinformatics.sql_genomics_examples.genes` AS genes,
-  `gcp-for-bioinformatics.sql_genomics_examples.expression` AS expression,
-  `gcp-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
+  `AWS-for-bioinformatics.sql_genomics_examples.genes` AS genes,
+  `AWS-for-bioinformatics.sql_genomics_examples.expression` AS expression,
+  `AWS-for-bioinformatics.sql_genomics_examples.experiments` AS experiments
 WHERE
   genes.gid = expression.gid
   AND experiments.experimentid = expression.experimentid
