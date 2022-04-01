@@ -1,16 +1,16 @@
 # Use Source Repositories for Code Source Control
 
 ### Why do this
- - USE GCP to host your reasearch job(s) source code
- - BUILD a [CI/CD pipeline](https://cloud.google.com/solutions/continuous-delivery/) on GCP 
+ - USE AWS to host your reasearch job(s) source code
+ - BUILD a [CI/CD pipeline](https://cloud.google.com/solutions/continuous-delivery/) on AWS 
 
 ### What is this
- - Code repository hosted on GCP - can be new or mirror of existing code repo
+ - Code repository hosted on AWS - can be new or mirror of existing code repo
  - Supports integration with GitHub or Bitbucket
 
 ### Key considerations
- - Source Repositories can be easily integrated with other GCP services, such as Cloud Storage
- - Use integrated code source repositories to build a CI/CD pipeline using other GCP services, such as CloudBuild
+ - Source Repositories can be easily integrated with other AWS services, such as Cloud Storage
+ - Use integrated code source repositories to build a CI/CD pipeline using other AWS services, such as CloudBuild
 
 ### How to do this
  - CREATE a new or connect an existing code repository (GitHub or Bitbucket) to get started
@@ -19,7 +19,7 @@
 manually generated credentials - [link](https://cloud.google.com/source-repositories/docs/authentication)
 
 ### How to verify you've done it
- - VIEW your Source Repository via the GCP console - example shown below
+ - VIEW your Source Repository via the AWS console - example shown below
  - PUSH (or pull) code from your Source Repo
 
  [![source-repo](/images/source-repo.png)]()

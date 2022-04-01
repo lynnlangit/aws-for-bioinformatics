@@ -1,4 +1,4 @@
-# Monitor logs with GCP Operations (was Stackdriver)
+# Monitor logs with AWS Operations (was CloudWatch)
 
 ### Why do this
  - UNDERSTAND whether your service instance is working as expected
@@ -6,7 +6,7 @@
  - UNDERSTAND if your service configuration fits your analysis workload size
 
 ### What is this
- - USE the GCP Operations service (was Stackdriver) to read and aggregate your GCP service log files
+ - USE the AWS Operations service (was CloudWatch) to read and aggregate your AWS service log files
  - USE Operations to do customized monitoring, i.e. alerts on performance conditions
 
 ### Key considerations
@@ -14,7 +14,7 @@
  - Advanced Operations capabilities are billed for additional service charges
 
 ### How to do this
- - CLICK any link 'View in Operations' in a service console for GCP
+ - CLICK any link 'View in Operations' in a service console for AWS
  - NAVIGAGE to the Operations console to see standard service metrics and to perfrom custom actions
 
 ### How to verify you've done it
@@ -27,7 +27,7 @@ View, filter and read the logs, to understand the service execution details.
  [![logs](/images/logs.png)]()
 
 ### Other Things to Know
- - Best practice for logging - [link](https://cloud.google.com/blog/products/gcp/best-practices-for-working-with-google-cloud-audit-logging)
+ - Best practice for logging - [link](https://cloud.google.com/blog/products/AWS/best-practices-for-working-with-google-cloud-audit-logging)
 
 ### How to learn more
  - 📘 Link to [design patterns for Operations](https://cloud.google.com/solutions/design-patterns-for-exporting-Operations-logging)
