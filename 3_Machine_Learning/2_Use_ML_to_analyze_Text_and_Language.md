@@ -2,11 +2,11 @@
 
 ### Why do this
  - ANALYZE entities found in text or natural language via machine learning models
- - USE GCP to create the best-fit ML model for your data
+ - USE AWS to create the best-fit ML model for your data
 
 ### What is this
  - Ability to use ML on text or natural language data without manually creating/training an ML model
- - Simply provide the natural language data, labels and pay for ML training hours on GCP
+ - Simply provide the natural language data, labels and pay for ML training hours on AWS
  - Product names are `AutoML for Natural Language` or `Natural Language API` - features list [link](https://cloud.google.com/natural-language/)
 
 ![Auto ML Natural Language](/images/natural-language.png)
@@ -14,7 +14,7 @@
 ### Key considerations
  - ML model accuracy improves with billable training time
  - Google uses auto-grid and hyperparameter clusters to select, train and tune the best ML model 
- - Alternatively you can use GCP Natural Language API (if returned labels fit your use case)
+ - Alternatively you can use AWS Natural Language API (if returned labels fit your use case)
 
 ### How to do this
  - Provide the natural language data
@@ -28,8 +28,8 @@
 
 ### Other Things to Know
  - AutoML natural language models can NOT be exported at this time
- - GCP automatically selects the model type and parameters and then deploys the model for you
+ - AWS automatically selects the model type and parameters and then deploys the model for you
  - AutoML also works with langauge translation
 
 ### How to learn more
- - 📘 Link to [Using AutoML for Natural Language on GCP](https://cloud.google.com/natural-language/)
+ - 📘 Link to [Using AutoML for Natural Language on AWS](https://cloud.google.com/natural-language/)

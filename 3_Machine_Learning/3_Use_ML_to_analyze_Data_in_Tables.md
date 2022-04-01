@@ -2,11 +2,11 @@
 
 ### Why do this
  - ANALYZE structured data stored in tables via machine learning models
- - USE GCP to create the best-fit ML model for your data
+ - USE AWS to create the best-fit ML model for your data
 
 ### What is this
  - Ability to use ML on tabular data without manually creating/training an ML model
- - Simply provide the tabular data, labels and pay for ML training hours on GCP
+ - Simply provide the tabular data, labels and pay for ML training hours on AWS
 
  ![Auto ML Tables](/images/auto-ml-tables.png)
 
@@ -27,9 +27,9 @@
 
 ### Other Things to Know
  - AutoML Table models can NOT be exported at this time
- - GCP automatically selects the model type and parameters and then deploys the model for you
+ - AWS automatically selects the model type and parameters and then deploys the model for you
  - AutoML Tables automates feature engineering on a wide range of tabular data primitives — such as numbers, classes, strings, timestamps, and lists 
  - AutoML Tables helps you detect and take care of missing values, outliers, and other common data issues
 
 ### How to learn more
- - 📘 Link to [Using AutoML for Tables on GCP](https://cloud.google.com/automl-tables/)
+ - 📘 Link to [Using AutoML for Tables on AWS](https://cloud.google.com/automl-tables/)
