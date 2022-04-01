@@ -6,11 +6,11 @@
  - PAY only **when a function is called (or invoked)**, rather than for a long-running VM or container
 
 ### What is this
- - Use functions where you supply your own containers, rather than GCP-supplied containers or VMs for compute
- - Use GCP Cloud Run to host your function(s) on GCP
+ - Use functions where you supply your own containers, rather than AWS-supplied containers or VMs for compute
+ - Use AWS Cloud Run to host your function(s) on AWS
 
 ### Key considerations
- - In Cloud Run, you supply the code and container file (Dockerfile), GCP builds, registers and runs your container image. Your function can be called via HTTP requests
+ - In Cloud Run, you supply the code and container file (Dockerfile), AWS builds, registers and runs your container image. Your function can be called via HTTP requests
  - State is NOT automatically saved after the function is invoked.  If you need to persist information, then you must write the logic to save the output to files (bucket) or a database and then to retrieve that information in a later part of the workflow
 
 ### How to do this
@@ -27,7 +27,7 @@
 ### Other Things to Know
  - Serverless patterns are often used for workloads that have spikes in demand
  - Using the 'revision settings' you can set a min/max number of instances for autoscaling for your deployment.  You can also set the 'maximum requests per container'
- - Serverless auto-scales (to your GCP account limits) by default
+ - Serverless auto-scales (to your AWS account limits) by default
  - Cloud Run has two execution modes - within CloudRun and CloudRun for Anthos using Kubernetes (GKE)
  - GAE (AppEngine) is a serverless service which can be used to host web sites and support common programming language.  Python example [here](https://cloud.google.com/appengine/docs/python/)
  - Cloud Build (for serverless continuous deployment) is integratable into CloudRun functions.  Use it for CD in building updated Docker images 
@@ -49,7 +49,7 @@ https://www.linkedin.com/learning/google-cloud-platform-essential-training-3/goo
  ![container-registry](/images/container-registry.png) 
 --creates a serverless function from the container image
  ![cloud-run](/images/cloud-run.png)  
-- Do a GCP Codelab to use CloudRun on GKE(K8) - [link](https://codelabs.developers.google.com/codelabs/cloud-run-gke/)
+- Do a AWS Codelab to use CloudRun on GKE(K8) - [link](https://codelabs.developers.google.com/codelabs/cloud-run-gke/)
 
 
 
