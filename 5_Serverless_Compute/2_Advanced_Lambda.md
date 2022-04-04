@@ -1,28 +1,30 @@
-# Serverless Cloud Run
+# Advanced AWS Lambda
+
+****CONTINUE HERE****
 
 ### Why do this
  - RUN stateless, short-term compute tasks
  - RUN your analysis job tasks individually, or chained into a workflow (or pipeline)
- - PAY only **when a function is called (or invoked)**, rather than for a long-running VM or container
+ - PAY only **when a Lambda is called (or invoked)**, rather than for a long-running VM or container
 
 ### What is this
  - Use functions where you supply your own containers, rather than AWS-supplied containers or VMs for compute
- - Use AWS Cloud Run to host your function(s) on AWS
+ - Use advanced configuration of Lambda instances (memory, timeout, etc...)
 
 ### Key considerations
- - In Cloud Run, you supply the code and container file (Dockerfile), AWS builds, registers and runs your container image. Your function can be called via HTTP requests
- - State is NOT automatically saved after the function is invoked.  If you need to persist information, then you must write the logic to save the output to files (bucket) or a database and then to retrieve that information in a later part of the workflow
+ - In Cloud Run, you supply the code and container file (Dockerfile), AWS builds, registers and runs your container image. Your Lambda can be called via HTTP requests
+ - State is NOT automatically saved after the Lambdais invoked.  If you need to persist information, then you must write the logic to save the output to files (bucket) or a database and then to retrieve that information in a later part of the workflow
 
 ### How to do this
- - WRITE and test your function code
+ - WRITE and test your Lambda code
  - BUILD a docker image w/that code by running 'docker build....' on a DOCKERFILE
- - REGISTER your docker container image in Google Container Registry
- - ASSOCIATE your image to CloudRun 
+ - REGISTER your docker container image in the Elastic Container Registry
+ - ASSOCIATE your image to Lambda by running 'aws lambda create-function' 
  - TEST (invoke) and monitor your service
 
 ### How to verify you've done it
- - INVOKE the function manually or via a test script
- - REVIEW the Stackdriver logs to see the result of the function invocation
+ - INVOKE the Lambda manually or via a test script
+ - REVIEW the CloudWatch logs to see the result of the Lambdainvocation
 
 ### Other Things to Know
  - Serverless patterns are often used for workloads that have spikes in demand
@@ -47,7 +49,7 @@ https://www.linkedin.com/learning/google-cloud-platform-essential-training-3/goo
 --builds a docker container from the Dockerfile   
 --registers the container image on gcr.io  
  ![container-registry](/images/container-registry.png) 
---creates a serverless function from the container image
+--creates a serverless Lambdafrom the container image
  ![cloud-run](/images/cloud-run.png)  
 - Do a AWS Codelab to use CloudRun on GKE(K8) - [link](https://codelabs.developers.google.com/codelabs/cloud-run-gke/)
 
