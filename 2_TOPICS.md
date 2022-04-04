@@ -7,50 +7,39 @@
 - [Files & Data](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/1_Files_%26_Data) 
     - Use AWS Storage for files
     - Use public Genomic Datasets on AWS
-    - Use Big Query to query files
-    - Use Cloud SQL to store data
-    - Use Terra.bio reference Genomic Datasets
+    - Use Athena to query files
+    - Use RDS to store data
 - [Compute with Virtual Machines & Docker Containers](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/2_Virtual_Machines_%26_Docker_Containers)
-    - Use Google Compute Engine Virtual Machines
-    - Use Jupyter Notebook Instances (specialty GCE VMs)
-    - Use Terra.bio Notebooks
+    - Use AWS Virtual Machines
+    - Use Jupyter Notebook Instances (specialty EC2 VMs)
     - Test Docker container image for Pipelines
     - Orchestrate containers with Kubernetes
-    - Use Google Pipelines API (or PAPI - also called Life Sciences or Genomics API)
+    - Use AWS Batch
     - Use cromwell & WDL for pipelines
-    - Use Terra.bio Workflows
-    - Use Nextflow.io for pipelines
-    - Use dsub for pipelines 
+    - Use Nextflow.io for pipelines 
     - Use Galaxy Project for pipelines
 - [Machine Learning](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/3_Machine_Learning)
     - Use ML Vision / Video APIs & AutoML
     - Use ML Text / Natural Language APIs
     - Use ML Table Analysis
-    - Use Deep Variant
-    - Use TensorQTL
-    - Use Google Compute Engine ML (deep learning) image to create a Virtual Machine
-    - Use Google optimized Deep Learning container to create your own ML container
-    - Use a Jupyter notebook in Google Colabs with BigQuery
-    - Use a Jupyter notebook in Google Colabs with BigQuery ML
+    - Use AWS EC2 Deep Learning image to create a Virtual Machine
+    - Use AWS optimized Deep Learning container to create your own ML container
+    - Use a Jupyter notebook in Sagemaker 
 - [Code & Cloud Service Tools](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/4_Code_%26_Cloud_Service_Tools)
     - Use Source Repositories for code source control
-    - Use Deployment Manager to deploy services
-    - Use Google Container Repositories to host docker container images
-    - Monitor log with Stackdriver
-    - Setup CI/CD with AWS CloudBuild
+    - Use CloudFormation to deploy services
+    - Use Elastic Container Repositories to host docker container images
+    - Monitor logs with CloudWatch
+    - Setup CI/CD with AWS CodeBuild
 - [Serverless Compute with Functions](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/5_Serverless_Compute_with_Functions)
-    - Use Serverless Cloud Functions 
-    - Use Serverless Cloud Run
-    - Create Serverless websites with AppEngine
+    - Use AWS Lambda
+    - Use AWS Step Functions
 - [Advanced AWS & Scripts](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/6_Advanced_AWS_%26_Scripts)
     - Get links to advanced AWS topics
-    - Use gsutil to manage Cloud Storage
-    - Use gcloud to list Compute Engine instances
-    - Use gcloud to manage Cloud SQL
-    - Use gcloud and bq to run a genomic analysis with Genomics API & BigQuery
-    - Start a container & run a genomic analysis with VariantTransforms on Cloud Dataflow
-    - Use a docker command to start a container & run a genomic analysis with VariantTransforms on Cloud Dataflow
+    - Use awscli to manage S3 buckets
+    - Use awscli to list EC2 instances
+    - Use CloudFormation to manage AWS resources
+    - Use Terraform to manage AWS resources
 
 ----
 
-📺Link to [YouTube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z) of all of the screencasts 

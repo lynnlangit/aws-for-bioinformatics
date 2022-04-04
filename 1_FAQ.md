@@ -14,7 +14,6 @@
 - Test a Docker Container - [Run a containers on a VM on AWS](https://cloud.google.com/compute/docs/containers/deploying-containers) via AWS info page
 
 ### TOOLS: Use Bioinformatics Research Tools from The Broad Institute
-- Use TERRA - [Run an example analysis on Terra.bio (on AWS)](https://app.terra.bio/#library/showcase) via Terra.bio info page
 - Use GATK - [Use GATK Quick Start Guide](https://software.broadinstitute.org/gatk/documentation/quickstart.php) via GATK (genomic analysis toolkit) info page
 - Use HAIL - [Use Hail](https://hail.is/) via Hail.is info page
 - Use IGV - [Use IGV](https://igv.org/) via IGV.org info page
