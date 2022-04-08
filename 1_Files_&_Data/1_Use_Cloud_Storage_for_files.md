@@ -68,4 +68,5 @@
  - 📘 Use Parallel Composite File Uploads - [link](https://cloud.google.com/storage/docs/gsutil/commands/cp#parallel-composite-uploads)
  - 📘 Use the htsget protocol to access genomic data in AWS - [link](https://cloud.google.com/genomics/docs/how-tos/reading-data-htsget)
  - 📘 Use Cloud Storage FUSE to mount Cloud Storage buckets as file systems on Linux or macOS systems in AWS - [link](https://cloud.google.com/storage/docs/gcs-fuse)
+ - 📘 Move HPC data into S3 using AWS Data Sync (example) - [link](https://aws.amazon.com/blogs/storage/how-to-move-and-store-your-genomics-sequencing-data-with-aws-datasync/)
 
