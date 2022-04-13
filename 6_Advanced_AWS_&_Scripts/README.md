@@ -7,6 +7,7 @@ This section contains example AWS client scripts for a few of the commonly-used 
 ## Links
 
 - Use Pcluster manager to run HPC clusters on AWS --> https://aws-samples.github.io/pcluster-manager/
+- Understand options and performance impact of using various AWS container running services --> https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022/
 
 
 -------
