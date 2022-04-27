@@ -1,4 +1,4 @@
-# Use WDL (Workflow Definition Language) 
+# Use WDL (Workflow Definition Language) & Cromwell Service
 
 
 ### Why do this
@@ -79,7 +79,7 @@ Shown below is the relationship between WDL (scripts), cromwell and typical exec
  - 📘 Step-by-step [how to run GATK cromwell pipeline locally and then on AWS](https://software.broadinstitute.org/gatk/documentation/article?id=12521)
  - 📘 Step-by-Step [Medium article "How to set up cromwell on AWS](https://medium.com/@hnawar/cromwell-hello-AWS-833c18df3caf)  
  - 📘 Link to [run a GATK best practices pipeline](https://cloud.google.com/genomics/docs/tutorials/gatk) on AWS
- - 📺 Watch 38 minute [Intro to pipelining platforms](https://www.youtube.com/watch?v=HNONc2cmIO8&t=9s) screencast from the Broad, covers cromwell & WDL
+ - 📺 Watch 23 minute [Cromwell on AWS Demo](https://www.youtube.com/watch?v=jcC3pz_K4gI) screencast from the Broad, covers cromwell & WDL on AWS
  - 📘 Link to [Google Life Sciences Reference Architecture](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture) using AWS Platform services.  Shown below is a reference architure using `cromwell` running with `AWS AWS Batch` on AWS  
     [![life-sciences-cromwell](/images/life-sciences-cromwell.png)]()  
     
