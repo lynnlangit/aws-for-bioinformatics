@@ -90,4 +90,5 @@ Shown below is the relationship between WDL (scripts), cromwell and typical exec
     - [miniwdl check](https://github.com/chanzuckerberg/miniwdl#miniwdl-check) - a WDL linter
     - [miniwdl run](https://github.com/chanzuckerberg/miniwdl#miniwdl-run) - Operation is nearly identical to miniwdl cromwell. The invoking user must have permission to control Docker.
  - 📘 [learn miniwdl](https://github.com/openwdl/learn-wdl/tree/master/6_miniwdl_course) - short course with examples and screencasts, how to use miniwdl to run WDL scripts
+ - :octocat: [use miniwdl w/AWS Batch](https://github.com/miniwdl-ext/miniwdl-aws)
 
