@@ -78,10 +78,10 @@ Shown below is the relationship between WDL (scripts), cromwell and typical exec
 
  - 📘 Step-by-step [how to run GATK cromwell pipeline locally and then on AWS](https://software.broadinstitute.org/gatk/documentation/article?id=12521)
  - 📘 Step-by-Step [Medium article "How to set up cromwell on AWS](https://medium.com/@hnawar/cromwell-hello-AWS-833c18df3caf)  
+ - 📘 Step-by-Step [run genomic workflows on AWS using Dockstore cli](https://medium.com/dockstore/dockstore-partners-with-aws-agc-to-make-launching-workflows-quick-and-easy-7213510dabd8)
  - 📘 Link to [run a GATK best practices pipeline](https://cloud.google.com/genomics/docs/tutorials/gatk) on AWS
  - 📺 Watch 23 minute [Cromwell on AWS Demo](https://www.youtube.com/watch?v=jcC3pz_K4gI) screencast from the Broad, covers cromwell & WDL on AWS
- - 📘 Link to [Google Life Sciences Reference Architecture](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture) using AWS Platform services.  Shown below is a reference architure using `cromwell` running with `AWS AWS Batch` on AWS  
-    [![life-sciences-cromwell](/images/life-sciences-cromwell.png)]()  
+ 
     
 ---
  
