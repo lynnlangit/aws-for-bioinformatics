@@ -1,6 +1,6 @@
 ---SQL Query Answers
 ---Original Source: https://en.wikibooks.org/wiki/Data_Management_in_Bioinformatics/SQL_Exercises
----IMPORTANT: I significantly modified the original exercise to work with Google Athena, by changing table structure, data, query questions and answers
+---IMPORTANT: I significantly modified the original exercise to work with Athena, by changing table structure, data, query questions and answers
 
 ________________________________________0__________________________________________
 
