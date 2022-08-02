@@ -40,9 +40,10 @@
  
 ### How to learn more
 
-Shown below is a reference architecture for running Nextflow analysis on AWS using the Life Sciences (PAPI/Genomics)API.
+Shown below is a reference architecture for running Nextflow analysis on AWS using the AWS Batch API.  
+- From this article - part one [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-1-of-3/) and part two [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-2-of-3)
 
-![Nextflow Architecture using AWS Genomics/AWS Batch](/images/nf-AWS.png)
+![Nextflow Architecture using AWS Genomics/AWS Batch](https://seqera.io/static/e732bd2954e8b788415d353acbf60614/42cbc/blog-nextflow-and-aws-batch-inside-the-integration-part-1-of-3-1.png)
 
 #### General Nextflow
  - 📘 Link to [Nextflow guide](https://www.nextflow.io/blog/2020/learning-nextflow-in-2020.html)
