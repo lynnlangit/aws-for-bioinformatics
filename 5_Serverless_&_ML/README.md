@@ -7,7 +7,7 @@ In this section, you'll get information about using AWS services for serverless 
 Here are the topic pages in this section:
 
 - Use Lambda
-- Use AWS container management services (EKS, ECS, Fargate)
+- Use Sagemaker and Jupyter Notebooks or SageMaker APIs
 
 -----
 
