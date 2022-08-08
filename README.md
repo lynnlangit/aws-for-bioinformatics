@@ -1,6 +1,9 @@
 # AWS for Bioinformatics
 
-This repo is a companion to the course **"AWS for Bioinformatics"**.  The course will be released in late 2022.  Shown below is a generic reference architecture with key AWS services which will be covered in this course.
+This repo is a companion to the course **"AWS for Bioinformatics"**.  
+- The course will be released in late 2022. 
+- Kelly Kermode is my co-author for this course. 
+- Shown below is a generic reference architecture with key AWS services which will be covered in this course.
 
 Additionally...
 - My Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
