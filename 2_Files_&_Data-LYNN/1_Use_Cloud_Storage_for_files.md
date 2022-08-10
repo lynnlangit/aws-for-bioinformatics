@@ -8,7 +8,7 @@
 ### What is this
   AWS Cloud Storage is an online file storage web service for storing, accessing and transferring data files on AWS. 
   
-  AWS Cloud Storage (or GCS) is frequently used as the input and output location for files when you run analysis (workflows or pipelines).
+  AWS Storage (or S3) is frequently used as the input and output location for files when you run analysis (workflows or pipelines).
 
   Files are stored in buckets. Bucket usually contain folders for orgnaziation as well. Each bucket must have a globally unique name.  
 
@@ -54,7 +54,7 @@
 
 ### Other Things to Know
  - Work with files in buckets in a number of ways:
-   - Click in GCS WebUI / console --or--
+   - Click in AWS WebUI / console --or--
    - Authorized clients connect via `gsutil`, ex. `gs://demo-for-github` --or--
    - Authorized clients connect via an http call, ex. `https://console.cloud.google.com/storage/browser/demo-for-github`
  - Design file archiving processes, i.e. move to nearline or coldline if not accessing or over time (i.e. monthly...)
