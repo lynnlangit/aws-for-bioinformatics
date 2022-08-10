@@ -17,7 +17,7 @@
     - RUNNABLE - this mode requires an execution environment, in AWS this is a VM (EC2) with the Jupyter libraries AND any language runtime libraries (i.e. R, Python...).  NOTE: For quick prototyping, you can use [Google Colabs](https://colab.research.google.com/) to execute Jupyter noteboks without setting up EC2 VMs.  However, the free version of Colabs includes significant CPU/RAM etc. caps.
 
 ### How to do this
- - CREATE notebook instance from AI Platform -> Notebooks
+ - CREATE notebook instance from SageMaker -> Notebooks
  - SELECT appropriate type of Notebook - see screenshot below
  - CREATE a notebook instance VM and wait for a green indicator - see screenshot below
 

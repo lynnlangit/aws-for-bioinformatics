@@ -6,7 +6,7 @@
  - When you don't want to wait for time on your organization's shared cluster
 
 ### What is this
-  AWS Platform Cloud Storage is an online file storage web service for storing, accessing and transferring data files on the AWS platform. 
+  AWS Cloud Storage is an online file storage web service for storing, accessing and transferring data files on AWS. 
   
   AWS Cloud Storage (or GCS) is frequently used as the input and output location for files when you run analysis (workflows or pipelines).
 
@@ -49,7 +49,7 @@
 ----
 
 ### 📺 Click below to see Lynn's 'Use Cloud Storage buckets' 10 min video
-[![Cloud Storage Buckets - AWS Platform for Bioinformatics](http://img.youtube.com/vi/_O2Lxc0UsNc/0.jpg)](http://www.youtube.com/watch?v=_O2Lxc0UsNc "Cloud Storage buckets - AWS Platform for Bioinformatics")
+[![Cloud Storage Buckets - AWS for Bioinformatics](http://img.youtube.com/vi/_O2Lxc0UsNc/0.jpg)](http://www.youtube.com/watch?v=_O2Lxc0UsNc "Cloud Storage buckets - AWS for Bioinformatics")
 
 
 ### Other Things to Know
