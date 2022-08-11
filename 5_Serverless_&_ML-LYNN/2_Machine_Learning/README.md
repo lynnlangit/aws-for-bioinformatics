@@ -1,5 +1,9 @@
 # Use AWS Services for Machine Learning
 
+Many services available:
+- SageMaker & SageMaker Studio - more on this - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/5_machine-learning/1_SageMaker)
+
+****OLD CONTENT****
 
 In this section, you'll get information about using AWS services for machine learning.  You'll use BigQuery Machine Learning.  Also you'll use Google ML APIs and services.  Additionally you'll use Google Colabs to run BigQuery ML jobs in a Jupyter notebook.  Useful presentation on notebook options for AWS - https://mco.dev/so-many-notebooks-so-little-time.../
 
