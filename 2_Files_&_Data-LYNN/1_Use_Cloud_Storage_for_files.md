@@ -60,6 +60,7 @@
  - Design file archiving processes, i.e. move to nearline or coldline if not accessing or over time (i.e. monthly...)
  - Delete files generated during processing (often called intermediate files) that are no longer needed when jobs complete
  - Read about 'requestor pays' Cloud Storage feature - [link](https://cloud.google.com/storage/docs/requester-pays)
+ - Understand S3 Glacier Instant Retrieval feature - [link](https://aws.amazon.com/s3/storage-classes/glacier/instant-retrieval/)
 
 ### How to learn more
  - 📘 See examples of common genomic file types (i.e. FASTQ, BAM, VCF... ) - [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/4_FILE-TYPES.md)
