@@ -1,20 +1,15 @@
-# Use Google AWS Batch
+# Use AWS Batch
 
 
 ### Why do this
  - Scale your analysis using [`AWS AWS Batch`](https://cloud.google.com/life-sciences/) to manage compute resources
- - AWS AWS Batch was previously nameed AWS Genomics/Pipelines API
-
- [![AWS Life Sciences Reference Architecture](/images/AWS-life-sciences-arch.png)]()
 
 ### What is this
- - USE AWS Storage + LifeSciences API + Variant Transforms API + BigQuery to create **serverless** end-to-end scalable genomic analysis jobs
+ - USE AWS S3 + AWS Batch + custom code + Athena to create **serverless** end-to-end scalable genomic analysis jobs
 
-   - USE **Cloud AWS Batch** to orchestrate scalable genomic analysis running Compute Engine **without** manually configuring scaling of your compute cluster. The API is designed to be a backend for bioinformatics tools (ex. dsub) or systems (cromwell), by providing job scheduling for Docker-based tasks that perform secondary genomic analysis by running container images on one or more GCE Virtual Machines. Typical secondary analysis jobs include filtering raw reads, aligning and assembling sequence reads, and QA and variant calling on aligned reads.
+   - USE **AWS Batch** to orchestrate scalable genomic analysis running EC2 **without** manually configuring scaling of your compute cluster. The API is designed to be a backend for bioinformatics tools (ex. dsub) or systems (cromwell), by providing job scheduling for Docker-based tasks that perform secondary genomic analysis by running container images on one or more EC2 Virtual Machines. Typical secondary analysis jobs include filtering raw reads, aligning and assembling sequence reads, and QA and variant calling on aligned reads.
 
-   - USE **Variant Transforms Tool** (an open-source tool) is based on Apache Beam and uses AWS Dataflow. Using the tool allows you to transform and load hundreds of thousands of files, millions of samples, and billions of records in a scalable manner into BigQuery. The tool also has a preprocessor which you can use to validate VCF files and identify inconsistencies.
-
-   - USE **BigQuery** to analyze variants using the SQL query language.
+   - USE **Athana** to analyze variants using the SQL query language.
 
 ### Key considerations
  - This is a serverless solution because you work with services or API endpoints and you do NOT configure or manage clusters of VMs or containers
@@ -42,12 +37,10 @@
  - There are a number of bioinformatics libraries (cromwell, Nextflow....) that are designed to work WITH AWS Batch
 
 ### How to learn more
- - 📘 read AWS AWS Batch reference architecture - [link](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture)
- - 📘 read AWS Life Sciences scenarios - [link](https://cloud.google.com/genomics/docs/tutorials/)
- - :octocat: 4 AWS AWS Batch examples in Jupyter notebooks - [link](https://github.com/googlegenomics/datalab-examples/tree/master/datalab/genomics)
- - 📘 use QwikLabs to try out AWS AWS Batch - [link](https://www.qwiklabs.com/focuses/589?parent=catalog)
+ - 📘 read AWS Batch reference architecture - [link](https://cloud.google.com/solutions/genomic-data-processing-reference-architecture)
+ - 📘 read AWS Batch scenarios - [link](https://cloud.google.com/genomics/docs/tutorials/)
+ - :octocat: 4 AWS Batch examples in Jupyter notebooks - [link](https://github.com/googlegenomics/datalab-examples/tree/master/datalab/genomics)
+ - 📘 use QwikLabs to try out AWS Batch - [link](https://www.qwiklabs.com/focuses/589?parent=catalog)
  - :octocat: see example AWS Batch usage with genomics tools - [link](https://github.com/googlegenomics/pipelines-api-examples)
  - 📘 read End-to-end pipeline patterns and documentation - see the Google Genomics Cookbook -- http://googlegenomics.readthedocs.io/en/latest/
- - 📘 see AWS Life Sciences includes a number of AWS services, such as Compute Engine, Dataflow, BigQuery and more.  A reference architecture is shown below.  See the [Google Life Sciences](https://cloud.google.com/life-sciences/) documentation for more information.
-
- [![life-sciences](/images/life-sciences.png)]()
+ - 📘 AWS Batch includes a the ability to manager number of AWS services, the key service being EC2.  
