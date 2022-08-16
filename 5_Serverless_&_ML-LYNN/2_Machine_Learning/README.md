@@ -2,6 +2,7 @@
 
 Many services available:
 - SageMaker & SageMaker Studio - more on this - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/5_machine-learning/1_SageMaker)
+- Awesome SageMake Repo - https://github.com/aws-samples/awesome-sagemaker
 
 ****OLD CONTENT****
 
