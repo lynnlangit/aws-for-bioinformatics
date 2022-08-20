@@ -9,5 +9,6 @@ This repo is a companion to the course **"AWS for Bioinformatics"**.
 Additionally...
 - My Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
 - My Repo with information about many AWS Data Services - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
+- My Repo with information about AWS Cost Control - [link](https://github.com/lynnlangit/aws-cost-control)
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/images/aws-images/aws-genomics-arch.png" width=800>
