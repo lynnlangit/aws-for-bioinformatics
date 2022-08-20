@@ -69,13 +69,14 @@ Enterprises will generally set up a AWS Organizational Hierarchy, to enforce pol
 
 ### How to learn more
 
-#### AWS Billing
+#### AWS Billing and Cost Control
 
 
 - 📘 Link to [how to set up a budget alert](https://aws.amazon.com/billing/pricing/pricing-terms/)
 - 📘 Link to [best practices for optimizing cloud costs](https://aws.amazon.com/billing/pricing/pricing-terms/)
 - 📘 Link to [AWS Billing concepts](https://aws.amazon.com/billing/pricing/pricing-terms/)
 - 📘 Link to [AWS Service Pricing Calculator](https://aws.amazon.com/billing/pricing/pricing-terms/)
+- :octocat: Link to Repo from LinkedIn Learning course [AWS Cost Control](https://github.com/lynnlangit/aws-cost-control)
 
 
 ---
