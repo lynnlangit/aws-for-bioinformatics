@@ -3,7 +3,7 @@
 ### ACCOUNT: Setup and Costs
 - Setup ACCOUNT - [Setup my AWS account](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/0_Setup_AWS_account/1_Setup_AWS_Account.md) using a page from this repository
 - Understand FREE TIER - [Use services in a AWS Free Tier account](https://cloud.google.com/free/docs/AWS-free-tier) via AWS info page
-- Understand COSTS - [Understand how much AWS services cost](https://cloud.google.com/products/calculator/) using the AWS service pricing calculator
+- Understand COSTS - [Understand how much AWS services cost](https://calculator.aws/#/) using the AWS service pricing calculator
 
 ### INFO: Files and Data
 - Upload MY FILES - [Upload a file to a AWS storage bucket](https://cloud.google.com/storage/docs/uploading-objects) via AWS documentation
