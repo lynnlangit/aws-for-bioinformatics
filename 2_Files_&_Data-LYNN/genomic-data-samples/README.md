@@ -1,7 +1,8 @@
 # Genomic Sample Datasets
 
-In addition to the example genomic datasets (files) found in this Repo, Google hosts a number of datasets on GCP.    
-Access these datasets using GCS (Google Cloud storage / buckets - this is called `file access` --OR--  
-Access this data using BigQuery (SQL queries billed by the query execution) - this is called `interactive access`  
-- Cloud Life Sciences public datasets - [link](https://cloud.google.com/life-sciences/docs/resources/public-datasets)
-- Datasets include both genomic and annotation datasets
+In addition to the example genomic datasets (files) found in this Repo, AWS hosts a number of datasets on AWS.    
+- Access these datasets using AWS (EC2 storage / buckets  --OR--  
+- Access this data using Athena (this is a type of interactice access)
+  - SQL queries billed by the query execution size 
+- Registry of `Amazon Open Data Genomic Data` or public datasets - [link](https://registry.opendata.aws/tag/genomic/)
+  - Datasets include both genomic and annotation datasets
