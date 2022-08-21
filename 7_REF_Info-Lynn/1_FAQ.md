@@ -10,7 +10,7 @@
 - Use public REFERENCE FILES - [Use public genomic reference data](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/2_Use_public_genomic_datasets.md) using a page from this repository
 
 ### COMPUTE: Virtual Machines and Containers
-- Use VMs - [Start a Virtual Machine instance on AWS](https://cloud.google.com/compute/docs/quickstart-linux) via AWS info page
+- Use VMs - [Quickstart AWS EC2 Virtual Machine](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) via AWS info page
 - Test a Docker Container - [Run a containers on a VM on AWS](https://cloud.google.com/compute/docs/containers/deploying-containers) via AWS info page
 
 ### TOOLS: Use Bioinformatics Research Tools from The Broad Institute
@@ -19,11 +19,12 @@
 - Use IGV - [Use IGV](https://igv.org/) via IGV.org info page
 - Use the Tumor Portal - [Use Tumor Portal](http://www.tumorportal.org/) via TumorPortal.org info page
 
-### IMPROVE: Secure or Script AWS Services
+### IMPROVE: Secure or Improve AWS Services
 
 - See BEST PRATICES - [Use AWS security best practices](https://cloud.google.com/iam/docs/using-iam-securely) via AWS info page
-- Automate AWS services - [Learn more about automating AWS services](https://www.linkedin.com/learning/google-cloud-platform-essential-training-3) via my LinkedIn Learning AWS Essentials course
-- Script AWS tasks - [See examples of scripting AWS services](https://github.com/lynnlangit/AWS-essentials) via my LinkedIn Learning AWS Essentials course
+- Secure AWS Applications - [See my AWS Security course](https://www.linkedin.com/learning/aws-for-architects-advanced-security)
+- Monitor AWS applications - [See my AWS Monitoring course](https://www.linkedin.com/learning/aws-for-devops-monitoring-metrics-and-logging)
+- Set up High Availability for AWS Applications - [See my AWS HA course](https://www.linkedin.com/learning/aws-for-devops-high-availability-and-elasticity)
 
 ### GROW: Learn more about AWS Services
 - Use Links - [Use giant AWS Link Page](https://cloud.google.com/blog/topics/developers-practitioners/giant-list-google-cloud-resources) via AWS blog post
