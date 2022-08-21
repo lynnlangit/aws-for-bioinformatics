@@ -11,7 +11,7 @@
 
 ### COMPUTE: Virtual Machines and Containers
 - Use VMs - [Quickstart AWS EC2 Virtual Machine](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) via AWS info page
-- Test a Docker Container - [Run a containers on a VM on AWS](https://cloud.google.com/compute/docs/containers/deploying-containers) via AWS info page
+- Test a Docker Container - [Run a containers on a VM on AWS](ADD LINK HERE) via AWS info page
 
 ### TOOLS: Use Bioinformatics Research Tools from The Broad Institute
 - Use GATK - [Use GATK Quick Start Guide](https://software.broadinstitute.org/gatk/documentation/quickstart.php) via GATK (genomic analysis toolkit) info page
