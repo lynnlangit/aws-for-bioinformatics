@@ -1,9 +1,9 @@
 # Setup your AWS Platform (AWS) Account
 
 ### Why do this
- - Your workload is too big to run on your laptop
- - You don't want to wait for compute time on your organization's shared, on-premise compute cluster
- - You want to use AWS Platform services to run large (or huge) genomic analysis jobs
+ - Your workload is too big to run on your laptop.
+ - You don't want to wait for compute time on your organization's shared, on-premise compute cluster.
+ - You want to use AWS Platform services to run large (or huge) genomic analysis jobs.
 
 ### What is this
  - The ability to perform analysis (or compute) on files (and other types of data) at dynamic scale 
