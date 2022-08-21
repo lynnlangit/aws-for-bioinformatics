@@ -25,6 +25,5 @@
 - Automate AWS services - [Learn more about automating AWS services](https://www.linkedin.com/learning/google-cloud-platform-essential-training-3) via my LinkedIn Learning AWS Essentials course
 - Script AWS tasks - [See examples of scripting AWS services](https://github.com/lynnlangit/AWS-essentials) via my LinkedIn Learning AWS Essentials course
 
-
 ### GROW: Learn more about AWS Services
 - Use Links - [Use giant AWS Link Page](https://cloud.google.com/blog/topics/developers-practitioners/giant-list-google-cloud-resources) via AWS blog post
