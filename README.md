@@ -2,7 +2,7 @@
 
 This repo is a companion to the course **"AWS for Bioinformatics"**.  
 - The course will be released in late 2022. 
-- Kelly Kermode is my co-author for this course. 
+- [Kelly Kermode](https://github.com/kellykermode) is my co-author for this course. 
 - Top Level AWS Docs for this topic --> https://aws.amazon.com/health/genomics/
 - Shown below is a generic reference architecture with key AWS services which will be covered in this course.
 
