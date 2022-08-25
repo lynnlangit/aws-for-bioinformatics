@@ -1,13 +1,13 @@
 ## FAQ: "How do I work with..."
 
 ### ACCOUNT: Setup and Costs
-- Setup ACCOUNT - [Setup my AWS account](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/0_Setup_AWS_account/1_Setup_AWS_Account.md) using a page from this repository
-- Understand FREE TIER - [Use services in a AWS Free Tier account](https://cloud.google.com/free/docs/AWS-free-tier) via AWS info page
+- Setup ACCOUNT - [Setup my AWS account](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/1_Setup_AWS_account-KELLY/1_Setup_AWS_Account.md) using a page from this repository
+- Understand FREE TIER - [Use services in a AWS Free Tier account](https://aws.amazon.com/free/free-tier/) via AWS info page
 - Understand COSTS - [Understand how much AWS services cost](https://calculator.aws/#/) by using the AWS service pricing calculator
 
 ### INFO: Files and Data
 - Upload MY FILES - [Upload a file to a AWS storage bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html) via AWS documentation
-- Use public REFERENCE FILES - [Use public genomic reference data](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/2_Use_public_genomic_datasets.md) using a page from this repository
+- Use public REFERENCE FILES - [Use public genomic reference data](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data-LYNN/2_Use_public_genomic_datasets.md) using a page from this repository
 
 ### COMPUTE: Virtual Machines and Containers
 - Use VMs - [Quickstart AWS EC2 Virtual Machine](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) via AWS info page
