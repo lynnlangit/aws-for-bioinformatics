@@ -6,7 +6,7 @@
     - Google hosts these datasets and provides public access to the data via as BigQuery datasets or Cloud Storage buckets.
     - The Broad Institute and Google host the `Genome Aggregation Database (gnomAD)` - [link](https://gnomad.broadinstitute.org/) and shown below.  This is a resource developed by an international coalition of investigators, with the goal of aggregating and harmonizing both exome and genome sequencing data from a wide variety of large-scale sequencing projects, and making summary data available for the wider scientific community.  
     
- ![genomeAD Browser](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/images/genomeAD-browser.png)
+ ![genomeAD Browser](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/main/images/genomeAD-browser.png)
 
 ### Why do this
  - USE a reference file in genomic cloud-based analysis
