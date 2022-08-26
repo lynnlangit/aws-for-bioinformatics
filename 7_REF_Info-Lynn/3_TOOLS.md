@@ -19,17 +19,17 @@ This page lists some common genomics tools used in bioinformatics analysis pipel
  [link](https://github.com/davetang/learning_vcf_file)
  - 📘General reference 'How sequencing works' - [link](https://learn.gencore.bio.nyu.edu/ngs-file-formats/how-sequencing-works/)
  - 📘GATK tools (from The Broad) to convert genomic files - [link](https://support.terra.bio/hc/en-us/articles/360029577711-Converting-common-genomics-file-formats-) - from/to common formats (i.e. paired FASTQ to unmapped BAM, etc...)
- - 📘How to generate a BAM - [link](https://gatkforums.broadinstitute.org/gatk/discussion/5969/how-to-generate-a-bam-for-variant-discovery-long) & image below from The Broad
+ - 📘How to generate a BAM - [link](https://gatk.broadinstitute.org/hc/en-us/articles/4403687183515--How-to-Generate-an-unmapped-BAM-from-FASTQ-or-aligned-BAM) & image below from The Broad
 
  ![Generate-BAM](/images/generate-BAM.png)
 
 
  ### Image References
  - FASTA/FASTQ images from [link](https://www.researchgate.net/publication/309134977_A_Survey_on_Data_Compression_Methods_for_Biological_Sequences)
- - BAM w/IGV from [link](https://gatkforums.broadinstitute.org/gatk/discussion/6491/howto-visualize-an-alignment-with-igv)
+ - BAM w/IGV from [link](https://software.broadinstitute.org/software/igv/AlignmentData)
  - VCF image from [link](https://www.researchgate.net/figure/shows-an-example-VCF-file-For-more-details-about-VCF-files-refer-to-the-specification_fig6_316063749)
  - VCF alterate image from [link](http://vcftools.sourceforge.net/VCF-poster.pdf) 
- - GVCF vs. VCF comparison from [link](https://gatkforums.broadinstitute.org/gatk/discussion/4017/what-is-a-gvcf-and-how-is-it-different-from-a-regular-vcf)
+ - GVCF vs. VCF comparison from [link](https://github.com/broadinstitute/gatk-docs/blob/master/gatk3-faqs/What_is_a_GVCF_and_how_is_it_different_from_a_%27regular%27_VCF%3F.md)
 
 
 
