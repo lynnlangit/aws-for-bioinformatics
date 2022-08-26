@@ -24,8 +24,6 @@
 
  -----
 
- ### 📺 Click to see Lynn's 7 minute exploration of this section  
-[![Orchestrate Containers on EKS for Bioinformatics](http://img.youtube.com/vi/yihR2wHTz4U/0.jpg)](http://www.youtube.com/watch?v=yihR2wHTz4U "Orchestrate Containers on EKS for Bioinformatics")
 
 ### How to verify you've done it
  - Run your analysis, monitor for correct results
