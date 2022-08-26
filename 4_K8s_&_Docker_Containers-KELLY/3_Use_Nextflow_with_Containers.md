@@ -17,9 +17,7 @@
  - SETUP prereqs for Nextflow on your VM - JDK, Docker, Graphviz(optional)
  - RUN RNAseq example pipeline on Compute Engine and Cloud Storage - [link](https://cloud.google.com/genomics/docs/tutorials/nextflow)
  - RUN VariantCalling pipeline w/GATK - [link](https://github.com/CRG-CNAG/CalliNGS-NF/)
- ---
-  ### 📺 Click to see Lynn's 4 minute exploration of this section  
-[![Nextflow on AWS for Bioinformatics](http://img.youtube.com/vi/YtUOCMiC7Dk/0.jpg)](http://www.youtube.com/watch?v=YtUOCMiC7Dk "Nextflow on AWS for Bioinformatics")
+
 
 ---
 
