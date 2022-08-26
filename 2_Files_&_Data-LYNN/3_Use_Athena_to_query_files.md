@@ -37,8 +37,6 @@
       - save the results as a new file in a storage bucket
       - create a report with Google Data Studio
 
- ### 📺 Click to see Lynn's 9 minute exploration of this section  
-[![AWS Athena for Bioinformatics](http://img.youtube.com/vi/bWI8JPR9h0E/0.jpg)](http://www.youtube.com/watch?v=bWI8JPR9h0E "AWS Athena for Bioinformatics")
 
 -----
 ### How to verify you've done it
