@@ -48,8 +48,6 @@ Tip: Connect your instance to a Cloud Storage bucket when latency and throughput
     - you can delete the stopped VM instance
     - you can create a template from a stopped VM
 
- ### 📺 Click to see Lynn's 9 minute exploration of this section  
-[![AWS EC2 Virtual Machines for Bioinformatics](http://img.youtube.com/vi/Nb5Lb5uwbng/0.jpg)](http://www.youtube.com/watch?v=Nb5Lb5uwbng "AWS EC2 Virtual Machines for Bioinformatics")
 
 ### How to verify you've done it
  - Using the AWS console, connect the to VM, for example use the integrated ssh-client to connect to Linux-based instances.  You can do this from the AWS console (SSH button) - see screenshots below.  
