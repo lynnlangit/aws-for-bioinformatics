@@ -49,8 +49,6 @@ IMPORTANT: Building containers is a complex skill set, **prefer to find and reus
       - Use the command `docker exec -it <container name> /bin/bash` to get a bash shell in the container
 ----
 
-### 📺 Click to see Lynn's 6 minute exploration of this section  
-[![Test Container on GCE for Bioinformatics](http://img.youtube.com/vi/Rq4wNbdylWs/0.jpg)](http://www.youtube.com/watch?v=Rq4wNbdylWs "Test Container on GCE for Bioinformatics")
 
 ### How to verify you've done it
 
