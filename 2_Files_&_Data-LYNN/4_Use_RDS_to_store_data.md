@@ -23,8 +23,6 @@
  - ADD data and verify (query it using the SQL language)
  - QUERY your data as needed
 
-### 📺 Click to see Lynn's 4 minute exploration of this section  
-[![AWS RDS for Bioinformatics](http://img.youtube.com/vi/ceqG90ZFstc/0.jpg)](http://www.youtube.com/watch?v=ceqG90ZFstc "AWS RDS for Bioinformatics")
 
 ### How to verify you've done it
  - QUERY to verify the added data using the AWS console, script or a locally-installed MySQL client tool
