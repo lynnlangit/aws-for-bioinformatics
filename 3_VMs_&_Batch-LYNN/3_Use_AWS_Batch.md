@@ -20,8 +20,6 @@
 
  -----
 
-### 📺 Click to see Lynn's 4 minute exploration of this section  
-[![AWS Genomics Pipelines API for Bioinformatics](http://img.youtube.com/vi/B8RABR19n8Y/0.jpg)](http://www.youtube.com/watch?v=B8RABR19n8Y "AWS Genomics Pipelines API for Bioinformatics")
 
 ### How to verify you've done it
  - Run your analysis, monitor for correct results (view files in your output bucket)
