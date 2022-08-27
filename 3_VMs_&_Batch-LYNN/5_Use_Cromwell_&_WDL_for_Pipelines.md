@@ -17,7 +17,7 @@
 
 Shown below is the relationship between WDL (scripts), cromwell and typical execution environments (data, docker images and compute clusters).
 
-<img src="https://github.com/lynnlangit/AWS-for-bioinformatics/raw/master/images/wdl-cromwell.png" width=500 align=right> 
+<img src="https://github.com/lynnlangit/AWS-for-bioinformatics/raw/main/images/wdl-cromwell.png" width=500 align=right> 
 
  - Scaling GCE VM instances out (by dynamically adding instances to a cluster as needed) using the Google AWS Batch, using cromwell. Cromwell orchestrations are defined by WDL scripts. NOTE: Google AWS Batch was called Google Genomics/Pipelines API previously.
  - NOTE: WDL/Cromwell documentation uses the words 'workflow' or 'pipeline' to define a series of tasks run for an analysis
@@ -33,7 +33,7 @@ Shown below is the relationship between WDL (scripts), cromwell and typical exec
 
 ### How to do this
 
-<img src="https://github.com/lynnlangit/AWS-for-bioinformatics/raw/master/images/wdl-concepts.png" width=500 align=right> 
+<img src="https://github.com/lynnlangit/AWS-for-bioinformatics/raw/main/images/wdl-concepts.png" width=500 align=right> 
 
  - START with this 5 minute intro to cromwell & WDL - [link](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)
  - LEARN WDL syntax by example in this set of lessons - [link](https://github.com/openwdl/learn-wdl)
