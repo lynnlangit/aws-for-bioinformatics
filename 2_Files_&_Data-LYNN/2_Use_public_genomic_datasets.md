@@ -20,7 +20,7 @@
  - REFERENCE the file in an EC2 VM-based analysis
 
 ### Other Things to Know
- - 📘Learn about VCF file structure - [link](https://software.broadinstitute.org/gatk/documentation/article?id=11005)
+ - 📘 Learn about VCF file structure - [link](https://software.broadinstitute.org/gatk/documentation/article?id=11005)
   - :octocat: Learning how to work with VCF (Variant Call Format) files - [link](https://github.com/davetang/learning_vcf_file)
  - 📘 Poster about using VCF Files - [link](http://vcftools.sourceforge.net/VCF-poster.pdf)
 
