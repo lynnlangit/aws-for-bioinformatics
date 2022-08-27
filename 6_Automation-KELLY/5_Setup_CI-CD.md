@@ -15,9 +15,7 @@
 
 ### How to do this
  - DO the steps in this article 'Gitops CI/CD with Cloud Build and Source Repositories' - [link](https://cloud.google.com/kubernetes-engine/docs/tutorials/gitops-cloud-build)
- - USE the mindmap to see (and be able to try out) the configuration steps needed to build a AWS serverless CI/CD pipeline - [link](https://app.mindmup.com/map/_v2/a4de55c088c511e9bbc6db11d9e2a10a)
 
-  [![ci-cd](/images/ci-cd.png)]()
 
 ### How to verify you've done it
  - PUSH updated application or configuration code to your Source Repo with a CloudBuild trigger
