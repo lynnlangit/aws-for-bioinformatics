@@ -29,7 +29,7 @@
       - Layout of the deployment, which describes all the resources for the deployment in a hierarchical structure.
  
 The relationship between AWS deployment file types is shown in the diagram below
-  [![deployment-AWS](/images/deployment-AWS.png)]()
+  ***add screenshot***
   
 -----
 
@@ -49,7 +49,7 @@ The relationship between AWS deployment file types is shown in the diagram below
  - AWS Marketplace executes service configurations via deployments for open source or commercial software
  - Use AWS Marketplace Deployment Templates to quickly deploy popular software, such as WordPress (shown below)
 
- [![deployment](/images/deployment.png)]()
+***add screenshot***
 
 
 ### How to learn more
