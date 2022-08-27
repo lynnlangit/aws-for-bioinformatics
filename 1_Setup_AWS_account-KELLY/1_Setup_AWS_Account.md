@@ -47,7 +47,8 @@
  - VIEW your instance & S3 bucket names and tags
  
 ### Other Things to Know
-  - AWS FREE tier account have built-in service usage limits - [link](https://aws.amazon.com/free/).
+ - Secure your AWS ROOT user account - [link](https://docs.aws.amazon.com/accounts/latest/reference/best-practices-root-user.html)
+ - AWS FREE tier account have built-in service usage limits - [link](https://aws.amazon.com/free/).
  - AWS service costs are billed to **YOU** for FREE Tier (after you've used the service beyond your free tier limits)
  - AWS service costs are billed to **YOUR COMPANY**  (or research group) for Organizational Accounts
  - SET UP an **AWS Budget alert** to get notified when AWS services exceed a service cost limit you set (this is useful for testing accounts) - [link](https://aws.amazon.com/billing/pricing/pricing-terms/)
@@ -63,7 +64,7 @@ Enterprises will generally set up a AWS Organizational Hierarchy, to enforce pol
  - 📘 Link to [Enterprise Onboarding Checklist](https://aws.amazon.com/enterprise/onboarding/checklist/)
  - 📘 Link to [best practices for Enterprise Organizations](https://aws.amazon.com/enterprise/onboarding/best-practices/)
  - 📘 Link to general best practices via [Cloud Architecture Framework](http://aws.amazon.com/cloud-architecture-framework/)
-  - 📘 Link to 'well-architected' best practices via [Well-Architected Framework](https://aws.amazon.com/well-architected/)
+ - 📘 Link to 'well-architected' best practices via [Well-Architected Framework](https://aws.amazon.com/well-architected/)
 
 ---
 
