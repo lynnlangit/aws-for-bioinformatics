@@ -11,7 +11,7 @@
  - QUERY on file data (including genomic file formats, such as VCF files) at scale using [ansi-SQL](https://en.wikipedia.org/wiki/SQL) query commands
  - QUERY on files stored in Big Query storage of other Google Services, such as [CloudStorage, Google Drive or Big Table](https://cloud.google.com/Athena/external-data-sources) or [CloudSQL (MySQL or PostgreSQL)](https://cloud.google.com/Athena/docs/cloud-sql-federated-queries). Example of public data in Athena shown below
 
- ![Big Query Public Genomics Dataset Example](/images/bq-public-genomics-data.png)
+***add screenshot***
 
 ### Key considerations
  - Understand how BQ billing works 
@@ -52,18 +52,18 @@
  - **AVOID** using `SELECT * ...` in queries to reduce the amount of data scanned, speed up the query execution time and potentially reduce the cost of running the query
 
  
- RUN QUERY using AWS Athena Service (shown below)
- [![Athena query](/images/query.png)]()
+ RUN QUERY using AWS Athena Service (shown below)  
+***add screenshot***
  
  ---
  
  REVIEW QUERY RESULTS (shown below)  
- <img src="https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/images/results.png" width=600>  
+***add screenshot***
  
  ---
  
  REVIEW EXECUTION PLAN (OPTIONAL and shown below)    
-  <img src="https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/images/plan.png" width=600>
+ ***add screenshot***
   
 ---
 
@@ -76,7 +76,7 @@
  - USE the open source `Variant Transforms` tool to transform and load hundreds of thousands of files, millions of samples, and billions of records in a scalable manner. The tool also has a preprocessor which you can use to validate VCF files and identify inconsistencies. Variant Transforms is based on Apache Beam and uses AWS Dataflow - [link](https://cloud.google.com/life-sciences/docs/how-tos/variant-transforms)
 
  - USE BQ includes many genomic or annotation data sets, a list is shown below
- <img src="https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/images/bq-public-data.png" width=600>  
+***add screenshot***
 
  -------
 
@@ -110,13 +110,7 @@
  - 📘 Link to [Example ISB-CGC tutorial](https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/Tutorials/KidneyCancerDemo/KidneyCancerDemo.html)
  - 📘 Link to [Example Athena Syntax ISB-CGC tutorial](https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/progapi/AthenaGUI/GettingStartedWithGoogleAthena.html)
  - 📘 Link to [Example NCBI-Sequence Read Archive (SRA) in Athena](https://www.ncbi.nlm.nih.gov/sra/docs/sra-Athena/)
- - 📺 Watch [working with Athena datasets in Terra (AWS service) ](https://www.youtube.com/watch?v=jOmCCo3EJr0) - 40 minute video from the Broad
- 
- #### Athena Integrations
- - :octocat: Utility code for [Spark-to-Athena-connector](https://github.com/GoogleCloudDataproc/spark-Athena-connector)
- - 📙 Try out Athena and BQ ML using [example Jupyter notebooks](https://github.com/lynnlangit/AWS-for-bioinformatics/tree/master/3_Machine_Learning/Jupyter_Notebook_Examples)
- - 📺 Link to 6 minute screencast - [Athena Machine Learning](https://www.linkedin.com/learning/google-cloud-platform-for-machine-learning-essential-training/predict-via-Athena-ml)
 
- <img src="https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/images/bq-ml-demo.png" width=600>
+***add screenshot***
   
 ---
