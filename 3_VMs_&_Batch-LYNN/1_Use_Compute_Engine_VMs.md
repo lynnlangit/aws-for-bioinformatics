@@ -1,4 +1,4 @@
-# Use Google EC2 Virtual Machines for Analysis 
+# Use EC2 Virtual Machines for Analysis 
 
 ### Why do this
  - Your analysis job is too big or complex to run on your laptop
@@ -6,7 +6,7 @@
 
 ### What is this
  - The ability to perform analysis (compute) on files & data at dynamic scale 
- - Running Google EC2 (EC2) Virtual Machines (VMs) instances from within your AWS Project.
+ - Running EC2 Virtual Machines (VMs) instances from within your AWS Project.
 
 ### Key considerations
  - **Manual Configuration** - VMs require you to perform extensive configuration steps manually
