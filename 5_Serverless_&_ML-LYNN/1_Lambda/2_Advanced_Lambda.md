@@ -35,7 +35,7 @@
 
 ### How to learn more
  - 📘 Link to [choosing a serverless option](https://cloud.google.com/serverless-options/)
- - :octocat: Link to [Try Cloud Run from a GitHub Repo](https://github.com/lynnlangit/hello-cloud-run).  Shown below is the output in Cloud Shell after you click the 'try cloud run' button in the GitHub repo.  The following actions run -> CloudRun API enabled, Docker container image is built and registered at Google Container Registry and then deployed as a service to Cloud Run.  
+ - :television: Example CSIRO -[link](https://youtu.be/7i17szaOBg0)  
 
 
 
