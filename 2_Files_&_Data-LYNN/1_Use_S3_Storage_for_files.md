@@ -1,12 +1,11 @@
-# Use AWS File Storage
-
+# Use AWS S3 File Storage
 
 ### Why do this
  - When your workload and data files are too big to run on your laptop
  - When you don't want to wait for time on your organization's shared cluster
 
 ### What is this
-  - AWS Cloud Storage is an online file storage web service for storing, accessing and transferring data files on AWS. 
+  - AWS S3 Storage is an online file storage web service for storing, accessing and transferring data files on AWS. 
   - AWS Storage (or S3) is frequently used as the input and output location for files when you run analysis (workflows or pipelines).
   - Files are stored in buckets. Bucket usually contain folders for orgnaziation as well. Each bucket must have a globally unique name.  
 
