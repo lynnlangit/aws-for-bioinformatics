@@ -6,10 +6,12 @@ This repo is a companion to the course **"AWS for Bioinformatics"**.
 - Top Level AWS Docs for this topic --> https://aws.amazon.com/health/genomics/
 - Shown below is a generic reference architecture with key AWS services which will be covered in this course.
 
-Additionally...
-- My Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
-- My Repo with information about many AWS Data Services - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
-- My Repo with information about AWS Cost Control - [link](https://github.com/lynnlangit/aws-cost-control)
-
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info-Lynn/images/aws-genomics-arch.png" width=800>
+
+## Additionally...
+- My AWS Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
+- My AWS Repo with information about many AWS Data Services - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
+- My AWS Repo with information about AWS Cost Control - [link](https://github.com/lynnlangit/aws-cost-control)
+
+
 
