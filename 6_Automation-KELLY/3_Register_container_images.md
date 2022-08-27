@@ -22,7 +22,7 @@
  - View the ECR console to see that image is listed as expected - shown below
  - Read the Stackdriver logs
 
- [![container-registry](/images/container-registry.png)]()
+***add screenshot***
 
 ### Other Things to Know
  - Integrates with CI/CD pipeline tools, such as AWSBuild and others/
