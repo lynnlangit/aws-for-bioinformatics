@@ -6,11 +6,9 @@
  - When you don't want to wait for time on your organization's shared cluster
 
 ### What is this
-  AWS Cloud Storage is an online file storage web service for storing, accessing and transferring data files on AWS. 
-  
-  AWS Storage (or S3) is frequently used as the input and output location for files when you run analysis (workflows or pipelines).
-
-  Files are stored in buckets. Bucket usually contain folders for orgnaziation as well. Each bucket must have a globally unique name.  
+  - AWS Cloud Storage is an online file storage web service for storing, accessing and transferring data files on AWS. 
+  - AWS Storage (or S3) is frequently used as the input and output location for files when you run analysis (workflows or pipelines).
+  - Files are stored in buckets. Bucket usually contain folders for orgnaziation as well. Each bucket must have a globally unique name.  
 
 ### Key considerations
  Storage can be the most significant AWS service cost for bioinformatics (due to the number and size of files involved in analysis) so be careful to select the storage class that fits your analysis best i.e. multi-regional, regional.... so as not to pay for unused resources
@@ -45,8 +43,6 @@
 ***add screenshot***
 
 ----
-
-
 
 ### Other Things to Know
  - Work with files in buckets in a number of ways:
