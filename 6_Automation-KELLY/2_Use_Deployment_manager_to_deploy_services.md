@@ -12,9 +12,7 @@
       - A deployment configuration file must contain a `resources: section` followed by the list of resources to create. Each resource must contain three components:
 
          - **name** - A user-defined string to identify this resource such as my-vm, project-data-disk, the-test-network
-
          - **type** - The type of the resource being deployed such as compute.v1.instance, compute.v1.disk
-
          - **properties** - The parameters for this resource type. They must match the properties for the type such as zone: asia-east1-a, boot: true
 
    - A configuration can contain **templates**, which are parts of the configuration file that have been abstracted into individual building blocks. 
@@ -28,7 +26,8 @@
       - Fully-evaluated configuration after all templates and imports have been expanded
       - Layout of the deployment, which describes all the resources for the deployment in a hierarchical structure.
  
-The relationship between AWS deployment file types is shown in the diagram below
+The relationship between AWS deployment file types is shown in the diagram below  
+
   ***add screenshot***
   
 -----
