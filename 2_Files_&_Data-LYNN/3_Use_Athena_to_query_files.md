@@ -84,6 +84,7 @@
 ### How to learn more
 
 - More in my AWS Data Repo - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/4_data_lake/2_Athena)
+- AWS Example - query genomic data lake data with Athena - [link](https://aws.amazon.com/blogs/industries/perform-interactive-queries-on-your-genomics-data-using-amazon-athena-or-amazon-redshift/)
 
 #### About Athena Query Features & Architecture
  - 📘 Link to [explanation of Athena query features](https://medium.com/google-cloud/Athena-explained-querying-your-data-9e017f2714a3)
