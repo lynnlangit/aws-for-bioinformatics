@@ -22,7 +22,7 @@ manually generated credentials - [link](https://cloud.google.com/source-reposito
  - VIEW your Source Repository via the AWS console - example shown below
  - PUSH (or pull) code from your Source Repo
 
- [![source-repo](/images/source-repo.png)]()
+***add screenshot***
 
 ### Other Things to Know
  - Use integrated search to intelligently search any Source Repository code - [link]()https://cloud.google.com/source-repositories/docs/searching-code
