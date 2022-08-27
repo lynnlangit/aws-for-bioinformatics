@@ -27,9 +27,9 @@ Tip: Connect your instance to a Cloud Storage bucket when latency and throughput
  - Understand service costs. VMs are billed by size (CPU/RAM), time (per second) and other factors (region).  Reduce VM cost by using preemptible VMs.  Pricing can also be reduced by always on auto-discounting (see screen below).
  - Read AWS FAQs for EC2 VMs - [link](https://cloud.google.com/compute/docs/faq)
 
- [![AWS-instance](/images/EC2-instance.png)]()
+***add screenshot***
 
- [![AWS-preempt](/images/preempt.png)]()
+ ***add screenshot***
 
 ### How to do this
  - CREATE your VM using the AWS console
@@ -54,9 +54,9 @@ Tip: Connect your instance to a Cloud Storage bucket when latency and throughput
  - Using integrated SSH, security keys will be automatically transferred to a new window. This windows will open and give you terminal access to your instance - screenshot below
  - Verify your environment by typing a linux command into the window (i.e. 'pwd')
 
-  [![EC2-connect](/images/EC2-connect.png)]()
+***add screenshot***
 
-  [![ssh](/images/ssh.png)]()
+ ***add screenshot***
 
 ### Other Things to Know
  - Use the integrated VM monitoring console to verify that you've sized your VM properly (screenshot below) - it shows CPU, Network & other common metric usage statistics.
@@ -68,7 +68,7 @@ Tip: Connect your instance to a Cloud Storage bucket when latency and throughput
  - Reuse VMs by using EC2 disks, images and snapshots - [link](https://cloud.google.com/compute/docs/instances/)
  - Add GPU/TPUs for machine learning workloads - [link](https://cloud.google.com/compute/docs/gpus/add-gpus)
 
-   [![EC2-monitor](/images/EC2-monitor.png)]()
+ ***add screenshot***
 
 ### How to learn more
  - 📘 Link to [EC2 Pricing](https://cloud.google.com/compute/pricing#machinetype)
