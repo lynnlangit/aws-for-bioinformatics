@@ -29,4 +29,5 @@
 ### How to learn more
  - :octocat: Link to [code example](https://github.com/awslabs/aws-serverless-workflows/blob/master/examples/step-functions-example.yaml)
 - 📘 Link to [pricing example](https://aws.amazon.com/serverless-workflows/pricing/)
+- 📘 Link to implementable example w/Step Functions (includes CF templates) and architecture shown below - [link](https://aws.amazon.com/solutions/implementations/genomics-secondary-analysis-using-aws-step-functions-and-aws-batch/)
  
