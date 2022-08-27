@@ -9,7 +9,7 @@ The original source bioinformatics Dataset and base SQL queries used in this ope
   - **WRITE & EXECUTE** your queries in the Athena Web UI Query Window, shown below
     - Because of the tiny size of my example dataset, I can make this tutorial FREE for you 
 
-![Athena WebUI](/images/bq-webui.png)
+***add screenshot***
 
 ---
 
@@ -27,11 +27,11 @@ The original source bioinformatics Dataset and base SQL queries used in this ope
 
  Shown below is the Athena query editor window with an error - indicated in RED. The error (on line 4) is that the table name is spelled incorrectly as `experiment`, when it should be `experiments`
 
- ![Athena error](/images/error-bq.png)
+ ***add screenshot***
 
  After you correct a query-time error, then the editor will update and show 'valid syntax' in GREEN (shown below).
 
- ![Athena error](/images/correct-bq.png)
+***add screenshot***
 
   If you get stuck - here is a [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/6b_SQLQueries.sql) to completed queries for each question.
 
