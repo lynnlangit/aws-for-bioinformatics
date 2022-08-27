@@ -35,7 +35,7 @@
 
 ### How to learn more
  - 📘 Link to [choosing a serverless option](https://cloud.google.com/serverless-options/)
- - :television: Example CSIRO -[link](https://youtu.be/7i17szaOBg0)  
+ - Example from CSIRO "This is My Architecture" w/Dr. Denis Bauer - [link](https://youtu.be/7i17szaOBg0)  
 
 
 
