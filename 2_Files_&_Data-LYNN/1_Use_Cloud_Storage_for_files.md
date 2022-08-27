@@ -29,9 +29,7 @@
 
  Shown below is the AWS WebUI to 'create a (storage) bucket. Note the bucket storage class options that are available to you.
 
- [![Cloud Storage types](/images/storage.png)]()
-
-  <img src="https://github.com/lynnlangit/AWS-for-bioinformatics/raw/master/images/bucket.png" width="460" align="right"> 
+***add screenshots***
 
  Shown to the right is the AWS WebUI to set 'access control model' for a bucket. 
  
@@ -44,7 +42,7 @@
 ### How to verify you've done it
  - UPLOAD file(s) to the bucket using the web console or the 'gsutil' tool - [link](https://cloud.google.com/storage/docs/gsutil) - example shown below
 
- [![upload](/images/upload.png)]()
+***add screenshot***
 
 ----
 
