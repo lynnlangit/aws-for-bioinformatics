@@ -4,7 +4,6 @@
 - AWS Genomics provides a variety of public datasets that you can access for free and integrate into your research jobs
     - An example is the 1000 Genomes dataset - [link](https://registry.opendata.aws/1000-genomes/)
     - AWS hosts these datasets and provides public access to the data via S3 buckets.
-    
 
 ### Why do this
  - USE a reference file in genomic cloud-based analysis
@@ -27,8 +26,5 @@
 
 ### How to learn more
  - 📘 Link to [AWS Public Datasets](https://registry.opendata.aws/) lists currently available datasets
- - 📘 Link to information about how to query data in the [genomAD project](https://cloud.google.com/blog/topics/healthcare-life-sciences/google-cloud-providing-free-access-to-genome-aggregation-database)
- - 🧑‍🤝‍🧑 The Broad Institute and Google host the `Genome Aggregation Database (gnomAD)` - [link](https://gnomad.broadinstitute.org/) and shown below.  This is a resource developed by an international coalition of investigators, with the goal of aggregating and harmonizing both exome and genome sequencing data from a wide variety of large-scale sequencing projects, and making summary data available for the wider scientific community.  
-    
- ![genomeAD Browser](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/main/images/genomeAD-browser.png)
+
 
