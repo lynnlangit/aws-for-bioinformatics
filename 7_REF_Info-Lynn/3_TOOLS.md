@@ -14,14 +14,14 @@ This page lists some common genomics tools used in bioinformatics analysis pipel
 
 
 ### Learn More -> Links
- - 📘IGV (Integrative Genomics Viewer) tool - [link](http://software.broadinstitute.org/software/igv/) from The Broad
+ - 📘 IGV (Integrative Genomics Viewer) tool - [link](http://software.broadinstitute.org/software/igv/) from The Broad
   - :octocat: Learning how to work with VCF (Variant Call Format) files 
  [link](https://github.com/davetang/learning_vcf_file)
- - 📘General reference 'How sequencing works' - [link](https://learn.gencore.bio.nyu.edu/ngs-file-formats/how-sequencing-works/)
- - 📘GATK tools (from The Broad) to convert genomic files - [link](https://support.terra.bio/hc/en-us/articles/360029577711-Converting-common-genomics-file-formats-) - from/to common formats (i.e. paired FASTQ to unmapped BAM, etc...)
- - 📘How to generate a BAM - [link](https://gatk.broadinstitute.org/hc/en-us/articles/4403687183515--How-to-Generate-an-unmapped-BAM-from-FASTQ-or-aligned-BAM) & image below from The Broad
+ - 📘 General reference 'How sequencing works' - [link](https://learn.gencore.bio.nyu.edu/ngs-file-formats/how-sequencing-works/)
+ - 📘 GATK tools (from The Broad) to convert genomic files - [link](https://support.terra.bio/hc/en-us/articles/360029577711-Converting-common-genomics-file-formats-) - from/to common formats (i.e. paired FASTQ to unmapped BAM, etc...)
+ - 📘 How to generate a BAM - [link](https://gatk.broadinstitute.org/hc/en-us/articles/4403687183515--How-to-Generate-an-unmapped-BAM-from-FASTQ-or-aligned-BAM) & image below from The Broad
 
- ![Generate-BAM](/images/generate-BAM.png)
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info-Lynn/images/file-images/generate-BAM.png">
 
 
  ### Image References
