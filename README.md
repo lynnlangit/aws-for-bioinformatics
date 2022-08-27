@@ -1,5 +1,11 @@
 # AWS for Bioinformatics
 
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info-Lynn/images/aws-genomics.png" width=900>
+
+AWS includes and support integration with tools and services which enable genomic researchers to ingest, process and analyze their genomic datasets using the elastic scale of the AWS cloud. Image above (from AWS) shows the top-level areas in these workflows.
+
+---
+
 This repo is a companion to the course **"AWS for Bioinformatics"**.  
 - The course will be released in late 2022. 
 - [Kelly Kermode](https://github.com/kellykermode) is my co-author for this course. 
