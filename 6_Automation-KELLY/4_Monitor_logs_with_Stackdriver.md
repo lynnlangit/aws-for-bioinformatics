@@ -21,10 +21,10 @@
  - START and run a service, click to view the service execution log in Operations 
  - FILTER, sort or search within logs using the Operations interface
 
-Click the button highlighted in red to open the Operations logs.
- [![to-logs](/images/to-logs.png)]()
-View, filter and read the logs, to understand the service execution details. 
- [![logs](/images/logs.png)]()
+Click the button highlighted in red to open the Operations logs.  
+***add screenshot***  
+View, filter and read the logs, to understand the service execution details.  
+***add screenshot***  
 
 ### Other Things to Know
  - Best practice for logging - [link](https://cloud.google.com/blog/products/AWS/best-practices-for-working-with-google-cloud-audit-logging)
