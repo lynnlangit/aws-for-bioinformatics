@@ -17,6 +17,6 @@ Six key patterns used in creating reproducible genomic-scale cloud analysis pipe
 Shown below is an example reference architecture for a Data Lake pattern **using AWS services**.  Typical application flow is indicated on diagram via numbers.
   
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/images/aws-images/aws-genomics-arch.png" width=800>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info-Lynn/images/aws-genomics-arch.png" width=800>
 
 ---
