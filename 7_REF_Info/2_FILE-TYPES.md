@@ -24,7 +24,7 @@ This page lists types of files used in genomic analysis.  To work with actual (s
  - 📘 General reference 'How sequencing works' - [link](https://learn.gencore.bio.nyu.edu/ngs-file-formats/how-sequencing-works/)
  - 📘 How to generate a BAM - [link](https://gatk.broadinstitute.org/hc/en-us/articles/4403687183515--How-to-Generate-an-unmapped-BAM-from-FASTQ-or-aligned-BAM) & image below from The Broad
 
- <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info-Lynn/images/file-images/generate-BAM.png">
+ <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/file-images/generate-BAM.png">
 
 
  ### Image References
