@@ -16,11 +16,11 @@
  - Understand storage location options [here](https://cloud.google.com/about/locations)
 
 ### How to do this
- - CREATE a bucket with a unique name
+ - CREATE a bucket with a globally unique name
  - CONFIGURE the bucket storage class type (see below)
  - CONFIGURE the bucket location 
  - CONFIGURE the bucket access control, encryption & retention
- - List of key [bucket operations](https://cloud.google.com/storage/docs/how-to)
+ - List of examples of key [bucket operations](https://www.thegeekstuff.com/2019/04/aws-s3-cli-examples/)
 
  ----
 
@@ -28,37 +28,26 @@
 
 ***add screenshots***
 
- Shown to the right is the AWS WebUI to set 'access control model' for a bucket. 
- 
- Note that you can set model for access control and also the type of encyrption key storage for your bucket.
-
- You can also set a retention policy for the files in the bucket if you wish.
+ - Shown to the right is the AWS WebUI to set 'access control model' for a bucket. 
+ - Note that you can set model for access control and also the type of encyrption key storage for your bucket.
+ - You can also set a retention policy for the files in the bucket if you wish.
 
  -----
 
 ### How to verify you've done it
- - UPLOAD file(s) to the bucket using the web console or the 'gsutil' tool - [link](https://cloud.google.com/storage/docs/gsutil) - example shown below
+ - UPLOAD file(s) to the bucket using the web console or the 'awscli' tool - [link](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html) - example shown below
 
 ***add screenshot***
 
 ----
 
 ### Other Things to Know
- - Work with files in buckets in a number of ways:
-   - Click in AWS WebUI / console --or--
-   - Authorized clients connect via `gsutil`, ex. `gs://demo-for-github` --or--
-   - Authorized clients connect via an http call, ex. `https://console.cloud.google.com/storage/browser/demo-for-github`
  - Design file archiving processes, i.e. move to nearline or coldline if not accessing or over time (i.e. monthly...)
  - Delete files generated during processing (often called intermediate files) that are no longer needed when jobs complete
- - Read about 'requestor pays' Cloud Storage feature - [link](https://cloud.google.com/storage/docs/requester-pays)
+ - Read about 'requestor pays' S3 feature - [link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html)
  - Understand S3 Glacier Instant Retrieval feature - [link](https://aws.amazon.com/s3/storage-classes/glacier/instant-retrieval/)
 
 ### How to learn more
- - 📘 See examples of common genomic file types (i.e. FASTQ, BAM, VCF... ) - [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/4_FILE-TYPES.md)
- - 📘 See Best practices for AWS Storage - [link](https://cloud.google.com/storage/docs/best-practices)
- - 📘 Learn how to host a static website on Cloud Storage - [link](https://cloud.google.com/storage/docs/hosting-static-website)
- - 📘 Use Parallel Composite File Uploads - [link](https://cloud.google.com/storage/docs/gsutil/commands/cp#parallel-composite-uploads)
- - 📘 Use the htsget protocol to access genomic data in AWS - [link](https://cloud.google.com/genomics/docs/how-tos/reading-data-htsget)
- - 📘 Use Cloud Storage FUSE to mount Cloud Storage buckets as file systems on Linux or macOS systems in AWS - [link](https://cloud.google.com/storage/docs/gcs-fuse)
+ - 📘 See examples of common genomic file types (i.e. FASTQ, BAM, VCF... ) - [link](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/2_FILE-TYPES.md)
  - 📘 Move HPC data into S3 using AWS Data Sync (example) - [link](https://aws.amazon.com/blogs/storage/how-to-move-and-store-your-genomics-sequencing-data-with-aws-datasync/)
 
