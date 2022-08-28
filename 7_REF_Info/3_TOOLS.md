@@ -7,7 +7,9 @@ This page lists some common genomics tools used in bioinformatics analysis pipel
 |Name |Functionality                            |Phase                 |Notes                              |Maintainers                                                                                                                     |
 |-----|---------------------------------|----------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 |[GATK](https://software.broadinstitute.org/gatk/)| comprehensive set of analysis tools                | all   | example pipelines on Terra.bio | The Broad Institute |                                                                  |
-|[HAIL](https://hail.is/)| analysis        | end    | runs on Spark for scalability | The Broad Institute   |
+|[samtools](https://www.samtools.org/)| for manipulating and indexing BAM files                           | all   | example pipelines on Terra.bio | open source |         
+|[blast](https://www.softwareradius.com/best-bioinformatics-software-and-tools/#20_BLAST) | for searching similar sequences to the query sequence            |begin | example pipelines on Nextflow.io | open source |
+|[HAIL](https://hail.is/)| variant analysis        | end    | runs on Spark for scalability | The Broad Institute   |
 |[IGV](http://www.broadinstitute.org/igv/)| visualization      | all    | can embed in Jupyter notebooks | The Broad Institute   |
 |[VariantSpark](https://bioinformatics.csiro.au/variantspark/)| variant discovery  | end    | binary format                     | CSIRO Bioinformatics |
 |[GT-Scan](https://bioinformatics.csiro.au/gt-scan/)| variant analysis    | end  | none                  | CSIRO Bioinformatics |
