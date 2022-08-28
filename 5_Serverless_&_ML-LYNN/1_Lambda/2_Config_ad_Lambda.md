@@ -35,7 +35,8 @@
 
 ### How to learn more
  - 📘 Link to [choosing a serverless option](https://cloud.google.com/serverless-options/)
- - Example from CSIRO "This is My Architecture" w/Dr. Denis Bauer - [link](https://youtu.be/7i17szaOBg0)  
+ - 📺: Example from CSIRO "This is My Architecture" w/Dr. Denis Bauer - [link](https://youtu.be/7i17szaOBg0)  
+ - 📘  Cloud-native serverless (more from CSIRO) - [link](https://bioinformatics.csiro.au/blog/converting-traditional-architecture-to-cloud-native-applications/)
 
 
 
