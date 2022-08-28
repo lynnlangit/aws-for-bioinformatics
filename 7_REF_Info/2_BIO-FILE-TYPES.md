@@ -1,6 +1,7 @@
 # Genomic File Types
 
-This page lists types of files used in genomic analysis.  To work with actual (sub-sampled size) example genomic files of the types listed below go to this [link](https://github.com/lynnlangit/aws-for-bioinformatics/tree/main/2_Files_%26_Data-LYNN/genomic-data-samples)
+This page lists types of files used in genomic analysis.  
+- To work with actual (sub-sampled size) example genomic files of the types listed below go to this [link](https://github.com/lynnlangit/aws-for-bioinformatics/tree/main/2_Files_%26_Data-LYNN/scripts/genomic-data-samples)
 
 ## Summary Table
 
