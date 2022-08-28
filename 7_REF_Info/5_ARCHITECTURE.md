@@ -2,21 +2,22 @@
 
 Six key patterns used in creating reproducible genomic-scale cloud analysis pipelines include the following:
 
-1. **Functional programming** for side-effect free parallel processing (rather than OOP)
+1. **Functional programming** for side-effect free parallel processing (rather than OOP). Genomic tasks should be independent of each other and not depend on any other genomic tasks (or splitable tasks).
 
-2. **Use of tools**, such as GATK, Hail, VariantSpark, etc... (rather than scripts) to process the data
+2. **Use of open source bioinformatics tools**, such as GATK, samtools, blast etc... (rather than scripts) to process the data using tasks grouped into a workflow or pipeline.
 
-3. **Use of Docker** to contain Bioinformatics tools (scripts or jar files) included in one or more docker images for compute (rather than VMs) which expose tool parameters for configuration
+3. **Use of Docker** to contain Bioinformatics tools (scripts or jar files) included in one or more docker images for compute (rather than VMs) which expose tool parameters for configuration in the pipeline.
 
-4. **Data stored as files in buckets**, this is a Data Lake pattern, storing data as objects (or files). The **Data Lake** pattern is used rather than storing data in relational or NoSQL databases. Some systems, such as Terra.bio include the ability to define a schema 'over' files stored in buckets via a custom data model and is shown below.
+4. **Data stored as files in buckets**, this is a Data Lake pattern, storing data as objects (or files). The **Data Lake** pattern is used rather than storing data in relational or NoSQL databases. 
 
-5. **Use of domain-specific pipeline configuration languages**, such as WDL, Nextflow, CWL (rather than cloud vendor scripts or templates, such as AWS CloudFormation, or AWS Deployments). These configuration languages enable configuration of both bioinformatics tools and also cloud services (VM size, bucket security...) 
+5. **Use of domain-specific pipeline configuration languages**, such as Nextflow, WDL or CWL (rather than cloud vendor scripts or templates, such as AWS CloudFormation, or AWS Deployments). These domain-specific configuration languages enable configuration of both bioinformatics tools and also cloud services (VM size, bucket security...) 
+
 6. **Use of emphemeral VM instances** such as AWS EC2 spot VM instances, to scale out compute clusters.  These instances are only available when not in use by other customers, so no guarantee of availability.  However, when available, spot instances allow for 'bursting' at an incredibly low cost (usually 90% off on-demand price).
 
 ----
 Shown below is an example reference architecture for a Data Lake pattern **using AWS services**.  Typical application flow is indicated on diagram via numbers.
   
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info-Lynn/images/aws-genomics-arch.png" width=800>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/aws-genomics-arch.png" width=800>
 
 ---

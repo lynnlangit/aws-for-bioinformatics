@@ -21,7 +21,7 @@ This page lists some common genomics tools used in bioinformatics analysis pipel
  - 📘 GATK tools (from The Broad) to convert genomic files - [link](https://support.terra.bio/hc/en-us/articles/360029577711-Converting-common-genomics-file-formats-) - from/to common formats (i.e. paired FASTQ to unmapped BAM, etc...)
  - 📘 How to generate a BAM - [link](https://gatk.broadinstitute.org/hc/en-us/articles/4403687183515--How-to-Generate-an-unmapped-BAM-from-FASTQ-or-aligned-BAM) & image below from The Broad
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info-Lynn/images/file-images/generate-BAM.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/file-images/generate-BAM.png">
 
 
  ### Image References
