@@ -1,5 +1,4 @@
-
-## User Stories for Bioinformatics on AWS
+# Service Patterns for Bioinformatics on AWS
 
 This page describes some common patterns & use cases for bioinformatic research which runs on the ☁️ AWS Cloud.
 If you're new to working with public cloud services, including those available from ☁️ AWS, you can start by considering the 3 main categories of services available for you to use in cloud computing:
@@ -30,4 +29,4 @@ A key reason to move from local to cloud-based computing is the ability to scale
 
 ## General User Story Map for Bioinformatics
 
-Here is a link to a general USER STORY map - [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/images/user-stories.pdf)
+Here is a link to a general USER STORY map - [link](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/whitepapers/user-stories.pdf)

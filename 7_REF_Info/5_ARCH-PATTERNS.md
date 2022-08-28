@@ -1,6 +1,6 @@
-## Genomic-scale Pipeline Reference Architecture
+# Genomic-scale Pipeline Architecture Patterns
 
-Six key patterns used in creating reproducible genomic-scale cloud analysis pipelines include the following:
+Six key patterns used in creating reproducible and scalable genomic-scale cloud analysis pipelines include the following:
 
 1. **Functional programming** for side-effect free parallel processing (rather than OOP). Genomic tasks should be independent of each other and not depend on any other genomic tasks (or splitable tasks).
 
