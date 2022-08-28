@@ -1,4 +1,4 @@
-# Use Deployment Manager 
+# Use CloudFormation to deploy services 
 
 ### Why do this
  - SCRIPT the service configuration of your research job(s) 
