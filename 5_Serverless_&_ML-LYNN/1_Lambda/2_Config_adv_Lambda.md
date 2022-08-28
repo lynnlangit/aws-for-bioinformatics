@@ -30,8 +30,7 @@
  - Serverless patterns are often used for workloads that have spikes in demand
  - Using the 'revision settings' you can set a min/max number of instances for autoscaling for your deployment.  You can also set the 'maximum requests per container'
  - Serverless auto-scales (to your AWS account limits) by default
- - Cloud Run has two execution modes - within CloudRun and CloudRun for Anthos using Kubernetes (GKE)
- - Cloud Build (for serverless continuous deployment) is integratable into CloudRun functions.  Use it for CD in building updated Docker images 
+ - A number of services can be run 'serverlessly' - this includes EMR (Managed Apache Spark).  Here's an example from CSIRO (EMR Serverless Terraform template) -[link](https://bioinformatics.csiro.au/blog/the-many-ways-to-the-cloud-from-on-prem-to-emr-serverless/)
 
 ### How to learn more
  - 📘 Link to [choosing a serverless option](https://cloud.google.com/serverless-options/)
