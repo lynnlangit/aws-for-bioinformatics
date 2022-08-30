@@ -6,8 +6,9 @@
 
 ### What is this
   - Understand, select and configure AWS client tools. There are broadly two types of client tools.  
- 
- One type runs in web browser, so there is nothing to install locally. The second type requires downloading, installing and configuring client tools. If you chose to download a client tool, then be sure to follow the installation instructions for your particular type of laptop OS.  
+
+    - One type runs in web browser, so there is nothing to install locally. The second type requires downloading, installing and configuring client tools.     
+    - If you chose to download a client tool, then be sure to follow the installation instructions for your particular type of laptop OS.  
 
  Available AWS client tools include the following:   
 
