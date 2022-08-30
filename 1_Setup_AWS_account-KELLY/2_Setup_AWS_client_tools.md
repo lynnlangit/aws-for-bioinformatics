@@ -34,7 +34,7 @@ AWS CloudShell provides the following:
         - built-in authorization for access to AWS Console projects and resources
         - built-in support for AWS Lambda functions
 
-3. **AWS cli** (command line interface) - [link to cli](https://aws.amazon.com/cli/) installed locally on your laptop
+3. **AWS CLI** (Command Line Interface) - [link to cli](https://aws.amazon.com/cli/) Installed locally on your laptop
 
  - As an alternative to using the AWS integrated CloudShell, you could use a locally-installed AWS client.  To do this you  download and configure the AWS SDK(https://aws.amazon.com/sdk/). Then you can use `awscli` commands from your local laptop to start, control or stop AWS service instances.  For example, to start an EC2 instance, you could use the following command:
 
