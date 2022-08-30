@@ -41,11 +41,12 @@ AWS CloudShell provides the following:
 
 ```awscli ec2 run-instances --image-id ami-0b9c9f62 --count 1 --instance-type t2.micro --key-name mykey --security-groups mygroup --subnet-id subnet-0b9c9f62 --associate-public-ip-address```
 
-4. **AWS Genomics cli** - [link to cli](https://aws.amazon.com/genomics/aws-genomics-cli/) installed locally on your laptop
-    - more info on AWS Genomics cli installation instructions [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-install.html)
-    - more info on AWS Genomics cli usage [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-usage.html)
-    - more info on AWS Genomics cli installed software [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-software.html) and also in this Medium article [here](https://medium.com/@awsgenomics/aws-genomics-cli-install-and-use-on-your-laptop-f8f8f8f8f8f8) and also this [one](https://medium.com/aws-tip/aws-genomics-cli-for-bioinformatics-workflow-deconstructed-4f0856a85ef8)
-
+4. **AWS Genomics CLI** - [link to CLI](https://aws.amazon.com/genomics-cli/) installed locally on your laptop
+    - more info on AWS Genomics CLI repo [here](https://aws.github.io/amazon-genomics-cli/)
+    - more info on AWS Genomics CLI installation instructions [here](https://aws.github.io/amazon-genomics-cli/docs/getting-started/installation/)
+    - more info on AWS Genomics CLI usage [here](https://aws.github.io/amazon-genomics-cli/docs/)
+    - more info on AWS Genomics CLI installed software [here](https://aws.github.io/amazon-genomics-cli/docs/getting-started/installation/) and also in this Medium article [here](https://medium.com/@awsgenomics/aws-genomics-cli-install-and-use-on-your-laptop-f8f8f8f8f8f8) and also this [one](https://medium.com/aws-tip/aws-genomics-cli-for-bioinformatics-workflow-deconstructed-4f0856a85ef8)
+<img src="https://d1.awsstatic.com/product-page-diagram_Amazon-Genomics-CLI_HIW-V3.f69da41258c06a8611b1e5afeae440f63519534d.png" width=900>
 
 5.  **AWS Sagemaker** - [link to site](https://aws.amazon.com/sagemaker/)
 It is a cloud-based machine learning platform that enables you to create and deploy machine learning models.  
