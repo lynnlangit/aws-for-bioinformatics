@@ -4,7 +4,7 @@ In this section, you'll get information about setting up your AWS account.  Also
 
 ### Here are the topic pages in this section:
 
-- Setup AWS Account
+- [Setup AWS Account](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/1_Setup_AWS_account-KELLY/1_Setup_AWS_Account.md)
 - Setup AWS Client Tools
 - Setup AWS IAM role-based Security
 
