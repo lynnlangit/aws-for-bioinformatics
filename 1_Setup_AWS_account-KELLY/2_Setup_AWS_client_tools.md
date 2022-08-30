@@ -84,7 +84,7 @@ It is a cloud-based machine learning platform that enables you to create and dep
 ### Other Things to Know
  - Access to the some or all of the AWS console can (and sometime should) be restricted by user permission level
  - Reproducible research includes **scripting** AWS service configurations
- - AWS has a large number of sample scripts & SDK code samples in their GitHub organizational Repos - [link](https://github.com/aws)
+ - AWS has a large number of sample scripts & SDK code samples in their GitHub Organizational Repos - [link](https://github.com/aws)
  - IAM (Identity and Access Management) - IAM services include security objects, such as users, groups, roles and permissions
 
 ### How to learn more
