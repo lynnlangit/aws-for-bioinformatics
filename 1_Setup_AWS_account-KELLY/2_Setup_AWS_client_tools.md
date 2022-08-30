@@ -37,14 +37,14 @@ AWS CloudShell provides the following:
 
 3. **AWS CLI** (Command Line Interface) - [link to cli](https://aws.amazon.com/cli/) Installed locally on your laptop
 
- - As an alternative to using the AWS integrated CloudShell, you could use a locally-installed AWS client.  To do this you  download and configure the AWS SDK(https://aws.amazon.com/sdk/). Then you can use `awscli` commands from your local laptop to start, control or stop AWS service instances.  For example, to start an EC2 instance, you could use the following command:
+  - As an alternative to using the AWS integrated CloudShell, you could use a locally-installed AWS client.  To do this you  download and configure the AWS SDK(https://aws.amazon.com/sdk/). Then you can use `awscli` commands from your local laptop to start, control or stop AWS service instances.  For example, to start an EC2 instance, you could use the following command:
 
 ```awscli ec2 run-instances --image-id ami-0b9c9f62 --count 1 --instance-type t2.micro --key-name mykey --security-groups mygroup --subnet-id subnet-0b9c9f62 --associate-public-ip-address```
 
 4. **AWS Genomics cli** - [link to cli](https://aws.amazon.com/genomics/aws-genomics-cli/) installed locally on your laptop
-- more info on AWS Genomics cli installation instructions [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-install.html)
-- more info on AWS Genomics cli usage [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-usage.html)
-- more info on AWS Genomics cli installed software [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-software.html) and also in this Medium article [here](https://medium.com/@awsgenomics/aws-genomics-cli-install-and-use-on-your-laptop-f8f8f8f8f8f8) and also this [one](https://medium.com/aws-tip/aws-genomics-cli-for-bioinformatics-workflow-deconstructed-4f0856a85ef8)
+  - more info on AWS Genomics cli installation instructions [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-install.html)
+  - more info on AWS Genomics cli usage [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-usage.html)
+  - more info on AWS Genomics cli installed software [here](https://docs.aws.amazon.com/genomics/latest/userguide/aws-genomics-cli-software.html) and also in this Medium article [here](https://medium.com/@awsgenomics/aws-genomics-cli-install-and-use-on-your-laptop-f8f8f8f8f8f8) and also this [one](https://medium.com/aws-tip/aws-genomics-cli-for-bioinformatics-workflow-deconstructed-4f0856a85ef8)
 
 
 5.  **AWS Sagemaker** - [link to site](https://aws.amazon.com/sagemaker/)
