@@ -1,4 +1,4 @@
-# Setup AWS Project Security
+# Setup AWS IAM Role-based Security
 
 ### Why do this
  - Learn how to secure your AWS project resources (Virtual machine instances, S3 storage buckets,...)
