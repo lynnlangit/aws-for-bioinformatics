@@ -34,7 +34,7 @@ AWS CloudShell provides the following:
         - web preview functionality
         - built-in authorization for access to AWS Console projects and resources
         - built-in support for AWS Lambda functions
-<img src="" width=900>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/9fef4bd32ae28ed238ad8d63523ed41a06c7a677/1_Setup_AWS_account-KELLY/images/aws-cli.png" width=900>
 
 3. **AWS CLI** (Command Line Interface) - [link to cli](https://aws.amazon.com/cli/) Installed locally on your laptop
 
