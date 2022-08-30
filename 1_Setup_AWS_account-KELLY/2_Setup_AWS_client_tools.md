@@ -48,7 +48,7 @@ AWS CloudShell provides the following:
 
 
 5.  **AWS Sagemaker** - [link to site](https://aws.amazon.com/sagemaker/)
-This service is also called AWS Sagemaker.  It is a cloud-based machine learning platform that enables you to create and deploy machine learning models.  
+It is a cloud-based machine learning platform that enables you to create and deploy machine learning models.  
     - Sagemaker features ZERO INSTALL, Jupyter-style notebooks 
         - Notebooks can be run for FREE on AWS Cloud Infrastructure 
         - resources (CPUs, Memory, etc...) are constrained by AWS 
