@@ -7,10 +7,14 @@ Many services available:
 - Awesome SageMaker Repo - https://github.com/aws-samples/awesome-sagemaker
 - AWS Deep Learning AMI - https://aws.amazon.com/machine-learning/amis/
 
-
 Here are the topic pages in this section:
 
 ***TO DO***
+ - SageMaker Studio Lab vs. SageMaker for Managed Jupyter Notebooks
+ - SageMaker tools for model lifecycle (create, tune, deploy) - include hyperparameter grids
+ - AWS DeepLearning VM (note ML libraries and hardware drivers installed [for GPUs])
+ - AWS ML APIs - vision, video, speed, text, medical?
+ - Marketplace - Parabricks 
 
 NOTE: Right click on the 'Open in SageMaker Studio Lab' button at the top of the *.ipynb (IPython notebook file) and 'open link in a new tab' as directly opening this link is blocked in GitHub.
 
