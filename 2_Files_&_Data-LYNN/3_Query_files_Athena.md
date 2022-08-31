@@ -97,7 +97,7 @@
 
 #### About using Athena for Genomic Analysis
 
-***add info***
+ - Link to example Jupyter notebook (queries VCF data in an AWS Data Lake) - https://github.com/aws-samples/aws-genomics-datalake/blob/main/1000Genomes.ipynb
 
 ***add screenshot***
   
