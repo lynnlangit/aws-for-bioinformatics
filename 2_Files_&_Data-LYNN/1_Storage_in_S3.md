@@ -46,6 +46,8 @@
  - Delete files generated during processing (often called intermediate files) that are no longer needed when jobs complete
  - Read about 'requestor pays' S3 feature - [link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html)
  - Understand S3 Glacier Instant Retrieval feature - [link](https://aws.amazon.com/s3/storage-classes/glacier/instant-retrieval/)
+ - Use S3 `Storage Lens` feature for insights into storage usage -[link](https://aws.amazon.com/s3/storage-analytics-insights) 
+   - hands-on getting started tutorial - [link](https://aws.amazon.com/getting-started/hands-on/amazon-s3-storage-lens/) NOTE: you must assign permissions to a non-root IAM user to access this service
 
 ### How to learn more
  - 📘 See examples of common genomic file types (i.e. FASTQ, BAM, VCF... ) - [link](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/2_FILE-TYPES.md)
