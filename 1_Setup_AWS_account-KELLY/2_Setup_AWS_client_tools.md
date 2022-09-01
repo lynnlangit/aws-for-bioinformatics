@@ -36,9 +36,9 @@ AWS CloudShell provides the following:
         - built-in support for AWS Lambda functions
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/9fef4bd32ae28ed238ad8d63523ed41a06c7a677/1_Setup_AWS_account-KELLY/images/aws-cli.png" width=900>
 
-3. **AWS CLI** (Command Line Interface) - [link to cli](https://aws.amazon.com/cli/) Installed locally on your laptop
+3. **AWS CLI** (Command Line Interface) - [link to CLI](https://aws.amazon.com/cli/) Installed locally on your laptop
 
-    - As an alternative to using the AWS integrated CloudShell, you could use a locally-installed AWS client.  To do this you  download and configure the AWS SDK(https://aws.amazon.com/sdk/). Then you can use `awscli` commands from your local laptop to start, control or stop AWS service instances.  For example, to start an EC2 instance, you could use the following command:
+    - As an alternative to using the AWS integrated CloudShell, you could use a locally-installed AWS CLI client.  To do this you  download and configure the AWS CLI SDK(https://aws.amazon.com/cli/). Then you can use `awscli` commands from your local laptop to start, control or stop AWS service instances.  For example, to start an EC2 instance, you could use the following command:
 
 ```awscli ec2 run-instances --image-id ami-0b9c9f62 --count 1 --instance-type t2.micro --key-name mykey --security-groups mygroup --subnet-id subnet-0b9c9f62 --associate-public-ip-address```
 
