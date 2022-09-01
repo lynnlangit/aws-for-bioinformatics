@@ -2,7 +2,7 @@
 
 You can use AWS Machine Learning APIs to build machine learning (ML) applications. You can use these APIs to create ML models, train models, and make predictions. You can also use these APIs to create and manage datasets.  These APIs can be used with text, images, video data and more.  There is also an API specifically for medical data.
 
-## Use ML to automatically analyze text or language data
+## Use ML APIs to automatically analyze text or language data
 
 ### Why do this
  - ANALYZE entities found in text or natural language via machine learning models
@@ -27,15 +27,15 @@ You can use AWS Machine Learning APIs to build machine learning (ML) application
 
 ---
 
-## Use ML to automatically analyze items in Photos or Videos
+## Use ML API to automatically analyze items in Photos 
 
 ### Why do this
- - ANALYZE items found in photos or videos via machine learning models
+ - ANALYZE items found in photos via machine learning models
  - USE the AWS the best-fit ML API for your input data
 
 ### What is this
- - Ability to use ML on photo/video data without manually creating/training an ML model
- - Product names is Rekognition for Vision Intelligence. 
+ - Ability to use ML on photo data without manually creating/training an ML model
+ - Product names is Rekognition for Vision. 
 
 ### How to do this
  - For Vision API - >
