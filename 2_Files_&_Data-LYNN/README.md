@@ -1,14 +1,13 @@
 # Use AWS for Files and Data
 
-In this section, you'll get information about using AWS storage for file and data storage.  You'll use AWS S3 storage buckets.  Also you'll use Amazon Athena or EMR to query files.  
+In this section, you'll get information about using AWS storage for file and data storage.  You'll use AWS S3 storage buckets.  Also you'll use Amazon Athena or Redshift to query files.  
 
 Here are the topic pages in this section:
 
 - Use S3 buckets to store files
-- Use Public Genomic Datasets
-- Use Amazon Athena or EMR to query files
-- Use RDS to store tabular data
-- Use reference Genomic Datasets
+- Use Public Genomic Datasets (reference Datasets
+- Use AWS Glue to transform data
+- Use Amazon Athena or Redshift to query files
 
 ## Hello World for AWS Data Services
 
