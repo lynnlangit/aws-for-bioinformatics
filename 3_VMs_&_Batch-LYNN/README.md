@@ -1,6 +1,10 @@
 # Use AWS for Virtual Machines & Batch Computing
 
-In this section, you'll get information about using AWS services to run Virtual Machines (VMs) or batch computing on AWS.  You'll use AWS EC2 VMs, which are called EC2 instances.  Additionally you can use services to orchestrate clusters of VMs or docker containers such as Elastic Kubernetes Engine (or K8), information on containers in the next section of this repo. 
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/pipeline-arch.png" width=800>
+
+In this section, you'll get information about using AWS services to run Virtual Machines (VMs) or batch computing on AWS to run data pipeline (workflow) genomic analysis jobs on AWS.  The general pattern is shown in the diagram above.  
+
+To do this, you'll use AWS EC2 VMs, which are called EC2 instances.  Additionally you can use services to orchestrate clusters of VMs or docker containers such as Elastic Kubernetes Engine (or K8), information on containers in the next section of this repo. 
 
 Alternatively you can use bioinformatics pipeline & workflow languages and services to coordinate groups of VMs or containers.  These APIs include Nextflow, WDL/cromwell and others.
 
