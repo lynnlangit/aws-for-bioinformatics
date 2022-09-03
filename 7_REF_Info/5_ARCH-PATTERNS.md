@@ -1,6 +1,12 @@
 # Genomic-scale Pipeline Architecture Patterns
 
-Six key patterns used in creating reproducible and scalable genomic-scale cloud analysis pipelines include the following:
+Shown below is an example reference architecture for a Data Lake pattern **using AWS services**.  Typical application flow is indicated on diagram via numbers and detailed in the section below.
+  
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/aws-genomics-arch.png" width=800>
+
+
+## Six key patterns 
+Used in creating reproducible and scalable genomic-scale cloud analysis pipelines include the following:
 
 1. **Functional programming** for side-effect free parallel processing (rather than OOP). Genomic tasks should be independent of each other and not depend on any other genomic tasks (or splitable tasks).
 
@@ -15,9 +21,4 @@ Six key patterns used in creating reproducible and scalable genomic-scale cloud 
 6. **Use of emphemeral VM instances** such as AWS EC2 spot VM instances, to scale out compute clusters.  These instances are only available when not in use by other customers, so no guarantee of availability.  However, when available, spot instances allow for 'bursting' at an incredibly low cost (usually 90% off on-demand price).
 
 ----
-Shown below is an example reference architecture for a Data Lake pattern **using AWS services**.  Typical application flow is indicated on diagram via numbers.
-  
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/aws-genomics-arch.png" width=800>
-
----
