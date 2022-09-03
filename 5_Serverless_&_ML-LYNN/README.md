@@ -1,4 +1,4 @@
-# Use Serverless AWS
+# Use Serverless and Machine Learning AWS Services
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/pipeline-arch.png" width=800>
 
