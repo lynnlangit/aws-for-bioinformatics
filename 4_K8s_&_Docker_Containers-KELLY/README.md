@@ -1,6 +1,8 @@
 # Use AWS for Kubernetes & Docker Containers
 
-In this section, you'll get information about using AWS services to run Kubernetes and docker container images on AWS.  You'll use AWS EC2 VMs, which are called EC2 instances.  Additionally you'll use services to orchestrate clusters of VMs or docker containers such as Elastic Kubernetes Engine (or K8).  
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/pipeline-arch.png" width=800>
+
+In this section, you'll get information about using AWS services to run docker container clusters which are managed by Kubernetes (or K8) service.  These Kubernetes clusters run on AWS EC2 VMs and are used to run data pipeline (workflow) genomic analysis jobs on AWS.  The general pattern is shown in the diagram above.  You'll use services to orchestrate clusters of VMs or docker containers such as Elastic Kubernetes Engine (or K8).  
 
 Alternatively you can use bioinformatics pipeline & workflow languages and services to coordinate groups of VMs or containers.  These APIs include Nextflow, cromwell/WDL and others.
 
