@@ -21,6 +21,11 @@ There are a number of possible ways to construct high volume data analysis workf
 - Review my articles
     - `Blast 10 Ways - Adventures in Bioinformatics Tool Deployments` 
     - published on [Medium.](https://medium.com/@lynnlangit/blast-10-ways-3db78f881059)
-    - CSIRO DataLake Articles ---xxx, yyy and zzz (on Medium)
+    - CSIRO DataLake Articles ---(on Medium)
+        - Part One - Understanding the Challenge - https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-d9dc7edfbff9
+        - Part Two - Scaling using EMR - https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-2-emr-6dfc3cd91a1f
+        - Part Three - Scaling using Kubernetes (and image below) - https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-3-kubernetes-5427d96f825b
+
+
 
 
