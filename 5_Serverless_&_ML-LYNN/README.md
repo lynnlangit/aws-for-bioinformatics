@@ -14,3 +14,9 @@ Here are the topic pages in this section:
 
 -----
 
+## CSIRO GT-Scan Example
+
+Blog post from 2016 and architecture image below - "Genome Engineering Applications: Early Adopters of the Cloud" - [link](https://aws.amazon.com/blogs/aws/genome-engineering-applications-early-adopters-of-the-cloud/)
+
+https://media.amazonwebservices.com/blog/2016/csiro_fig2_gtscan_arch_1.png
+
