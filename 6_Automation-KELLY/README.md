@@ -12,3 +12,9 @@ Here are the topic pages in this section:
 - Use Container Registry to host container images
 - Monitor services with CloudWatch for reading logs
 
+## Example from CSIRO - VariantSpark on EMR
+
+Implements automation with an AWS Cloud Formation Template. Architecture shown below and source [link](https://aws.amazon.com/marketplace/pp/prodview-pgna4dj6xqqde#pdp-usage)
+
+xxx
+
