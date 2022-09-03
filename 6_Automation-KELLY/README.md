@@ -16,5 +16,5 @@ Here are the topic pages in this section:
 
 Implements automation with an AWS Cloud Formation Template. Architecture shown below and source [link](https://aws.amazon.com/marketplace/pp/prodview-pgna4dj6xqqde#pdp-usage)
 
-xxx
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation-KELLY/images/csrio-vs-emr.png" width=600>
 
