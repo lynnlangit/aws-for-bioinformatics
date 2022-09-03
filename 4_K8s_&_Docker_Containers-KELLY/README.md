@@ -18,13 +18,12 @@ There are a number of possible ways to construct high volume data analysis workf
 ### Read Examples
 
 - For a perspective on different possible ways to run a bioinformatics tool, read my article
-- Review my articles
-    - `Blast 10 Ways - Adventures in Bioinformatics Tool Deployments` 
-    - published on [Medium.](https://medium.com/@lynnlangit/blast-10-ways-3db78f881059)
+- Review Lynn's articles
+    - `Blast 10 Ways - Adventures in Bioinformatics Tool Deployments` published on [Medium.](https://medium.com/@lynnlangit/blast-10-ways-3db78f881059)
     - CSIRO DataLake Articles ---(on Medium)
-        - Part One - Understanding the Challenge - https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-d9dc7edfbff9
-        - Part Two - Scaling using EMR - https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-2-emr-6dfc3cd91a1f
-        - Part Three - Scaling using Kubernetes (and image below) - https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-3-kubernetes-5427d96f825b
+        - Part One - Understanding the Challenge - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-d9dc7edfbff9)
+        - Part Two - Scaling using EMR - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-2-emr-6dfc3cd91a1f)
+        - Part Three - Scaling using Kubernetes (and image below) - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-3-kubernetes-5427d96f825b)
         
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/4_K8s_%26_Docker_Containers-KELLY/images/csiro-vs-k8.png" width=800>
 
