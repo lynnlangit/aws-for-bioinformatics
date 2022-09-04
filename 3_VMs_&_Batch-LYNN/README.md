@@ -25,12 +25,6 @@ From CZI Science tool, IDSeq, now named `CZ ID` - [link](https://czid.org/) to t
 
 ***FROM OTHER REPO***
 
-# AWS Support for Genomic Workloads
-AWS includes services, tools and partner integrations which support multiple types of genomic workloads.  The diagram below shows various stages/types.
-
-<img src="https://github.com/lynnlangit/TeamTeri/blob/master/Images/aws-genomics-concepts.png">
-
-
 ## AWS for Genomics Pipelines
 Services, tools, patterns, practices and demos from AWS for Genomics pipelines - a conceptual example is shown in the diagram below.  
 
