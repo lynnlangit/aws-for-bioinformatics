@@ -14,9 +14,9 @@ Here are the topic pages in this section:
 
 -----
 
-## CSIRO GT-Scan Example
+## AWS Serverless Genomic Example 
 
-Blog post from 2016 and architecture image below - "Genome Engineering Applications: Early Adopters of the Cloud" - [link](https://aws.amazon.com/blogs/aws/genome-engineering-applications-early-adopters-of-the-cloud/)
+Blog post on CSIRO's GT-Scan tool (from 2016) and architecture image below - "Genome Engineering Applications: Early Adopters of the Cloud" - [link](https://aws.amazon.com/blogs/aws/genome-engineering-applications-early-adopters-of-the-cloud/)
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/5_Serverless_%26_ML-LYNN/1_Lambda/images/csiro_fig2_gtscan_arch_1.png" width=800>
 
