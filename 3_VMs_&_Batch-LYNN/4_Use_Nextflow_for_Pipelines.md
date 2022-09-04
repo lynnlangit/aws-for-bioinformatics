@@ -36,6 +36,12 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
  - REGISTER Nextflow workflows for distribution and reuse in the [Dockstore](https://docs.dockstore.org/docs/prereqs/getting-started-with-nextflow/) genomics workflow registry
     - Note that Nextflow (NF) on Dockstore is a bit different from CWL or WDL. 
     - Instead of having one workflow descriptor file, Nextflow with Dockstore uses two different kinds of files: A config file, `nextflow.config` and a descriptor file, generally called, `main.nf`.
+
+### Nextflow Tools 
+The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines.  
+ - 📘 Link to using [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
+ - 📘 Link to using [Nextflow Tower](https://www.seqera.io/blog/introducing-nextflow-tower/) for monitoring - screenshot shown below
+ - 📘 Link to using [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
 ---
  
 ### How to learn more
@@ -58,23 +64,20 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
  - 📘 Read about [Pipeliner for Nextflow paper](https://www.biorxiv.org/content/biorxiv/early/2018/11/23/476515.full.pdf)
  - 📘 Link to [using caching with Nextflow](https://www.nextflow.io/blog/2019/demystifying-nextflow-resume.html)
  - 📘 Link to paper on [containerized approaches to workflows(includes Nextflow)](https://www.preprints.org/manuscript/202001.0378/v1/download)
- - 📘 Link to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
-    - `nextflow run CRG-CNAG/CalliNGS-NF -r gatk4 -with-docker`
  - 📘 Link to understanding that Nextflow architecture.  
   - NF is written in the [Groovy programming language](https://en.wikipedia.org/wiki/Apache_Groovy) 
   - NF is designed to run on [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) instances 
 
 #### Nextflow on AWS
- - USE Nextflow pipelines with AWS (docs) - [link](https://www.nextflow.io/docs/latest/awscloud.html)
+ - 📘 Read Nextflow pipelines with AWS (docs) - [link](https://www.nextflow.io/docs/latest/awscloud.html)
  - :octocat: Review featured Nextflow pipelines - [link](https://github.com/nextflow-io/awesome-nextflow)
 
-#### Nextflow Tools
- - 📘 Link to using [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
- - 📘 Link to using [Nextflow Tower](https://www.seqera.io/blog/introducing-nextflow-tower/) for monitoring - screenshot shown below
- - 📘 Link to using [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
- - 📘 Link to using [NF protein-DNA interactions and epigenomic profiling pipeline QC testing & viz tools with CI/CD](https://nf-co.re/cutandrun)
+#### NF runnable Genomic Pipeline Examples
+ - 📘 Link to using [NF protein-DNA interactions and epigenomic profiling pipeline QC testing & viz tools with CI/CD](https://nf-co.re/cutandrun) - pipaline image shown below.
+ - 📘 Link to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
+    - `nextflow run CRG-CNAG/CalliNGS-NF -r gatk4 -with-docker`
 
-![Nextflow Tower](/images/nf-tower.png)
+
 
 
 
