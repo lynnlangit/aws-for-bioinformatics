@@ -11,7 +11,7 @@ AWS includes tools and services which enable genomic researchers to ingest, proc
 
 ---
 
-### Patterns and Best Practices for Genomics on AWS
+## Patterns and Best Practices for Genomics on AWS
 
 * **MAIN** AWS for life sciences  -- https://aws.amazon.com/health/life-sciences/
 * **GENOMICS** AWS for Genomics -- https://aws.amazon.com/health/genomics/
@@ -22,11 +22,11 @@ AWS includes tools and services which enable genomic researchers to ingest, proc
 
 ---
 
-
-## Additionally...
-- My AWS Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
-- My AWS Repo with information about many AWS Data Services - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
-- My AWS Repo with information about AWS Cost Control - [link](https://github.com/lynnlangit/aws-cost-control)
+## Learn More
+I have a number of courses and resources on building on AWS, these include the following:  
+- 📚 My AWS Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
+- :octocat: My AWS Repo with information about many AWS Data Services - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
+- :octocat: My AWS Repo with information about AWS Cost Control - [link](https://github.com/lynnlangit/aws-cost-control)
 
 
 
