@@ -15,10 +15,12 @@ USE open source tools to run and scale your genomic analysis jobs **at scale in 
  
 ### What is this
 
-Scaling AWS EC2 VM instances out (by dynamically adding instances to a cluster as needed) using the AWS Batch API, using cromwell. Cromwell orchestrations are defined by WDL scripts. 
- - NOTE: WDL/Cromwell documentation uses the words 'workflow' or 'pipeline' to define a series of tasks run for an analysis
- - WDL (Workflow Definition Language) script concepts are shown below 
-   - READ WDL documentation - [link](https://support.terra.bio/hc/en-us/sections/360007274612-WDL-Documentation)
+Scaling AWS EC2 VM instances out (by dynamically adding instances to a cluster as needed) using the AWS Batch API, using cromwell. Cromwell orchestrations are defined by WDL scripts. NOTE: WDL/Cromwell documentation uses the words 'workflow' or 'pipeline' to define a series of tasks run for an analysis
+* **EC2 Cluster Controller** service AWS Batch -- [link](https://aws.amazon.com/batch/) pattern for genomic analysis with AWS Batch shown below
+* **AWS Batch & cromwell** reference example shown below -- [link](https://aws.amazon.com/blogs/industries/cromwell-on-aws-a-simpler-and-improved-aws-batch-backend/)
+
+![Cromwell/GATK using Batch](https://github.com/lynnlangit/TeamTeri/blob/master/Images/aws-sequence-pipe.png)
+
 
 ### Key considerations
  - USE cromwell with AWS Batch API to manage the EC2 (VM) resources for your analysis job with fewer manual configuaration steps. You define the resources for your cluster of VMs and AWS Batch starts and stops VMs as needed. You can configure use of spot VMs to save on service costs as well.
