@@ -4,7 +4,7 @@
 
 ### What is this
 - AWS Genomics provides a variety of public datasets that you can access for free and integrate into your research jobs
-    - An example is the 1000 Genomes dataset - [link](https://registry.opendata.aws/1000-genomes/)
+    - An example is the 1000 Genomes dataset - [link](https://registry.opendata.aws/1000-genomes/) or [link](https://aws.amazon.com/1000genomes/)
     - AWS hosts these datasets and provides public access to the data via S3 buckets.
     - Image above from Repo at [link](https://github.com/aws-samples/data-lake-as-code/tree/roda#readme)
 
@@ -29,5 +29,7 @@
 
 ### How to learn more
  - 📘 Link to [AWS Public Datasets](https://registry.opendata.aws/) lists currently available datasets
+ - 📘 Link to [Genomic Datasets on AWS](https://registry.opendata.aws/tag/genomic/) lists genomic public datasets
+
 
 
