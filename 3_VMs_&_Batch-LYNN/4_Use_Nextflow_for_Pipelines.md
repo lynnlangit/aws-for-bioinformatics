@@ -77,6 +77,8 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
  - 📘 Link to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
     - `nextflow run CRG-CNAG/CalliNGS-NF -r gatk4 -with-docker`
 
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/cutandrun-flow-diagram-v1-0_2.png" width=1000>
+
 
 
 
