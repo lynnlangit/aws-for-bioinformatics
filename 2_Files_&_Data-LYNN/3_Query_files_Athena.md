@@ -26,54 +26,10 @@
       - the data is properly secured, via access control 
 
 ### How to do this
- - PRACTICE SQL queries using a small, public AWS bioinformatics dataset - [link](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/6a_SQLQuestions.md)
- - LEARN SQL query syntax - [link](https://www.w3schools.com/sql/sql_intro.asp)
- - USE Athena from the AWS console
-    - **SELECT** your dataset to query, use included genomic reference datasets and/or upload your own file data
-    - **WRITE** your SQL query referencing a BQ (or external) dataset 
-    - **REVIEW** potential query costs, link to example [analyze genomic variants with BQ](https://cloud.google.com/genomics/docs/tutorials/analyze-variants-advanced)
-    - **EXECUTE** the query by clicking the 'run' button, example results shown below
-    - **VIEW** the results 
-      - save the results as a new file in a storage bucket
-      - create a report with AWS visualization tools
-
+ 
 
 -----
 ### How to verify you've done it
- - **EXECUTE** your query by clicking the 'Run' button 
- - **VERIFY** that the query results match your expected output. Examples shown in screenshots below
-
- TIPS:
- - **WRITE** a query on a small subset of your data to verify that you've written your query correctly before you run a query on your full dataset
- - **VERIFY** the query cost BEFORE you run it 
- - **VALIDATE** the SQL syntax in the Athena web console
-  - **REVIEW** the query 'Execution Details' to verify the actual query cost and execution ran as expected
-  - **ESTIMATE** query cost before running the query using the `--dry_run` parameter 
- - **AVOID** using `SELECT * ...` in queries to reduce the amount of data scanned, speed up the query execution time and potentially reduce the cost of running the query
-
- 
- RUN QUERY using AWS Athena Service (shown below)  
-***add screenshot***
- 
- ---
- 
- REVIEW QUERY RESULTS (shown below)  
-***add screenshot***
- 
- ---
- 
- REVIEW EXECUTION PLAN (OPTIONAL and shown below)    
- ***add screenshot***
-  
----
-
-### Other Things to Know
- 
- - UNDERSTAND that Athena is a type of 'serverless' service, because you do NOT setup VMs or docker container clusters to use this service.  You simply upload your data, write your query and execute the query.  You are charged for query run time and Athena storage.  You are NOT charged for VMs, etc...
- - USE Athena best practices to manage performance - [link](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
- - USE Athena includes many genomic or annotation data sets, a list is shown below. 
-
-***add screenshot***
 
  -------
 
@@ -81,24 +37,18 @@
 ### How to learn more
 
 - More in my AWS Data Repo - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/4_data_lake/2_Athena)
-- AWS Example - query genomic data lake data with Athena - [link](https://aws.amazon.com/blogs/industries/perform-interactive-queries-on-your-genomics-data-using-amazon-athena-or-amazon-redshift/)
-
-#### About Athena Query Features & Architecture
- - 📘 Link to [explanation of Athena query features](https://medium.com/google-cloud/Athena-explained-querying-your-data-9e017f2714a3)
- - 📘 Link to [explanation of Athena JOINS](https://medium.com/google-cloud/Athena-explained-working-with-joins-nested-repeated-data-1941646ccb5b)
- - 📘 Link to [explanation of Athena architecture](https://medium.com/google-cloud/Athena-explained-overview-357055ecfda3)
-
-#### About SQL Language for Athena
- - 📘 Link to lessons, [practice SQL queries using a small, public AWS bioinformatics dataset](https://github.com/lynnlangit/AWS-for-bioinformatics/blob/master/1_Files_%26_Data/6a_SQLQuestions.md)
- - 📘 Link to [learn SQL - 12 questions](https://en.wikibooks.org/wiki/Data_Management_in_Bioinformatics/SQL_Exercises)
- - 📘 Link to [standard SQL syntax](https://cloud.google.com/Athena/docs/reference/standard-sql/query-syntax) used in Google Athena  
- - 📘 Link to [example genomics SQL queries](https://codelabs.developers.google.com/codelabs/genomics-vcfbq/#4) shown using Google Athena 
- - 📘 Link to [best practices](https://cloud.google.com/Athena/docs/best-practices-performance-compute) optimization patterns for using Google Athena, including how to optimize `JOIN` and other types of queries     
-
-#### About using Athena for Genomic Analysis
-
- - Link to example Jupyter notebook (queries VCF data in an AWS Data Lake) - https://github.com/aws-samples/aws-genomics-datalake/blob/main/1000Genomes.ipynb
+- UNDERSTAND that Athena is a type of 'serverless' service, because you do NOT setup VMs or docker container clusters to use this service.  You simply upload your data, write your query and execute the query.  You are charged for query run time and Athena storage.  You are NOT charged for VMs, etc...
+ - USE Athena best practices to manage performance - [link](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
+ - USE Athena includes many genomic or annotation data sets, a list is shown below. 
 
 ***add screenshot***
+
+#### Examples using Athena for Genomic Analysis
+
+ - Link to example Jupyter notebook (queries VCF data in an AWS Data Lake) - https://github.com/aws-samples/aws-genomics-datalake/blob/main/1000Genomes.ipynb
+ - **DEMO** AWS Athena for Genomics -- https://aws.amazon.com/blogs/big-data/interactive-analysis-of-genomic-datasets-using-amazon-athena/
+ - AWS Example - query genomic data lake data with Athena - [link](https://aws.amazon.com/blogs/industries/perform-interactive-queries-on-your-genomics-data-using-amazon-athena-or-amazon-redshift/)
+
+
   
 ---
