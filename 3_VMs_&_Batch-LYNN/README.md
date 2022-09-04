@@ -30,9 +30,6 @@ AWS includes services, tools and partner integrations which support multiple typ
 
 <img src="https://github.com/lynnlangit/TeamTeri/blob/master/Images/aws-genomics-concepts.png">
 
-## Genomic Datasets on AWS
-* **Genomic Datasets** on AWS -- https://registry.opendata.aws/tag/genomic/
-* **1000 Genomes Dataset** -- https://aws.amazon.com/1000genomes/
 
 ## AWS for Genomics Pipelines
 Services, tools, patterns, practices and demos from AWS for Genomics pipelines - a conceptual example is shown in the diagram below.  
