@@ -42,20 +42,6 @@ Services, tools, patterns, practices and demos from AWS for Genomics pipelines -
 * **AWS Genomics API** -- https://aws.amazon.com/blogs/aws/new-amazon-genomics-cli-is-now-open-source-and-generally-available/
 * **COST EFFECTIVE** workflows -- https://docs.opendata.aws/genomics-workflows/orchestration/cost-effective-workflows/cost-effective-workflows/
 
-### AWS Services used in Genomics 
-
-
-* **ADAM, Spark and AWS EMR** -- https://aws.amazon.com/blogs/big-data/will-spark-power-the-data-behind-precision-medicine/
-
-* **AWS Batch & Nextflow** -- https://aws-quickstart.s3.amazonaws.com/quickstart-nextflow/doc/nextflow-on-the-aws-cloud.pdf & https://aws.amazon.com/blogs/industries/running-gatk-workflows-on-aws-a-user-friendly-solution
-
-![Nextflow using AWS Batch](https://github.com/lynnlangit/TeamTeri/blob/master/Images/nextflow-aws-batch.png)
-
-* **Genomics Secondary Analysis Using AWS Step Functions and AWS Batch solution architecture** -- https://aws.amazon.com/solutions/implementations/genomics-secondary-analysis-using-aws-step-functions-and-aws-batch
-
-![AWS Genomics Data Lake](https://github.com/lynnlangit/TeamTeri/blob/master/Images/AWS-genomics-lake.png)
----
-
 ## Genomics Platforms on AWS
 
 * **Seven Bridges, R and AWS** -- https://aws.amazon.com/blogs/big-data/extending-seven-bridges-genomics-with-amazon-redshift-and-r/
