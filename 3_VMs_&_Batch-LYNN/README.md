@@ -17,9 +17,9 @@ Here are the topic pages in this section:
 
 There are a number of possible ways to construct high volume data analysis workflows or pipelines on AWS with these purpose-built APIs.  In addition there is a specialized AWS API for scaling Genomics workloads on the AWS. This API is named AWS Batch.
 
-## VM Example for Bioinformatics
+## AWS VM Genomic Example 
 
-From CZI Science tool, IDSeq, now named `CZ ID` - [link](https://czid.org/) to tool and [link](https://academic.oup.com/gigascience/article/9/10/giaa111/5918865) to paper (AWS architecture image shown below)
+From CZI Science - a cloud-based genomic analysis tool, IDSeq, now named `CZ ID` - [link](https://czid.org/) to tool and [link](https://academic.oup.com/gigascience/article/9/10/giaa111/5918865) to paper (AWS architecture image shown below)
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/idseq-czi-aws.png" width=800>
 
