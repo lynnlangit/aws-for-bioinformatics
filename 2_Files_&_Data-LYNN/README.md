@@ -11,9 +11,9 @@ Here are the topic pages in this section:
 - Use AWS Glue to transform data
 - Use Amazon Athena or Redshift to query files
 
-## Hello World for AWS Data Services
+## Genomics Example
+From AWS Blog - executable example - architecture shown below - [link](https://aws.amazon.com/blogs/industries/perform-interactive-queries-on-your-genomics-data-using-amazon-athena-or-amazon-redshift/)
 
-See my other AWS data repo --> [link](https://github.com/lynnlangit/Hello-AWS-Data-Services) for more examples and links to other courses which cover more AWS data services in depth.
-
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data-LYNN/images/athena-lake.png" width=800>
 
 
