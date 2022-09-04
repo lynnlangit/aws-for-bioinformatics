@@ -1,7 +1,7 @@
 # Use Nextflow for Genomic Data Analysis
 
 ### Why do this
- USE the Nextflow pipeline language to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale 
+ USE the Nextflow pipeline language to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale.
 
 ### What is this
  Nextflow is a reactive workflow framework & DSL for writing data-intensive computational pipelines. 
@@ -9,6 +9,11 @@
  - Nextflow can run on AWS in two ways:
    - Run jobs on EC2 VMs (can run bioinformatics tools from Docker) --OR--
    - Run jobs efficiently on EC2 using the **& AWS Batch API**
+
+Shown below is a reference architecture for running Nextflow analysis on AWS using the AWS Batch API.  
+- From this article - part one [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-1-of-3/) and part two [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-2-of-3)
+
+![Nextflow Architecture using AWS Genomics/AWS Batch](https://seqera.io/static/e732bd2954e8b788415d353acbf60614/42cbc/blog-nextflow-and-aws-batch-inside-the-integration-part-1-of-3-1.png)
 
 ### Key considerations
 - Understand core Nextflow features - [link](https://www.nextflow.io/index.html#Features)
@@ -35,17 +40,13 @@
  
 ### How to learn more
 
-Shown below is a reference architecture for running Nextflow analysis on AWS using the AWS Batch API.  
-- From this article - part one [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-1-of-3/) and part two [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-2-of-3)
-
-![Nextflow Architecture using AWS Genomics/AWS Batch](https://seqera.io/static/e732bd2954e8b788415d353acbf60614/42cbc/blog-nextflow-and-aws-batch-inside-the-integration-part-1-of-3-1.png)
-
 #### General Nextflow
  - 📘 Link to [Nextflow guide](https://www.nextflow.io/blog/2020/learning-nextflow-in-2020.html)
  - 📘 Link to [Nextflow code patterns](http://nextflow-io.github.io/patterns/index.html)
  - 📘 Link to [Awesome Nextflow links](https://github.com/nextflow-io/awesome-nextflow)
  - 📺 Watch Nextflow presentations - [link](https://www.nextflow.io/presentations.html)
  - 🗄️ Link to [Nextflow test datasets](https://github.com/nf-core/test-datasets)
+ - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown in the linked article
  
  #### Nextflow v2
  - 📝 Link to Nextflow v2 example workflow - [link](https://gist.github.com/lynnlangit/e5d3e86d632a7db796efae04145d44ff)
@@ -63,6 +64,10 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
   - NF is written in the [Groovy programming language](https://en.wikipedia.org/wiki/Apache_Groovy) 
   - NF is designed to run on [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) instances 
 
+#### Nextflow on AWS
+ - USE Nextflow pipelines with AWS (docs) - [link](https://www.nextflow.io/docs/latest/awscloud.html)
+ - :octocat: Review featured Nextflow pipelines - [link](https://github.com/nextflow-io/awesome-nextflow)
+
 #### Nextflow Tools
  - 📘 Link to using [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
  - 📘 Link to using [Nextflow Tower](https://www.seqera.io/blog/introducing-nextflow-tower/) for monitoring - screenshot shown below
@@ -71,11 +76,8 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
 
 ![Nextflow Tower](/images/nf-tower.png)
 
-#### Nextflow on AWS
- - USE Nextflow pipelines with AWS (docs) - [link](https://www.nextflow.io/docs/latest/awscloud.html)
- - :octocat: Review featured Nextflow pipelines - [link](https://github.com/nextflow-io/awesome-nextflow)
- - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown below
 
-  ![Nextflow on K8](/images/nf-k8.png)
+
+
 
   
