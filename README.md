@@ -1,15 +1,10 @@
 # AWS for Bioinformatics
 
+AWS includes tools and services which enable genomic researchers to ingest, process and analyze their genomic datasets using the elastic scale of the AWS cloud. Image below (from AWS) shows the top-level areas in these workflows.
+
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/aws-genomics.png" width=900>
 
-AWS includes and support integration with tools and services which enable genomic researchers to ingest, process and analyze their genomic datasets using the elastic scale of the AWS cloud. Image above (from AWS) shows the top-level areas in these workflows.
-
 ---
-
-## AWS for Genomics Pipelines
-Services, tools, patterns, practices and demos from AWS for Genomics pipelines - a conceptual example is shown in the diagram below.  
-
-![AWS Genomics](https://github.com/lynnlangit/TeamTeri/blob/master/Images/AWS-Genomics.png)
 
 ### Patterns and Best Practices for Genomics on AWS
 
@@ -25,7 +20,6 @@ Services, tools, patterns, practices and demos from AWS for Genomics pipelines -
 This repo is a companion to the course **"AWS for Bioinformatics"**.  
 - The course will be released in late 2022. 
 - [Kelly Kermode](https://github.com/kellykermode) is my co-author for this course. 
-- Top Level AWS Docs for this topic --> https://aws.amazon.com/health/genomics/
 - Shown below is a generic reference architecture with key AWS services which will be covered in this course.
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/aws-genomics-arch.png" width=800>
