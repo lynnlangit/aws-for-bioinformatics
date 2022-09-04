@@ -15,12 +15,14 @@ Here are the topic pages in this section:
 
 There are a number of possible ways to construct high volume data analysis workflows or pipelines on AWS with these purpose-built APIs.  In addition there is a specialized AWS API for scaling Genomics workloads on the AWS. This API is named AWS Batch.  
 
-### Read and Try out Genomic Examples
+---
+
+## AWS Kubernetes Genomic Examples
 
 For perspectives on different possible ways to run one or more bioinformatics tools using containers, read Lynn's articles (published on Medium) shown below:  
 
 - Article: Blast 10 Ways - Adventures in Bioinformatics Tool Deployments - [link](https://medium.com/@lynnlangit/blast-10-ways-3db78f881059)
-- Article Series: CSIRO DataLake on AWS to run the VariantSpark tool - 
+- Article Series: CSIRO DataLake on AWS to run their VariantSpark genomic analysis tool - 
     - Part One - Understanding the Challenge - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-d9dc7edfbff9)
     - Part Two - Scaling using EMR - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-2-emr-6dfc3cd91a1f)
     - Part Three - Scaling using Kubernetes (and image below) - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-3-kubernetes-5427d96f825b)
