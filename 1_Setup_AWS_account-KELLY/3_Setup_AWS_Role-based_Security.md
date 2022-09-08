@@ -37,5 +37,5 @@
  - 📘 AWS IAM Roles Explained covers when to use which type of role -[link](https://medium.com/@awscloud/aws-iam-roles-explained-c9c8f8f8f9e0)
  - 📘 HIPPA-compliant AWS services - [link](https://aws.amazon.com/compliance/hipaa-compliance/)
  - 📘 AWS Security Whitepapers - [link](https://aws.amazon.com/architecture/security-identity-compliance/?cards-all.sort-by=item.additionalFields.sortDate&cards-all.sort-order=desc&awsf.content-type=*all&awsf.methodology=*all)
- - 📘 AWS Security Best Practices - [link](https://aws.amazon.com/security/best-practices/)
+ - 📘 AWS Security Best Practices - [link](https://aws.amazon.com/premiumsupport/knowledge-center/security-best-practices/)
  - 📘 AWS Control Tower - [link](https://aws.amazon.com/blogs/aws/aws-control-tower-set-up-govern-a-multi-account-aws-environment/)
