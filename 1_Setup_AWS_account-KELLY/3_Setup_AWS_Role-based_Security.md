@@ -1,7 +1,7 @@
 # Setup AWS IAM Role-based Security
 
 ### Why do this
- - Learn how to secure your AWS project resources (Virtual machine instances, S3 storage buckets,...)
+ - Learn how to secure your AWS project resources (virtual machine instances, S3 storage buckets,...)
  - Learn how to secure your analysis data via assigned access permissions and/or data encryption
  
 ### What is this
@@ -15,11 +15,12 @@
 
 ### Key considerations
  - Only enable services/APIs that you are using in your AWS Project
- - Consider auditing service usage by using CloudTrain logs - [link](https://aws.amazon.com/cloudtrain/logs/)
+ - Consider auditing service usage by using CloudTrail logs - [link](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
+<img src="https://d1.awsstatic.com/product-marketing/CloudTrail/product-page-diagram_AWS-CloudTrail_HIW.feb63815c1869399371b4b9cc1ae00e78ed9e67f.png" width=900>
 
 ### How to do this
  - Associate AWS IAM User accounts to AWS Roles 
- - Best Practice: Use AWS-created roles.  Service-level roles include individual service permissions
+ - Best Practice: Use AWS-created roles. Service-level roles include individual service permissions
  - You can create custom IAM (or security) roles if needed
 
 ### How to verify you've done it
@@ -34,6 +35,6 @@
 ### How to learn More
  - 📘 IAM Best practices - [link](https://aws.amazon.com/iam/best-practices/)
  - 📘 AWS IAM Roles Explained covers when to use which type of role -[link](https://medium.com/@awscloud/aws-iam-roles-explained-c9c8f8f8f9e0)
- - 📘 HIPPA compliant AWS services - [link](https://aws.amazon.com/compliance/hippa/)
- - 📘 AWS Security Whitepapers - [link](https://aws.amazon.com/security-whitepapers/)
+ - 📘 HIPPA-compliant AWS services - [link](https://aws.amazon.com/compliance/hipaa-compliance/)
+ - 📘 AWS Security Whitepapers - [link](https://aws.amazon.com/architecture/security-identity-compliance/?cards-all.sort-by=item.additionalFields.sortDate&cards-all.sort-order=desc&awsf.content-type=*all&awsf.methodology=*all)
  - 📘 AWS Security Best Practices - [link](https://aws.amazon.com/security/best-practices/)
