@@ -30,7 +30,7 @@
 
 ### Other Things to Know
  - Data is encrypted by default in S3 Storage using an AWS-provided encryption key.  It is possible for you to supply your own encryption key when your requirements necessitate this.
- - You should use AWS service object tags to help you to identify services instances that have different security requirements.  They are implemented as key:value tag pairs, i.e. `"lab":"langit-lab"` etc...
+ - You should use AWS service object tags to help you to identify services instances that have different security requirements.  They are implemented as key:value tag pairs, i.e. `"lab":"langitkermode-lab"` etc...
 
 ### How to learn More
  - 📘 IAM Best practices - [link](https://aws.amazon.com/iam/best-practices/)
