@@ -38,3 +38,4 @@
  - 📘 HIPPA-compliant AWS services - [link](https://aws.amazon.com/compliance/hipaa-compliance/)
  - 📘 AWS Security Whitepapers - [link](https://aws.amazon.com/architecture/security-identity-compliance/?cards-all.sort-by=item.additionalFields.sortDate&cards-all.sort-order=desc&awsf.content-type=*all&awsf.methodology=*all)
  - 📘 AWS Security Best Practices - [link](https://aws.amazon.com/security/best-practices/)
+ - 📘 AWS Control Tower - [link](https://aws.amazon.com/blogs/aws/aws-control-tower-set-up-govern-a-multi-account-aws-environment/)
