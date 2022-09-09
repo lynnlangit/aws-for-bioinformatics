@@ -6,7 +6,7 @@ In this section, you'll get information about using AWS services to run docker c
 
 Alternatively you can use bioinformatics pipeline & workflow languages and services to coordinate groups of VMs or containers.  These APIs include Nextflow, cromwell/WDL and others.
 
-Here are the topic pages in this section:
+### Here are the topic pages in this section:
 
 - Test Docker Container Image for Pipeline
 - Orchestrate Containers with GKE (Kubernetes)
