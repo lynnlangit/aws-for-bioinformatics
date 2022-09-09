@@ -4,7 +4,7 @@
 
 In this section, you'll get information about using AWS storage for file and data storage for genomic workloads.  The general pattern is to use a data lake (concept shown above).  You'll use AWS S3 storage buckets.  Also you'll use Amazon Athena or Redshift to query files.  
 
-**Here are the topic pages in this section:**
+### Here are the topic pages in this section:
 
 - Use S3 buckets to store files
 - Use Public Genomic Datasets (reference Datasets)
