@@ -2,7 +2,7 @@
 
 
 ### Why do this
- - Scale your analysis using [`AWS Batch`](https://aws.amazon.com/batch/) to manage compute resources
+ - Scale out your pipeline analysis using [`AWS Batch`](https://aws.amazon.com/batch/) to manage compute resources
 
 ### What is this
  - USE AWS S3 + AWS Batch + custom code + Athena to create **serverless** end-to-end scalable genomic analysis jobs
