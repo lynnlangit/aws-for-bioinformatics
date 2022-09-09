@@ -18,6 +18,9 @@ Here are the topic pages in this section:
 
 NOTE: Right click on the 'Open in SageMaker Studio Lab' button at the top of the *.ipynb (IPython notebook file) and 'open link in a new tab' as directly opening this link is blocked in GitHub.
 
+## SageMaker Health Examples
+- AWS Blog "Scale Image Model Building for Healthcare" --> https://aws.amazon.com/blogs/industries/scalable-medical-computer-vision-model-training-with-amazon-sagemaker-part-1/
+
 ### For More Information
 
 I created an entire course on LinkedIn Learning on AWS Machine Learning.  Also I published a GitHub Repo with code samples for AWS Machine Learning services - [link](https://github.com/lynnlangit/AWS-ml) for more advanced machine learning scenarios.
