@@ -7,10 +7,11 @@
 ### What is this
   - AWS S3 Storage is an online file storage web service for storing, accessing and transferring data files on AWS. 
   - AWS Storage (or S3) is frequently used as the input and output location for files when you run analysis (workflows or pipelines).
-  - Files are stored in buckets. Bucket usually contain folders for orgnaziation as well. Each bucket must have a globally unique name.  
+  - Files are stored in buckets. Bucket usually contain folders for orgnaziation as well. 
+  - Each bucket must have a globally unique name.  
 
 ### Key considerations
- Storage can be the most significant AWS service cost for bioinformatics (due to the number and size of files involved in analysis) so be careful to select the storage class that fits your analysis best i.e. multi-regional, regional.... so as not to pay for unused resources
+Storage can be the most significant AWS service cost for bioinformatics (due to the number and size of files involved in analysis) so be careful to select the storage class that fits your analysis best i.e. multi-regional, regional.... so as not to pay for unused resources
  - Understand costs and selecting the best fit type of storage for your data [here](https://cloud.google.com/storage/docs/locations)
  - Understand storage class types (multi-regional, regional, nearline, coldline) [here](https://cloud.google.com/storage/docs/storage-classes)
  - Understand storage location options [here](https://cloud.google.com/about/locations)
