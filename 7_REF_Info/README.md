@@ -18,7 +18,7 @@ Used in creating reproducible and scalable genomic-scale cloud analysis pipeline
 
 5. **Use of domain-specific pipeline configuration languages**, such as Nextflow, WDL or CWL (rather than cloud vendor scripts or templates, such as AWS CloudFormation, or AWS Deployments). These domain-specific configuration languages enable configuration of both bioinformatics tools and also cloud services (VM size, bucket security...) 
 
-6. **Use of emphemeral VM instances** such as AWS EC2 spot VM instances, to scale out compute clusters.  These instances are only available when not in use by other customers, so no guarantee of availability.  However, when available, spot instances allow for 'bursting' at an incredibly low cost (usually 90% off on-demand price).
+6. **Use of ephemeral VM instances** such as AWS EC2 spot VM instances, to scale out compute clusters.  These instances are only available when not in use by other customers, so no guarantee of availability.  However, when available, spot instances allow for 'bursting' at an incredibly low cost (usually 90% off on-demand price).
 
 ----
 
