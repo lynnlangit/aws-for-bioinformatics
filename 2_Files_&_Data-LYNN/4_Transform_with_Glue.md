@@ -9,4 +9,5 @@ for ETL --> data movement and translation
 ---
 
 ### Tranformation Patterns and Examples 
+- AWS Blog: "Enabling the aggregation and analysis of The Cancer Genome Atlas using AWS Glue and Amazon Athena" - [link](https://aws.amazon.com/blogs/industries/enabling-the-aggregation-and-analysis-of-the-cancer-genome-atlas-using-aws-glue-and-amazon-athena/)
 - AWS Blog "Data De-identification AWS Pipeline" - [link](https://aws.amazon.com/blogs/apn/data-de-identification-in-healthcare-a-360-degree-view-from-apexon/)
