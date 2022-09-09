@@ -8,7 +8,7 @@ To do this, you'll use AWS EC2 VMs, which are called EC2 instances.  Additionall
 
 Alternatively you can use bioinformatics pipeline & workflow languages and services to coordinate groups of VMs or containers.  These APIs include Nextflow, WDL/cromwell and others.
 
-Here are the topic pages in this section:
+### Here are the topic pages in this section:
 
 - Use AWS EC2 Virtual Machines
 - Use AWS Batch for batch computing
