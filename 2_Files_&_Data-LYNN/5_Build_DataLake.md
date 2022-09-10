@@ -13,9 +13,5 @@ The bucket-based data lake is evolving toward a Data Lake House and then into a 
 
 ## New - Data Mesh
 
-The term, data mesh, was coined in 2019 - see this blog post for detail --> https://martinfowler.com/articles/data-monolith-to-mesh.html.
-
-
-## Learn More
-
-- More info about AWS Lake Formation in my other AWS Data Repo - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/4_data_lake/5_Lake_Formation)
+The term, data mesh, was coined in 2019 - see this blog post for detail --> https://martinfowler.com/articles/data-monolith-to-mesh.html.  The idea is to create business domains around data objects, these can be buckets, data lakes, data warehouse and more.  A data mesh provides a set of services at the domain level (security, governance, etc...)
+- Learn more info about using the AWS Lake Formation service and how to build a data mesh on AWS in my other AWS Data Repo - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/4_data_lake/5_Lake_Formation)
