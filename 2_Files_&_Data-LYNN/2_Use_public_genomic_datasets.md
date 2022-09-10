@@ -28,6 +28,8 @@ AWS Genomics provides a variety of public datasets that you can access for free 
  - USE the reference file in an Athena-based genomic query -or-
  - USE the reference file with another AWS data pipeline / query service (i.e. Redshift, etc...)
 
+---
+
 ### Learn More - AWS Public Datasets for Genomics by Example
 - 📘 Link to [Genomic Datasets on AWS](https://registry.opendata.aws/tag/genomic/) lists genomic public datasets
 - An example analysis architecture using the 1000 Genomes dataset - [link](https://registry.opendata.aws/1000-genomes/) or [link](https://aws.amazon.com/1000genomes/) in shown below
