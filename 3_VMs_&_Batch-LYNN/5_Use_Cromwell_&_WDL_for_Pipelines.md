@@ -1,6 +1,5 @@
 # Use WDL (Workflow Definition Language) & Cromwell Service
 
-
 ### Why do this
 USE open source tools to run and scale your genomic analysis jobs **at scale in your choice of location (cloud, HPC...)**  
 - USE [cromwell - an orchestration engine](https://github.com/broadinstitute/cromwell) to run your WDL analysis job(s) on the public cloud or on other locations (i.e. HPC...). 
@@ -23,6 +22,7 @@ Scaling AWS EC2 VM instances out (by dynamically adding instances to a cluster a
 
 
 ### Key considerations
+
  - USE cromwell with AWS Batch API to manage the EC2 (VM) resources for your analysis job with fewer manual configuaration steps. You define the resources for your cluster of VMs and AWS Batch starts and stops VMs as needed. You can configure use of spot VMs to save on service costs as well.
  - USE WDL scripts to configure the workflow inputs and outputs (for each bioinformatics tool used)
  - REFERENCE your scripts, jar files or docker container images for each of the bioinformatics tool used in your workflow
@@ -75,7 +75,7 @@ Scaling AWS EC2 VM instances out (by dynamically adding instances to a cluster a
     
 ---
  
-#### miniwdl for WDL 
+#### Use miniwdl tool for WDL 
  - :octocat: [miniwdl](https://github.com/chanzuckerberg/miniwdl) - miniwdl provides WDL developer productivity tools, a local runtime implementation, and a foundation for language experimentation in Python 3.6+. It includes the following tools:
     - [miniwdl check](https://github.com/chanzuckerberg/miniwdl#miniwdl-check) - a WDL linter
     - [miniwdl run](https://github.com/chanzuckerberg/miniwdl#miniwdl-run) - Operation is nearly identical to miniwdl cromwell. The invoking user must have permission to control Docker.
