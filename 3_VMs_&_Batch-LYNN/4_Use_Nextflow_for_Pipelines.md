@@ -42,6 +42,7 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
  - 📘 Link to using [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
  - 📘 Link to using [Nextflow Tower](https://www.seqera.io/blog/introducing-nextflow-tower/) for monitoring - screenshot shown below
  - 📘 Link to using [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
+ 
 ---
  
 ### How to learn more
