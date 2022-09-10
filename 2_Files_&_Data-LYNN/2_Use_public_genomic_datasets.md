@@ -3,10 +3,9 @@
 ### What is this
 AWS Genomics provides a variety of public datasets that you can access for free and integrate into your research jobs. 
 
-
 ### Why do this
-**Use reference data that is already in cloud - no need to upload!**
- - USE a reference file in genomic cloud-based analysis
+**Use reference data that is already in cloud - no need to upload!**  Save time and money when configuring cloud-based analysis pipelines to use reference data.
+ - USE a standard reference file in genomic cloud-based analysis
  - SAVE time by using a reference file that is already available in the cloud (no need to upload)
 
 ### Key considerations
@@ -15,6 +14,7 @@ AWS Genomics provides a variety of public datasets that you can access for free 
 
 ### How to do this
 - Access via AWS S3 bucket URL (i.e. `s3://<my-genomics-bucket>/<my-folder>/<my-file>`)
+  - example `https://s3.console.aws.amazon.com/s3/buckets/1000genomes-dragen` for 1000 Genomes hg38 reference files
 - Use any genomic analysis tool or pipeline to include this set of files as a reference
 
 ### How to verify you've done it
