@@ -6,12 +6,11 @@
  - AVOID setting up any infrastructure 
     - VMs and controllers --or-- 
     - Docker container image instance clusters
+    - The is called SERVERLESS access - pay by the query, no servers or clusters
 
 ### What is this
  - QUERY on file data (including genomic file formats, such as VCF files) at scale using [ansi-SQL](https://en.wikipedia.org/wiki/SQL) query commands
  - QUERY on files stored in S3 bucket storage 
-
-***add screenshot***
 
 ### Key considerations
  - Understand how Athena billing works 
@@ -26,22 +25,21 @@
       - the data is properly secured, via access control 
 
 ### How to do this
- 
+- WRITE (optionally test) the SQL query
+- RUN (or execute) the SQL query
 
------
 ### How to verify you've done it
-
- -------
+- VIEW the query results
+- VIEW the query execution plan (could optimize files (split or partition)), or could optimize SQL query (re-write to include less data)
+- VIZ the query results using dashboard tool (Amazon QuickSight, Tableau, etc...)
 
 
 ### How to learn more
-
 - More in my AWS Data Repo - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/4_data_lake/2_Athena)
 - UNDERSTAND that Athena is a type of 'serverless' service, because you do NOT setup VMs or docker container clusters to use this service.  You simply upload your data, write your query and execute the query.  You are charged for query run time and Athena storage.  You are NOT charged for VMs, etc...
  - USE Athena best practices to manage performance - [link](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
  - USE Athena includes many genomic or annotation data sets, a list is shown below. 
 
-***add screenshot***
 
 #### Examples using Athena for Genomic Analysis
 
