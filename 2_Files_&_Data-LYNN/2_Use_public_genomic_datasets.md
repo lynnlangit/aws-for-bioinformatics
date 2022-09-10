@@ -13,6 +13,9 @@ AWS Genomics provides a variety of public datasets that you can access for free 
  - Many public healthcare or genomic datasets are listed in the [AWS Registry of Open Data](https://registry.opendata.aws/)
  - AWS also has a registry for data at https://docs.aws.amazon.com/data-exchange/
    - AWS Data Exchange is a service that makes it easy for AWS customers to find, subscribe to, and use third-party data in the AWS Cloud.
+ - AWS Marketplace filters allow you to seach for open data (shown below)
+
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data-LYNN/images/1000-genomes-mktplc.png" width=600>
 
 ### How to do this
 - Access via AWS S3 bucket URL (i.e. `s3://<my-genomics-bucket>/<my-folder>/<my-file>`)
