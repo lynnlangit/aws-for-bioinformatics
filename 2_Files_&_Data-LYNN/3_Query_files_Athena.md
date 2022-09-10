@@ -40,8 +40,10 @@
  - USE Athena best practices to manage performance - [link](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
  - USE Athena includes many genomic or annotation data sets, a list is shown below. 
 
+---
 
-#### Examples using Athena for Genomic Analysis
+
+### Learn More - Athena for Genomics by Example
 
  - Link to example Jupyter notebook (queries VCF data in an AWS Data Lake) - https://github.com/aws-samples/aws-genomics-datalake/blob/main/1000Genomes.ipynb
  - **DEMO** AWS Athena for Genomics -- https://aws.amazon.com/blogs/big-data/interactive-analysis-of-genomic-datasets-using-amazon-athena/
