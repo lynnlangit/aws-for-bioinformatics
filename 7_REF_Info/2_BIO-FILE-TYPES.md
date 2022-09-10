@@ -17,23 +17,28 @@ This page lists types of files used in genomic analysis.
 |[GVCF](https://software.broadinstitute.org/gatk/documentation/article?id=11004    ) | genomic variant call format     | 3b-find variants      |contains extra info                | ![GVCF](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/file-images/gvcf.png)                                                                   |
 |[Other text files - TSV, CSV, BED, BZ2 (compressed text)](https://github.com/lynnlangit/aws-for-bioinformatics/tree/main/2_Files_%26_Data-LYNN/genomic-data-samples) | text files for genomics     | 4-any phase      |contains extra info                | no image                                                                   |
 
-### Learn More -> Links
- - 📘 Big List of genomic file types and descriptions - [link](http://software.broadinstitute.org/software/igv/?q=book/export/html/16) from The Broad
- - 📘 IGV (Integrative Genomics Viewer) tool - [link](http://software.broadinstitute.org/software/igv/) from The Broad
+### About VCF Files
   - :octocat: Learning how to work with VCF (Variant Call Format) files 
  [link](https://github.com/davetang/learning_vcf_file)
- - 📘 General reference 'How sequencing works' - [link](https://learn.gencore.bio.nyu.edu/ngs-file-formats/how-sequencing-works/)
+ - 📘 Learn about VCF file structure - [link](https://software.broadinstitute.org/gatk/documentation/article?id=11005)
+ - :octocat: Learning how to work with VCF (Variant Call Format) files - [link](https://github.com/davetang/learning_vcf_file)
+ - 📘 Poster about using VCF Files - [link](http://vcftools.sourceforge.net/VCF-poster.pdf)
+ - 📘 GVCF vs. VCF comparison from [link](https://github.com/broadinstitute/gatk-docs/blob/master/gatk3-faqs/What_is_a_GVCF_and_how_is_it_different_from_a_%27regular%27_VCF%3F.md)
+
+### About BAM Files
  - 📘 How to generate a BAM - [link](https://gatk.broadinstitute.org/hc/en-us/articles/4403687183515--How-to-Generate-an-unmapped-BAM-from-FASTQ-or-aligned-BAM) & image below from The Broad
 
  <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/file-images/generate-BAM.png">
 
 
- ### Image References
+ ### Image and Tool References
+ - Big List of genomic file types and descriptions - [link](http://software.broadinstitute.org/software/igv/?q=book/export/html/16) from The Broad
+ - IGV (Integrative Genomics Viewer) tool - [link](http://software.broadinstitute.org/software/igv/) from The Broad
  - FASTA/FASTQ images from [link](https://www.researchgate.net/publication/309134977_A_Survey_on_Data_Compression_Methods_for_Biological_Sequences)
  - BAM w/IGV from [link](https://software.broadinstitute.org/software/igv/AlignmentData)
  - VCF image from [link](https://www.researchgate.net/figure/shows-an-example-VCF-file-For-more-details-about-VCF-files-refer-to-the-specification_fig6_316063749)
  - VCF alterate image from [link](http://vcftools.sourceforge.net/VCF-poster.pdf) 
- - GVCF vs. VCF comparison from [link](https://github.com/broadinstitute/gatk-docs/blob/master/gatk3-faqs/What_is_a_GVCF_and_how_is_it_different_from_a_%27regular%27_VCF%3F.md)
+
 
 
 
