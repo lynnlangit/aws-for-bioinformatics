@@ -10,10 +10,10 @@ Alternatively you can use bioinformatics pipeline & workflow languages and servi
 
 ### Here are the topic pages in this section:
 
-- Use AWS EC2 Virtual Machines
-- Use AWS Batch for scale-out, batch computing
-- Use Nextflow for Pipelines and Workflows
-- Use Cromwell and WDL for Pipelines and Workflows
+- [Use AWS EC2 Virtual Machines](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/1_Select_EC2_VMs.md)
+- [Use AWS Batch for scale-out, batch computing](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/3_Scale_out_AWS_Batch.md)
+- [Use Nextflow for Pipelines and Workflows](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/4_Use_Nextflow_for_Pipelines.md)
+- [Use Cromwell and WDL for Pipelines and Workflows](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/5_Use_Cromwell_%26_WDL_for_Pipelines.md)
 
 There are a number of possible ways to construct high volume data analysis workflows or pipelines on AWS with these purpose-built APIs.  In addition there is a specialized AWS API for scaling Genomics workloads on the AWS. This API is named AWS Batch.
 
