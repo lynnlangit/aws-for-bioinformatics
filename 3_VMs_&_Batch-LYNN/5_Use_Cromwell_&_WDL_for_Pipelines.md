@@ -25,8 +25,13 @@ Scaling AWS EC2 VM instances out (by dynamically adding instances to a cluster a
 
  - USE cromwell with AWS Batch API to manage the EC2 (VM) resources for your analysis job with fewer manual configuaration steps. You define the resources for your cluster of VMs and AWS Batch starts and stops VMs as needed. You can configure use of spot VMs to save on service costs as well.
  - USE WDL scripts to configure the workflow inputs and outputs (for each bioinformatics tool used)
+   - WDL language conceptual diagram from talk by Geraldine Van der Auwera from The Broad Institute shown below
+   - This diagram shows WDL syntax for using the GATK tool `Haplotype Caller` in a scatter-gather type workflow 
+   - This partitions the BAM --> GVCF  file processing using the defined backend (in our case this is the `AWS Batch` service)
  - REFERENCE your scripts, jar files or docker container images for each of the bioinformatics tool used in your workflow
  - USE JSON files to configure the input/output parameters for each tool and also for EACH job execution
+
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/WDL-sections.png" width=800>
 
 ### How to do this
 
