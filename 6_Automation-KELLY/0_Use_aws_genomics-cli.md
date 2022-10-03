@@ -2,6 +2,8 @@
 
 Amazon Genomics CLI is an open source tool for genomics and life science customers that simplifies and automates the deployment of cloud infrastructure, providing you with an easy-to-use command line interface to quickly setup and run genomics workflows on Amazon Web Services (AWS) specified by languages like WDL. 
 
+Genomics CLI makes it easy for software developers and researchers to automatically provision, configure, and scale cloud resources to run genomic specific processes at petabyte scale. This tool includes support for spot instances so that customers get the lowest costs possible. Genomics CLI is built on top of AWS CDK, which allows customers to easily extend the tool to support their own custom workflows.
+
 - top level AWS docs --> https://aws.amazon.com/genomics-cli/
 - snakemake tutorial --> https://aws.github.io/amazon-genomics-cli/docs/workflow-engines/snakemake/
 
