@@ -56,7 +56,7 @@ IMPORTANT: Building containers is a complex skill set, **prefer to find and reus
  - Configuration, tuning and securing VM or K8 clusters is an advanced skill set
  - BUILDING IMAGES YOURSELF - There are several steps in the process, these are shown in the screenshot below
 
-[![tool-to-docker](/images/tool-to-docker.png)]()
+----
 
 NOTES: 
  
