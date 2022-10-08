@@ -1,6 +1,6 @@
 # AWS for Bioinformatics
 
-This repo hosts the our free and open source course **"AWS for Bioinformatics"**.  
+This repo hosts the our **free and open source** course **"AWS for Bioinformatics"**.  
 - Course Materials include this repo and a YouTube playlist. 
 - **IMPORTANT: This course is a WIP**, we'll be adding more resources frequently.  Please `watch` this Repo to get updates.
 - [Kelly Kermode](https://github.com/kellykermode) is my co-author for this course. 
