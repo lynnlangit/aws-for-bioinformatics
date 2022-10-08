@@ -19,9 +19,9 @@ AWS includes tools and services which enable genomic researchers to ingest, proc
 
 ## Learn More
 I have a number of courses and resources on building on AWS, these include the following:  
-- 📚 My AWS Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
-- :octocat: My AWS Repo with information about many AWS Data Services - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
-- :octocat: My AWS Repo with information about AWS Cost Control - [link](https://github.com/lynnlangit/aws-cost-control)
+- 📚 Lynn's AWS Courses on [AWS topics on LinkedIn Learning](https://www.linkedin.com/learning/instructors/lynn-langit)
+- :octocat: Lynn's AWS Repo with information about many AWS Data Services - [link](https://github.com/lynnlangit/Hello-AWS-Data-Services)
+- :octocat: Lynn's AWS Repo with information about AWS Cost Control - [link](https://github.com/lynnlangit/aws-cost-control)
 
 
 
