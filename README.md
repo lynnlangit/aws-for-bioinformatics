@@ -3,7 +3,7 @@
 This repo is a companion to the course **"AWS for Bioinformatics"**.  
 
 - [Kelly Kermode](https://github.com/kellykermode) is my co-author for this course. 
-- The course will be released in late 2022. 
+- The course is a WIP, we'll be adding more resources frequently.  Please 'watch' to get updates.
 - This course covers a set of generic genomics reference architectures with key AWS services 
   - for detail see the `Reference` section - [link](https://github.com/lynnlangit/aws-for-bioinformatics/tree/main/7_REF_Info)
 
