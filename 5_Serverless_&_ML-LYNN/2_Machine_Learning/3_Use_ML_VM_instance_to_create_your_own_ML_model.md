@@ -6,7 +6,7 @@
 
 ### What is this
  - Ability to quickly spin up a Virtual Machine on AWS with machine learning libraries pre-installed
- - As above, with drivers for GPUs and/or TPUs pre-installed
+ - As above, with drivers for GPUs are pre-installed
 
 ### Key considerations
  - What type of machine learning is included in your analysis?
@@ -19,7 +19,7 @@
     - Deep Learning Image: Base m27 with CUDA 10.0
     - Deep Learning Image: PyTorch 1.1.0 and fastai m27
     - Deep Learning Image: TensorFlow 1.13.1 m27
- - Configure the VM instance with best fit parameter values, i.e. number of CPUs, amount of memory, add GPUs and/or TPUs, etc...
+ - Configure the VM instance with best fit parameter values, i.e. number of CPUs, amount of memory, add GPUs etc...
  - Start the instance
 
 ### How to verify you've done it
@@ -27,10 +27,6 @@
  - Run your ML analysis jobs, verify the results via the logs / output destinations
 
 ### Other Things to Know
- - GPUs/TPUs are often added for TensorFlow ML analysis jobs, such as DeepVariant
- - You can also view the VM images on the AWS AI Hub (shown below)
+ - GPUs are often added for TensorFlow ML analysis jobs, such as DeepVariant
+ - You can also view the VM images on the AWS SageMaker Hub 
 
-  [![ai-hub](/images/ai-hub.png)]()
-
-### How to learn more
- - 📘 Link to [Create a Deep Learning Instance](https://cloud.google.com/deep-learning-vm/docs/cloud-marketplace)
