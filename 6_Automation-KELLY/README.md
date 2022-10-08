@@ -15,7 +15,8 @@ Also you'll use AWS Elastic Container Registry to host docker container images. 
 
 ## Genomics Example - VariantSpark on AWS EMR
 
-Implements automation built by the team at [CSIRO](https://bioinformatics.csiro.au) using AWS EMR via an AWS Cloud Formation Template. Architecture shown below and available as source code on AWS Marketplace --> [link](https://aws.amazon.com/marketplace/pp/prodview-pgna4dj6xqqde#pdp-usage)
+Implements automation built by the team at [CSIRO](https://bioinformatics.csiro.au) using AWS EMR via an AWS Cloud Formation Template. 
+- Architecture shown below and available as source code on AWS Marketplace --> [link](https://aws.amazon.com/marketplace/pp/prodview-pgna4dj6xqqde#pdp-usage)
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation-KELLY/images/csrio-vs-emr.png" width=600>
 
