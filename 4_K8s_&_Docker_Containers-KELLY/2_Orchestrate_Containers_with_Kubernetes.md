@@ -15,12 +15,11 @@
  - K8 is open source and runs on most public clouds or locally, making it very flexible
 
 ### How to do this
- - USE EKS (Google Kubernetes Engine) to create a K8 cluster - you can start with a single node (or one container instance)
+ - USE AWS EKS to run K8 clusters
  - ADD to your workload by creating service instance based on your docker container images
  - CONFIGURE and tune your cluster resources (CPU, memory, etc...) to suit the size of your analysis
  - VIEW your job in the K8 Web UI - example shown below - [link](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 
- [![K8 web ui](/images/k8-webui.png)]()
 
  -----
 
@@ -30,10 +29,6 @@
  - Monitor for service cost, execution time and adjust to meet your requirements
  
 
-### Other Things to Know
- - Google is building many libraries to ease the complexity of K8 cluster management
- - K8 libraries includes [KNative](https://knative.dev/docs/), [Istio](https://cloud.google.com/istio/docs/), [Skaffold](https://skaffold.dev/docs/) and many others
- - There are also tool vendors who are creating products to help you create, monitor and scale K8 clusters
 
 ### How to learn more
- - 📘 Link to [Best Practices for operating containers on AWS](https://cloud.google.com/solutions/best-practices-for-operating-containers)
+ - 📘 Link to [Best Practices for operating containers on AWS](https://aws.amazon.com/blogs/containers/best-practices-for-operating-containers-on-aws/)

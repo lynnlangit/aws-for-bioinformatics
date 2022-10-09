@@ -4,20 +4,18 @@
  USE the Nextflow pipeline language to define and run your analysis workflow at scale 
 
 ### What is this
- Nextflow is a reactive workflow framework & DSL for writing data-intensive computational pipelines.  Run jobs on a single GCE Virtual Machine or a cluster of VMs. You can use GCE + Pipelines API (PAPI) using docker images on VMs as well.
+ Nextflow is a reactive workflow framework & DSL for writing data-intensive computational pipelines.  Run jobs on a single AWS EC2 Virtual Machine or a cluster of VMs. You can use AWS Batch to orchestrate your Nextflow jobs.
  - Nextflow can run on AWS or many other providers
  - Nextflow can run on AWS in two ways:
-   - Run jobs on Compute Engine VMs (can run bioinformatics tools from Docker)
-   - Run jobs on Compute Engine VMS using the **& Life Sciences (Genomics Pipelines) API**
+   - Run jobs on EC2 VMs (can run bioinformatics tools from Docker)
+   - Run jobs on EC2 VMS using the **& AWS Batch**
 
 ### Key considerations
 - Understand core Nextflow features - [link](https://www.nextflow.io/index.html#Features)
 
 ### How to do this
  - SETUP prereqs for Nextflow on your VM - JDK, Docker, Graphviz(optional)
- - RUN RNAseq example pipeline on Compute Engine and Cloud Storage - [link](https://cloud.google.com/genomics/docs/tutorials/nextflow)
  - RUN VariantCalling pipeline w/GATK - [link](https://github.com/CRG-CNAG/CalliNGS-NF/)
-
 
 ---
 
@@ -79,6 +77,6 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
  - 📘 Link to [using AWS Cloud AWS Batch with Nextflow](https://www.nextflow.io/docs/edge/google.html#cloud-life-sciences)
  - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown below
 
-  ![Nextflow on K8](/images/nf-k8.png)
+![Nextflow on Kubernetes](https://www.nextflow.io/assets/img/nextflow-k8s.png)
 
   
