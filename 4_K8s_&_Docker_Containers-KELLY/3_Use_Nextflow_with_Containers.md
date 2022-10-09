@@ -71,12 +71,12 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
 
 #### Nextflow on AWS
  - 📘 Link to [Nextflow on AWS](https://www.nextflow.io/docs/latest/google.html)
- - 📘 Link to [Nextflow on AWS AWS Batch tutorial](https://cloud.google.com/life-sciences/docs/tutorials/nextflow)
-   - **TIP**: If you are doing this tutorial create a GCS bucket name with letters or numbers only (no underscores or '_')
+ - 📘 Link to [Nextflow on AWS AWS Batch tutorial](https://www.nextflow.io/docs/latest/awscloud.html)
+   - **TIP**: If you are doing this tutorial create a S3 bucket name with letters or numbers only (no underscores or '_')
  - :octocat: Review featured Nextflow pipelines - [link](https://github.com/nextflow-io/awesome-nextflow)
  - 📘 Link to [using AWS Cloud AWS Batch with Nextflow](https://www.nextflow.io/docs/edge/google.html#cloud-life-sciences)
  - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown below
 
-![Nextflow on Kubernetes](https://www.nextflow.io/assets/img/nextflow-k8s.png)
+![Nextflow on Kubernetes](https://www.nextflow.io/img/nextflow-kubernetes-min.png)
 
   
