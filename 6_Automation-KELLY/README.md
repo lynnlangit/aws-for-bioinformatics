@@ -7,7 +7,7 @@ Also you'll use AWS Elastic Container Registry to host docker container images. 
 ### Here are the topic pages in this section:
 
 - Use Code Commit Repositories for code 
-- Use Deployment manager to deploy infrastructure
+- Use CloudFormation to deploy infrastructure
 - Use Container Registry to host container images
 - Monitor services with CloudWatch for reading logs
 

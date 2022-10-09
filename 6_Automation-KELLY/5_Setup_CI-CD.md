@@ -6,27 +6,22 @@
  - CREATE a blueprint for AWS infrastructure for reproducible research
 
 ### What is this
- - CI/CD services hosted on AWS - uses AWS CloudBuild service
- - Often used with AWS Source Repositories and AWS Container Registry
-
-### Key considerations
- - CloudBuild can be easily integrated with other AWS services
- - CloudBuild will utilitze custom build triggers for CI/CD scenarios
+ - CI/CD services hosted on AWS - uses AWS CodeCommit, CodeBuild, CodeDeploy, CodePipeline, and CloudFormation
+ - Often used with AWS Elastic Container Registry (ECR) and AWS Elastic Container Service (ECS)
 
 ### How to do this
- - DO the steps in this article 'Gitops CI/CD with Cloud Build and Source Repositories' - [link](https://cloud.google.com/kubernetes-engine/docs/tutorials/gitops-cloud-build)
+ - DO the steps in this article 'Getting Started with AWS CI/CD' - [link](https://aws.amazon.com/getting-started/hands-on/set-up-ci-cd-pipeline/)
 
 
 ### How to verify you've done it
- - PUSH updated application or configuration code to your Source Repo with a CloudBuild trigger
+ - PUSH updated application or configuration code to your Source Repository
  - VERIFY updated service and application code works as expected via manual or automated tests
  - REVIEW associated service logs
 
-
 ### Other Things to Know
- - Use integrated search to intelligently search any Source Repository code - [link](https://cloud.google.com/source-repositories/docs/searching-code)
- - Understand Source Repositories by reviewing integrated Stackdriver activity log readers
- - Use the open source [Spinnaker](https://www.spinnaker.io/) CI/CD service release for AWS GKE (Kubernetes) to build CI/CD for GKE clusters - [link](https://cloud.google.com/docs/ci-cd/spinnaker/spinnaker-for-AWS)
+- CI/CD pipeline can be used to deploy infrastructure as code (IaC) using CloudFormation
+- CI/CD pipeline can be used to deploy application code to AWS services, such as ECS, EKS, or EC2
+- CI/CD pipeline can be used to deploy application code to on-premises servers
 
 ### How to learn more
  
