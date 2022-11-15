@@ -25,6 +25,8 @@ Blog post with details - [link](https://aws.amazon.com/blogs/aws/new-amazon-heal
 
 <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2020/11/25/overview-2-1024x462.png">
 
+See also: announcement about Amazon Health Lake imaging and analytics services - [link](https://aws.amazon.com/blogs/machine-learning/new-amazon-healthlake-capabilities-enable-next-generation-imaging-solutions-and-precision-health-analytics/)
+
 ---
 
 ### New - Data Mesh on AWS
