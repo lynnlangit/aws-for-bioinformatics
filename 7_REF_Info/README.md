@@ -22,3 +22,7 @@ Used in creating reproducible and scalable genomic-scale cloud analysis pipeline
 
 ----
 
+## AWS Healthcare Resouces
+- Leaning path for AWS Healthcare - [link](https://docs.aws.amazon.com/wellarchitected/latest/healthcare-industry-lens/learning-path-for-healthcare.html)
+- AWS Well-Architected Heathcare Industry Lens (whitepaper) - [link](https://docs.aws.amazon.com/wellarchitected/latest/healthcare-industry-lens/healthcare-industry-lens.html?did=wp_card&trk=wp_card)
+
