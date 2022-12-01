@@ -18,6 +18,10 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 - must set up a reference genome store first
 - set up a sample store
 - select and use a query engine or workflow engine (WDL, Nextflow)
+- TIP: use Omics Workflows `RunGroups` to control the amount of resources per set of workflows
+    - set the max number of concurrent vCPUs used by tasks 
+    - set the maximum duration of tasks
+    - set the max concurrent number of runs
 
 ### How to do this
 
