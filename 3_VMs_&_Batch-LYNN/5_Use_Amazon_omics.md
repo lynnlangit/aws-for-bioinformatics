@@ -15,55 +15,75 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
 ### Key considerations
-- spot instances are cheaper but can be terminated at any time
-- containerized jobs are more portable and easier to scale
-- EC2 instance size and type can be configured to meet your needs
+- must set up a reference genome store first
+- set up a sample store
+- select and use a query engine or workflow engine (WDL, Nextflow)
 
 ### How to do this
 
-To use AWS Batch, you can use the awscli or the AWS console. The following steps will use the awscli.  The AWS console is available at https://console.aws.amazon.com/batch/.
+To use Amazon omics, you can use the awscli or the AWS console. The following steps will use the awscli tool.  
 
-#### Create a job queue
-`aws batch create-job-queue --job-queue-name <job-queue-name> --state ENABLED --priority 1 --compute-environment-order order=1,computeEnvironment=<compute-environment-name>`
+#### Create a reference genome store
 
-#### Create a compute environment
-`aws batch create-compute-environment --compute-environment-name <compute-environment-name> --type MANAGED --state ENABLED --compute-resources type=EC2,minvCpus=0,maxvCpus=256,desiredvCpus=0,instanceTypes=t2.micro,t3.micro,t3.small,t3.medium,t3.large,t3.xlarge,t3.2xlarge,subnets=<subnet-id>,securityGroupIds=<security-group-id>,instanceRole=<instance-role-arn>,tags=Name=<compute-environment-name>`
+```
+aws omics create-reference-genome-store --name my-reference-genome-store --description "My reference genome store" --region us-east-1
+```
 
-#### Create a job definition
-`aws batch register-job-definition --job-definition-name <job-definition-name> --type container --container-properties image=<container-image>,vcpus=1,command=["<command>"],memory=1024`
+#### Create a sample store
 
-#### Submit a job
-`aws batch submit-job --job-name <job-name> --job-queue <job-queue-name> --job-definition <job-definition-name>`
+```
+aws omics create-sample-store --name my-sample-store --description "My sample store" --region us-east-1
+```
 
-#### Check the status of a job
-`aws batch describe-jobs --jobs <job-id>`
-### What to do next
-- Use AWS Batch to run your bioinformatics pipeline
-- Use AWS Batch to run your bioinformatics pipeline on AWS Fargate
-- Use AWS Batch to run your bioinformatics pipeline on AWS Spot Instances
+#### Create a query engine
+
+```
+aws omics create-query-engine --name my-query-engine --description "My query engine" --region us-east-1
+```
+#### Create a workflow engine
+
+```
+aws omics create-workflow-engine --name my-workflow-engine --description "My workflow engine" --region us-east-1
+```
+
+#### Upload a reference genome
+
+```
+aws omics upload-reference-genome --reference-genome-store-id my-reference-genome-store --name my-reference-genome --description "My reference genome" --region us-east-1 --file file://my-reference-genome.fa
+```
+
+#### Upload a sample
+
+```
+aws omics upload-sample --sample-store-id my-sample-store --name my-sample --description "My sample" --region us-east-1 --file file://my-sample.bam
+```
+
+#### Run a query
+
+```
+aws omics run-query --query-engine-id my-query-engine --name my-query --description "My query" --region us-east-1 --query "SELECT * FROM my-sample-store"
+```
+
+#### Run a workflow
+
+```
+aws omics run-workflow --workflow-engine-id my-workflow-engine --name my-workflow --description "My workflow" --region us-east-1 --workflow file://my-workflow.wdl
+```
+
+### What's next
+- [Amazon Omics](https://aws.amazon.com/omics/)
+- [Amazon Omics Documentation](https://docs.aws.amazon.com/omics/index.html)
+- [Amazon Omics Developer Guide](https://docs.aws.amazon.com/omics/latest/userguide/what-is-omics.html)
+- [Amazon Omics API Reference](https://docs.aws.amazon.com/omics/latest/APIReference/Welcome.html)
+- [Amazon Omics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html)
+- [Amazon Omics Pricing](https://aws.amazon.com/omics/pricing/)
+- [Amazon Omics FAQs](https://aws.amazon.com/omics/faqs/)
+- [Amazon Omics Blog](https://aws.amazon.com/blogs/aws/category/omics/)
+- [Amazon Omics Videos](https://www.youtube.com/playlist?list=PLhr1KZpdzukdX9Z2ZQ9Y8q5Z8XQq7y1Zt)
+- [Amazon Omics Webinars](https://www.youtube.com/playlist?list=PLhr1KZpdzukcZ5Z5ZQ9Y8q5Z8XQq7y1Zt)
+- [Amazon Omics Whitepapers](https://aws.amazon.com/whitepapers/?awsf.whitepaper-type=whitepaper%23whitepaper&awsf.whitepaper-content-type=content-type%23amazon-omics)
 
 
-### Resources
-- [AWS Batch](https://aws.amazon.com/batch/)
-- [AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
-- [AWS Batch Developer Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
-- [AWS Batch API Reference](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html)
-- [AWS Batch CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/batch/index.html)
-- [AWS Batch Pricing](https://aws.amazon.com/batch/pricing/)
-- [AWS Batch FAQs](https://aws.amazon.com/batch/faqs/)
-- [AWS Batch Blog](https://aws.amazon.com/blogs/aws/aws-batch/)
 
-
- -----
-
-
-### How to verify you've done it
- - Run your analysis, monitor for correct results (view files in your output bucket)
- - Monitor for service cost, execution time and adjust to meet your requirements
-
-
-### Other Things to Know
-- There are a number of bioinformatics libraries (cromwell, Nextflow....) that are can use AWS Batch as an `execution backend provider`
-- Medium Article: [AWS Batch for Genomics](https://medium.com/@awsbio/aws-batch-for-genomics-1b2b2b2b2b2b)
 
 
