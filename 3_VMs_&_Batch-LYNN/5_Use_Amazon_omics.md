@@ -22,6 +22,8 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 ### How to do this
 
 To use Amazon omics, you can use the awscli or the AWS console. The following steps will use the awscli tool.  
+- Blog post: [How to use Amazon Omics](https://aws.amazon.com/blogs/aws/how-to-use-amazon-omics/)
+- Announcement: [Amazon Omics](https://aws.amazon.com/about-aws/whats-new/2021/06/amazon-omics/)
 
 #### Create a reference genome store
 
@@ -70,7 +72,7 @@ aws omics run-query --query-engine-id my-query-engine --name my-query --descript
 aws omics run-workflow --workflow-engine-id my-workflow-engine --name my-workflow --description "My workflow" --region us-east-1 --workflow file://my-workflow.wdl
 ```
 
-### What's next
+### Learn More
 - [Amazon Omics](https://aws.amazon.com/omics/)
 - [Amazon Omics Documentation](https://docs.aws.amazon.com/omics/index.html)
 - [Amazon Omics Developer Guide](https://docs.aws.amazon.com/omics/latest/userguide/what-is-omics.html)
@@ -78,10 +80,7 @@ aws omics run-workflow --workflow-engine-id my-workflow-engine --name my-workflo
 - [Amazon Omics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html)
 - [Amazon Omics Pricing](https://aws.amazon.com/omics/pricing/)
 - [Amazon Omics FAQs](https://aws.amazon.com/omics/faqs/)
-- [Amazon Omics Blog](https://aws.amazon.com/blogs/aws/category/omics/)
-- [Amazon Omics Videos](https://www.youtube.com/playlist?list=PLhr1KZpdzukdX9Z2ZQ9Y8q5Z8XQq7y1Zt)
-- [Amazon Omics Webinars](https://www.youtube.com/playlist?list=PLhr1KZpdzukcZ5Z5ZQ9Y8q5Z8XQq7y1Zt)
-- [Amazon Omics Whitepapers](https://aws.amazon.com/whitepapers/?awsf.whitepaper-type=whitepaper%23whitepaper&awsf.whitepaper-content-type=content-type%23amazon-omics)
+
 
 
 
