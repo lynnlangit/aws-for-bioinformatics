@@ -1,14 +1,18 @@
-# Use AWS Batch
+# Use Amazon Omics
 
-## What is AWS Batch? 
-AWS Batch is a batch processing service that enables you to run batch computing workloads on the AWS Cloud. AWS Batch can dynamically provision the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.  AWS Batch can run batch jobs in a variety of compute environments, such as Amazon EC2, AWS Fargate, and Spot Instances. AWS Batch is designed to be flexible and efficient, so that you can run batch jobs of any scale.
+## What is Amazon Omics? 
+Amazon Omics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries.
 
 ### Why do this
-Scale out your bioinformatics pipeline analysis using [`AWS Batch`](https://aws.amazon.com/batch/) to manage compute resources (VMs and Containers) to manage the pipeline job queue.
+Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common use cases, such as:
+- **Genomics** - Store, query, and analyze genomic data to identify genetic variants and their impact on human health.
+- **Transcriptomics** - Store, query, and analyze transcriptomic data to identify gene expression patterns and their impact on human health.
+- **Proteomics** - Store, query, and analyze proteomic data to identify protein expression patterns and their impact on human health.
+
 ### What is this
-- USE AWS S3 + AWS Batch + custom code + Athena to create **serverless** end-to-end scalable genomic analysis jobs
-- USE **AWS Batch** to orchestrate scalable genomic analysis running EC2 **without** manually configuring scaling of your compute cluster. The API is designed to be a backend for bioinformatics tools (ex. dsub) or systems (cromwell), by providing job scheduling for Docker-based tasks that perform secondary genomic analysis by running container images on one or more EC2 Virtual Machines. Typical secondary analysis jobs include filtering raw reads, aligning and assembling sequence reads, and QA and variant calling on aligned reads.
-- USE **Athena** to analyze variants using the SQL query language.
+- USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  Concepts shown below.
+
+<img src="3_VMs_&_Batch-LYNN/images/omics-concepts.png">
 
 ### Key considerations
 - spot instances are cheaper but can be terminated at any time
