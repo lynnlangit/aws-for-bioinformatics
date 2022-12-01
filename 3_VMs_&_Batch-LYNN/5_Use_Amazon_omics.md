@@ -22,8 +22,8 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 ### How to do this
 
 To use Amazon omics, you can use the awscli or the AWS console. The following steps will use the awscli tool.  
-- Blog post: [How to use Amazon Omics](https://aws.amazon.com/blogs/aws/how-to-use-amazon-omics/)
-- Announcement: [Amazon Omics](https://aws.amazon.com/about-aws/whats-new/2021/06/amazon-omics/)
+- Blog Announcement & Example: [How to use Amazon Omics](https://aws.amazon.com/blogs/aws/introducing-amazon-omics-a-purpose-built-service-to-store-query-and-analyze-genomic-and-biological-data-at-scale/)
+
 
 #### Create a reference genome store
 
