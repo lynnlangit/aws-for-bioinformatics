@@ -12,7 +12,7 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 ### What is this
 - USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  Concepts shown below.
 
-<img src="3_VMs_&_Batch-LYNN/images/omics-concepts.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
 ### Key considerations
 - spot instances are cheaper but can be terminated at any time
