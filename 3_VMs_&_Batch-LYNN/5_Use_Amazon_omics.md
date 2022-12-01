@@ -91,8 +91,6 @@ From AWS Architecture guidance - [link](https://docs.aws.amazon.com/solutions/la
 ### Learn More
 - [Amazon Omics](https://aws.amazon.com/omics/)
 - [Amazon Omics Documentation](https://docs.aws.amazon.com/omics/index.html)
-- [Amazon Omics Developer Guide](https://docs.aws.amazon.com/omics/latest/userguide/what-is-omics.html)
-- [Amazon Omics API Reference](https://docs.aws.amazon.com/omics/latest/APIReference/Welcome.html)
 - [Amazon Omics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html)
 - [Amazon Omics Pricing](https://aws.amazon.com/omics/pricing/)
 - [Amazon Omics FAQs](https://aws.amazon.com/omics/faqs/)
