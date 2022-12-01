@@ -15,13 +15,18 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
 ### Key considerations
-- must set up a reference genome store first
-- set up a sample store
+- requires a reference genome store 
+- then set up a sequnce store
+- can set up a variant and/or annotation store
 - select and use a query engine or workflow engine (WDL, Nextflow)
 - TIP: use Omics Workflows `RunGroups` to control the amount of resources per set of workflows
     - set the max number of concurrent vCPUs used by tasks 
     - set the maximum duration of tasks
     - set the max concurrent number of runs
+- NOTE: to use the annotation store, you must have a variant store
+    - to query your data in Amazon Athena - example at [link](https://github.com/aws-samples/amazon-omics-tutorials/blob/main/notebooks/200-omics_analytics.ipynb)
+        - create resource links to your database using the AWS LakeFormation Console
+        - verify that the IAM user running the query is a Data Lake Administrator
 
 ### How to do this
 
