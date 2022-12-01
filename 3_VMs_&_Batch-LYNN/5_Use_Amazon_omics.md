@@ -1,18 +1,18 @@
 # Use Amazon Omics
 
 ## What is Amazon Omics? 
-Amazon Omics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries.
+Amazon Omics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [Amazon Omics website](https://aws.amazon.com/omics/).
+
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
 ### Why do this
-Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common use cases, such as:
+Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common multiomics use cases, such as:
 - **Genomics** - Store, query, and analyze genomic data to identify **genetic variants** and their impact on human health.
 - **Transcriptomics** - Store, query, and analyze transcriptomic data to identify **gene expression patterns** and their impact on human health.
 - **Proteomics** - Store, query, and analyze proteomic data to identify **protein expression patterns** and their impact on human health.
 
 ### What is this
-- USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  Concepts shown below.
-
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
+- USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  Examples and implementation details are provided below.
 
 ### Key considerations
 - requires a reference genome store - (FASTA) and a reference genome index (BWA index)
@@ -27,6 +27,8 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
     - to query your data in Amazon Athena - example at [link](https://github.com/aws-samples/amazon-omics-tutorials/blob/main/notebooks/200-omics_analytics.ipynb)
         - create resource links to your database using the AWS LakeFormation Console
         - verify that the IAM user running the query is a Data Lake Administrator
+
+----
 
 ### How to do this
 
@@ -80,6 +82,11 @@ aws omics run-query --query-engine-id my-query-engine --name my-query --descript
 ```
 aws omics run-workflow --workflow-engine-id my-workflow-engine --name my-workflow --description "My workflow" --region us-east-1 --workflow file://my-workflow.wdl
 ```
+### Architecture Pattern
+
+From AWS Architecture guidance - [link](https://docs.aws.amazon.com/solutions/latest/guidance-for-multi-omics-and-multi-modal-data-integration-and-analysis-on-aws/architecture-overview.html) and diagram below.
+
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-arch.png">
 
 ### Learn More
 - [Amazon Omics](https://aws.amazon.com/omics/)
