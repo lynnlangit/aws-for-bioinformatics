@@ -5,9 +5,9 @@ Amazon Omics is a purpose-built service to help bioinformaticians, researchers, 
 
 ### Why do this
 Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common use cases, such as:
-- **Genomics** - Store, query, and analyze genomic data to identify genetic variants and their impact on human health.
-- **Transcriptomics** - Store, query, and analyze transcriptomic data to identify gene expression patterns and their impact on human health.
-- **Proteomics** - Store, query, and analyze proteomic data to identify protein expression patterns and their impact on human health.
+- **Genomics** - Store, query, and analyze genomic data to identify **genetic variants** and their impact on human health.
+- **Transcriptomics** - Store, query, and analyze transcriptomic data to identify **gene expression patterns** and their impact on human health.
+- **Proteomics** - Store, query, and analyze proteomic data to identify **protein expression patterns** and their impact on human health.
 
 ### What is this
 - USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  Concepts shown below.
@@ -15,10 +15,10 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
 ### Key considerations
-- requires a reference genome store 
-- then set up a sequnce store
-- can set up a variant and/or annotation store
-- select and use a query engine or workflow engine (WDL, Nextflow)
+- requires a reference genome store - (FASTA) and a reference genome index (BWA index)
+- then set up a sequnce store - (FASTQ, BAM, or CRAM)
+- can set up a variant and/or annotation store - (VCF, GFF, or GTF)
+- select and use a query engine or workflow engine - (WDL, Nextflow)
 - TIP: use Omics Workflows `RunGroups` to control the amount of resources per set of workflows
     - set the max number of concurrent vCPUs used by tasks 
     - set the maximum duration of tasks
