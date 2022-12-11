@@ -39,57 +39,50 @@ To use Amazon omics, you can use the awscli or the AWS console. The steps below 
 - AWS Omics Workshop Example: [Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/af31b35a-c7ba-4037-acd7-e70e9135b2f8/en-US)
 
 
-#### Create a reference genome store
+#### Steps and Script
+
+Listed below:  
+
+1. Create a reference genome store
+2. Create a sample store
+3. Create a query engine
+4. Create a workflow engine
+5. Upload a reference genome
+6. Upload a sample
+7. Run a workflow (NF or WDL)
+8. Run a query (in SQL uses Athena)
 
 ```
-aws omics create-reference-genome-store --name my-reference-genome-store --description "My reference genome store" --region us-east-1
-```
-
-#### Create a sample store
-
-```
-aws omics create-sample-store --name my-sample-store --description "My sample store" --region us-east-1
-```
-
-#### Create a query engine
-
-```
-aws omics create-query-engine --name my-query-engine --description "My query engine" --region us-east-1
-```
-#### Create a workflow engine
-
-```
-aws omics create-workflow-engine --name my-workflow-engine --description "My workflow engine" --region us-east-1
-```
-
-#### Upload a reference genome
-
-```
-aws omics upload-reference-genome --reference-genome-store-id my-reference-genome-store --name my-reference-genome --description "My reference genome" --region us-east-1 --file file://my-reference-genome.fa
-```
-
-#### Upload a sample
-
-```
-aws omics upload-sample --sample-store-id my-sample-store --name my-sample --description "My sample" --region us-east-1 --file file://my-sample.bam
-```
-
-#### Run a query
-
-```
-aws omics run-query --query-engine-id my-query-engine --name my-query --description "My query" --region us-east-1 --query "SELECT * FROM my-sample-store"
-```
-
-#### Run a workflow
-
-```
-aws omics run-workflow --workflow-engine-id my-workflow-engine --name my-workflow --description "My workflow" --region us-east-1 --workflow file://my-workflow.wdl
+aws omics 
+    create-reference-genome-store --name my-reference-genome-store --description "My reference genome store" /
+        --region us-east-1
+    
+    create-sample-store --name my-sample-store --description "My sample store" /
+        --region us-east-1
+    
+    create-query-engine --name my-query-engine --description "My query engine" /
+        --region us-east-1
+    
+    create-workflow-engine --name my-workflow-engine --description "My workflow engine" /
+        --region us-east-1
+    
+    upload-reference-genome --reference-genome-store-id my-reference-genome-store --name my-reference-genome / 
+        --description "My reference genome" --region us-east-1 --file file://my-reference-genome.fa
+        
+    upload-sample --sample-store-id my-sample-store --name my-sample --description "My sample" /    
+        --region us-east-1 --file file://my-sample.bam
+    
+    run-workflow --workflow-engine-id my-workflow-engine --name my-workflow --description "My workflow" /
+        --region us-east-1 --workflow file://my-workflow.wdl
+        
+    run-query --query-engine-id my-query-engine --name my-query --description "My query" /
+        --region us-east-1 --query "SELECT * FROM my-sample-store"
 ```
 ### Architecture Pattern
 
 AWS Architecture from re:Invent launch talk linked at top of this page - Amazon Omics diagram below.  
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-a.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-d.png">
 
 ### Learn More
 - [Amazon Omics](https://aws.amazon.com/omics/)
