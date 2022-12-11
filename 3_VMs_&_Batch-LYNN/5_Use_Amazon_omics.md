@@ -87,7 +87,7 @@ aws omics run-workflow --workflow-engine-id my-workflow-engine --name my-workflo
 ```
 ### Architecture Pattern
 
-AWS Architecture from re:Invent launch talk linked at top of this page - Amazon Omics diagrams below.  First diagram shows xx and yy stores.  Second diagram shown zz and aa  stores.
+AWS Architecture from re:Invent launch talk linked at top of this page - Amazon Omics diagrams below.  First diagram shows Reference and Sequence stores.  Second diagram shown Variant and Annotation stores.
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-arch.png">
 
