@@ -87,7 +87,7 @@ aws omics run-workflow --workflow-engine-id my-workflow-engine --name my-workflo
 ```
 ### Architecture Pattern
 
-From AWS Architecture guidance - [link](https://docs.aws.amazon.com/solutions/latest/guidance-for-multi-omics-and-multi-modal-data-integration-and-analysis-on-aws/architecture-overview.html) and diagram below.
+From AWS Architecture guidance - Amazon Omics diagram below.
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-arch.png">
 
