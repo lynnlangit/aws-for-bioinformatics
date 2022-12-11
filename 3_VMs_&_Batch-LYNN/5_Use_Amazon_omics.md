@@ -12,7 +12,9 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 - **Proteomics** - Store, query, and analyze proteomic data to identify **protein expression patterns** and their impact on human health.
 
 ### What is this
-- USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  Examples and implementation details are provided below.
+- USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  
+- Video (launched at re:Invent 2022) - 40 minutes - [link](https://www.youtube.com/watch?v=46SLOjuMM6o)
+- Examples and implementation details are provided below.
 
 ### Key considerations
 - requires a reference genome store - (FASTA) and a reference genome index (BWA index)
