@@ -26,3 +26,6 @@
 ### How to learn more
  
   - 📘 Read about CI/CD concepts in this [article](https://read.acloud.guru/cloud-based-ci-cd-on-AWS-6b07fde7222d)
+  - 🗒️ See AWS Reference CI/CD deployment piplines and architectures in their [documentation](https://pipelines.devops.aws.dev/#architecture) and shown below (image from AWS).
+
+<img src="https://pipelines.devops.aws.dev/architecture.drawio-0.svg" width=900>
