@@ -86,6 +86,7 @@ AWS Architecture from re:Invent launch talk linked at top of this page - Amazon 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-d.png">
 
 ### Learn More
+Watch 15 minute demo from AWS team - [link](https://www.youtube.com/watch?v=1HHDyZwKaBA)
 - [Amazon Omics](https://aws.amazon.com/omics/)
 - [Amazon Omics Documentation](https://docs.aws.amazon.com/omics/index.html)
 - [Amazon Omics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html)
