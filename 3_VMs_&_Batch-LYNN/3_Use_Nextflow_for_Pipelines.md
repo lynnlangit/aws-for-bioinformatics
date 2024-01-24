@@ -58,29 +58,36 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
 
 ![Nextflow using AWS Batch](https://github.com/lynnlangit/TeamTeri/blob/master/Images/nextflow-aws-batch.png)
  
- #### Nextflow v2
+ #### Nextflow v2 and Technical Info
  - 📝 Link to Nextflow v2 example workflow - [link](https://gist.github.com/lynnlangit/e5d3e86d632a7db796efae04145d44ff)
  - 📘 Link to Nextflow v2 migration notes - [link](https://www.nextflow.io/docs/latest/dsl2.html#dsl2-migration-notes)
+   - 📘 Link to paper on [containerized approaches to workflows(includes Nextflow)](https://www.preprints.org/manuscript/202001.0378/v1/download)
+ - 📘 Links to understanding that Nextflow internal architecture.  
+   - NF is written in the [Groovy programming language](https://en.wikipedia.org/wiki/Apache_Groovy) 
+   - NF is designed to run on [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) instances 
  - 📺 Watch Nextflow v2 live coding - [link](https://www.youtube.com/watch?v=-Ne4OP0aiYw)
+
+---
+
+### Example NF Pipelines on AWS 
 
 #### Nextflow Pipeline Patterns and Examples
  - 📘 Huge list of [Learn Nextflow links](https://www.nextflow.io/blog/2022/learn-nextflow-in-2022.html)
  - 📘 Read about [Pipeliner for Nextflow paper](https://www.biorxiv.org/content/biorxiv/early/2018/11/23/476515.full.pdf)
  - 📘 Link to [using caching with Nextflow](https://www.nextflow.io/blog/2019/demystifying-nextflow-resume.html)
- - 📘 Link to paper on [containerized approaches to workflows(includes Nextflow)](https://www.preprints.org/manuscript/202001.0378/v1/download)
- - 📘 Link to understanding that Nextflow architecture.  
-  - NF is written in the [Groovy programming language](https://en.wikipedia.org/wiki/Apache_Groovy) 
-  - NF is designed to run on [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) instances 
 
 #### Nextflow on AWS
  - 📘 Read Nextflow pipelines with AWS (docs) - [link](https://www.nextflow.io/docs/latest/awscloud.html)
  - :octocat: Review featured Nextflow pipelines - [link](https://github.com/nextflow-io/awesome-nextflow)
  - 📘 Link to [Step-by-Step Guide to Running AI Workloads on AWS w/ NF-Tower](https://seqera.io/blog/running-ai-workloads-in-the-cloud-with-nextflow-tower-a-step-by-step-guide/)
 
+### Example NF Pipelines on AWS for Bioinformatics 
+
 #### NF runnable Genomic Pipeline Examples
  - 📘 Link to using [NF protein-DNA interactions and epigenomic profiling pipeline QC testing & viz tools with CI/CD](https://nf-co.re/cutandrun) - pipaline image shown below.
  - 📘 Link to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
     - `nextflow run CRG-CNAG/CalliNGS-NF -r gatk4 -with-docker`
+ - 📘 Link to run a [NF workflow with ML](https://aws.amazon.com/blogs/hpc/leveraging-seqera-platform-on-aws-batch-for-machine-learning-workflows-part-1-of-2/)
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/cutandrun-flow-diagram-v1-0_2.png" width=1000>
 
