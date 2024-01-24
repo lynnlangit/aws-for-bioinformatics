@@ -88,7 +88,7 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
     - pipeline image (subway map style) shown below.
  - 📘 Link to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
     - `nextflow run CRG-CNAG/CalliNGS-NF -r gatk4 -with-docker`
- - 📘 Link to run a [NF workflow with ML](https://aws.amazon.com/blogs/hpc/leveraging-seqera-platform-on-aws-batch-for-machine-learning-workflows-part-1-of-2/)
+ - 📘 Link to run a [NF workflow with ML for cancer image classification](https://aws.amazon.com/blogs/hpc/leveraging-seqera-platform-on-aws-batch-for-machine-learning-workflows-part-1-of-2/)
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/cutandrun-flow-diagram-v1-0_2.png" width=1000>
 
