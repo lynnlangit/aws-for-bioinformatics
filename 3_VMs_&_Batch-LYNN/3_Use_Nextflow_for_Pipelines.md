@@ -86,7 +86,7 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
 #### NF runnable Genomic Pipeline Examples
  - 📘 Link to using [NF protein-DNA interactions and epigenomic profiling pipeline QC testing & viz tools with CI/CD](https://nf-co.re/cutandrun)
     - pipeline image (subway map style) shown below.
- - 📘 Link to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
+ - 🏃 Command to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
     - `nextflow run CRG-CNAG/CalliNGS-NF -r gatk4 -with-docker`
  - 📘 Link to run a [NF workflow with ML for cancer image classification](https://aws.amazon.com/blogs/hpc/leveraging-seqera-platform-on-aws-batch-for-machine-learning-workflows-part-1-of-2/)
 
