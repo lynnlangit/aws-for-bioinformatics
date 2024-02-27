@@ -11,6 +11,10 @@ Also you'll use AWS Elastic Container Registry to host docker container images. 
 - Use Container Registry to host container images
 - Monitor services with CloudWatch for reading logs
 
+### More Information about DevOps
+
+- My main Repo for AWS DevOps / DataOps / SecOps / FinOps --> https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/6_DevOps
+
 ---
 
 ## Genomics Example - VariantSpark on AWS EMR
