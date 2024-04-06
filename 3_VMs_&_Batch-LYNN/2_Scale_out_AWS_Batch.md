@@ -33,20 +33,21 @@ Scale out your bioinformatics pipeline analysis using [`AWS Batch`](https://aws.
 
 To use AWS Batch, you can use the awscli or the AWS console. The following steps will use the awscli.  The AWS console is available at https://console.aws.amazon.com/batch/.
 
-#### Create a job queue
-`aws batch create-job-queue --job-queue-name <job-queue-name> --state ENABLED --priority 1 --compute-environment-order order=1,computeEnvironment=<compute-environment-name>`
-
-#### Create a compute environment
-`aws batch create-compute-environment --compute-environment-name <compute-environment-name> --type MANAGED --state ENABLED --compute-resources type=EC2,minvCpus=0,maxvCpus=256,desiredvCpus=0,instanceTypes=t2.micro,t3.micro,t3.small,t3.medium,t3.large,t3.xlarge,t3.2xlarge,subnets=<subnet-id>,securityGroupIds=<security-group-id>,instanceRole=<instance-role-arn>,tags=Name=<compute-environment-name>`
-
-#### Create a job definition
-`aws batch register-job-definition --job-definition-name <job-definition-name> --type container --container-properties image=<container-image>,vcpus=1,command=["<command>"],memory=1024`
-
-#### Submit a job
-`aws batch submit-job --job-name <job-name> --job-queue <job-queue-name> --job-definition <job-definition-name>`
-
-#### Check the status of a job
-`aws batch describe-jobs --jobs <job-id>`
+    #Create a job queue
+    `aws batch create-job-queue --job-queue-name <job-queue-name> --state ENABLED --priority 1 --compute-environment-order order=1,computeEnvironment=<compute-environment-name>`
+    
+    #Create a compute environment
+    `aws batch create-compute-environment --compute-environment-name <compute-environment-name> --type MANAGED --state ENABLED --compute-resources type=EC2,minvCpus=0,maxvCpus=256,desiredvCpus=0,instanceTypes=t2.micro,t3.micro,t3.small,t3.medium,t3.large,t3.xlarge,t3.2xlarge,subnets=<subnet-id>,securityGroupIds=<security-group-id>,instanceRole=<instance-role-arn>,tags=Name=<compute-environment-name>`
+    
+    #Create a job definition
+    `aws batch register-job-definition --job-definition-name <job-definition-name> --type container --container-properties image=<container-image>,vcpus=1,command=["<command>"],memory=1024`
+    
+    #Submit a job
+    `aws batch submit-job --job-name <job-name> --job-queue <job-queue-name> --job-definition <job-definition-name>`
+    
+    #Check the status of a job
+    `aws batch describe-jobs --jobs <job-id>`
+    
 ### What to do next
 - Use AWS Batch to run your bioinformatics pipeline
 - Use AWS Batch to run your bioinformatics pipeline on AWS Fargate
