@@ -20,12 +20,18 @@ Use tools with Nextflow for ease of use.  Run jobs as scripts or containers on a
  - CONFIGURE pipeline params to use your own sample (input) data
  - REVIEW job run output in the Seqera Platform.  Examples screens shown below.
 
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/seq-1.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/seq-2.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/seq-3.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/seq-4.png">
 
-### Nextflow Tools 
-The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines.  
- - 📘 Link to using [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
- - 📘 Link to using [Nextflow Tower](https://www.seqera.io/blog/introducing-nextflow-tower/) for monitoring - screenshot shown below
- - 📘 Link to using [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
+
+### Other Nextflow Tools 
+The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines in addition to Seqera for running and monitoring pipeline jobs.
+ - 📘 Link to [nf-core](https://nf-co.re/) for locating reusable Nextflow pipelines
+ - 📘 Link to [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
+ - 📘 Link to [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
+ - 📘 Link to info about [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
  
 ---
 
