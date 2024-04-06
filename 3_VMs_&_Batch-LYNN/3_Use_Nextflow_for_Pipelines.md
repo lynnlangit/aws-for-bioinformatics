@@ -1,22 +1,22 @@
 # Use Nextflow for Genomic Data Analysis
 
 ### Why do this
- USE the Nextflow pipeline language to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale.
+ USE the Nextflow pipeline language to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale on the cloud or on-prem environment of your choosing.
 
 ### What is this
- Nextflow is a reactive workflow framework & DSL for writing data-intensive computational pipelines. 
- - Nextflow can run analysis pipeline jobs on AWS or many other cloud vendors (GCP, etc...)
- - Nextflow can run on AWS in two ways:
-   - Run jobs on EC2 VMs (can run bioinformatics tools from Docker) --OR--
-   - Run jobs efficiently on EC2 using the **& AWS Batch API**
+Nextflow is a reactive bioinformatics workflow framework & DSL for writing data-intensive computational pipelines.  Run jobs as scripts or containers on a single AWS EC2 Virtual Machine or a cluster of VMs. You can use AWS Batch to orchestrate your Nextflow jobs.
+ - Understand core Nextflow features - [link](https://www.nextflow.io/index.html#Features)
+ - Nextflow can run on AWS or many other providers (i.e. Azure, GCP, HPC...)
+ - Nextflow can run on AWS in several ways:
+   - Run jobs on a single EC2 VMs (can run bioinformatics tools from Docker)
+   - Run jobs on mulitple EC2 VMS using the **& AWS Batch** API
+   - Run jobs on mulitple Docker container images on ECS clusters (runs on EC2 VMS) using the **& AWS Batch** API
+   - Run jobs on mulitple Docker container images on ECS clusters (runs on EC2 VMS) using the **& AWS Batch** API using the Nextflow Seqera Platform
 
 Shown below is a reference architecture for running Nextflow analysis on AWS using the AWS Batch API.  
 - From this article - part one [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-1-of-3/) and part two [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-2-of-3)
 
 ![Nextflow Architecture using AWS Genomics/AWS Batch](https://seqera.io/static/e732bd2954e8b788415d353acbf60614/42cbc/blog-nextflow-and-aws-batch-inside-the-integration-part-1-of-3-1.png)
-
-### Key considerations
-- Understand core Nextflow features - [link](https://www.nextflow.io/index.html#Features)
 
 ### How to do this
  - SETUP prereqs for Nextflow on your VM - JDK, Docker, Graphviz(optional)
