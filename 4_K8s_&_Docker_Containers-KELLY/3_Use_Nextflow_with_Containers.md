@@ -5,13 +5,14 @@
  NOTE: See the full explanation for this architecture at this [link](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/3_Use_Nextflow_for_Pipelines.md)
 
 ### What is this
- Nextflow is a reactive workflow framework & DSL for writing data-intensive computational pipelines.  Run jobs on a single AWS EC2 Virtual Machine or a cluster of VMs. You can use AWS Batch to orchestrate your Nextflow jobs.
- - Nextflow can run on AWS or many other providers (i.e. Azure, GCP, HPC...)
- - Nextflow can run on AWS in several ways:
-   - Run jobs on a single EC2 VMs (can run bioinformatics tools from Docker)
-   - Run jobs on mulitple EC2 VMS using the **& AWS Batch** API
-   - Run jobs on mulitple Docker container images on ECS clusters (runs on EC2 VMS) using the **& AWS Batch** API
-   - Run jobs on mulitple Docker container images on ECS clusters (runs on EC2 VMS) using the **& AWS Batch** API using the Nextflow Seqera Platform
+Nextflow is a reactive bioinformatics workflow framework & DSL for writing data-intensive computational pipelines.  Run jobs as scripts or containers on a single AWS EC2 Virtual Machine or a cluster of VMs. You can use AWS Batch to orchestrate your Nextflow jobs.
+ - Understand core Nextflow features - [link](https://www.nextflow.io/index.html#Features)
+ - Nextflow can run on AWS or many other providers (i.e. Azure, GCP, HPC, etc...)
+ - Nextflow can run jobs on AWS in several ways...
+   - On a single EC2 VMs (can run bioinformatics tools from Docker)
+   - On mulitple EC2 VMS using the **& AWS Batch** API
+   - On ECS clusters with mulitple Docker container images (runs on EC2 VMS) using the **& AWS Batch** API
+   - Via the Nextflow Seqera Platform using ECS clusters using the **& AWS Batch** API - see this [page](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/3a_Use_Seqera_for_Nextflow.md)
 
 ### AWS Reference Architecture
 
