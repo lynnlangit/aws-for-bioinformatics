@@ -54,9 +54,9 @@ To use AWS Batch, you can use the awscli or the AWS console. The following steps
 - Use AWS Batch to run your bioinformatics pipeline on AWS Spot Instances
 
 
-### Resources
+### AWS Resources for AWS Batch
 - [AWS Batch](https://aws.amazon.com/batch/)
-- [AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html)
+- [AWS Batch Best Practices](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html)
 - [AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
 - [AWS Batch Developer Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
 - [AWS Batch API Reference](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html)
