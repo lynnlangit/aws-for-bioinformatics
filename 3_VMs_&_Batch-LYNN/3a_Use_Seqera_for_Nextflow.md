@@ -1,7 +1,7 @@
 # Use Seqera for Nextflow for Genomic Data Analysis
 
 ### Why do this
- USE the Seqera tools for the Nextflow pipeline language to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale on the cloud or on-prem environment of your choosing with minimal manual configuration and rich job run information visualizations.
+ USE the [Seqera tools for the Nextflow pipeline language](https://cloud.seqera.io/) to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale on the cloud or on-prem environment of your choosing with minimal manual configuration and rich job run information visualizations.
 
 ### What is this
 Use tools with Nextflow for ease of use.  Run jobs as scripts or containers on a single AWS EC2 Virtual Machine or a cluster of VMs. You can use AWS Batch to orchestrate your Nextflow jobs.
