@@ -1,18 +1,18 @@
-# Use Amazon Omics
+# Use Amazon HealtOmics
 
 ## What is Amazon Omics? 
-Amazon Omics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [Amazon Omics website](https://aws.amazon.com/omics/).
+Amazon HealthOmics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [Amazon Omics website](https://aws.amazon.com/omics/).
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
 ### Why do this
-Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common multiomics use cases, such as:
+Use [`Amazon HealthOmics`](https://aws.amazon.com/omics/) to build quickly for common multiomics use cases, such as:
 - **Genomics** - Store, query, and analyze genomic data to identify **genetic variants** and their impact on human health.
 - **Transcriptomics** - Store, query, and analyze transcriptomic data to identify **gene expression patterns** and their impact on human health.
 - **Proteomics** - Store, query, and analyze proteomic data to identify **protein expression patterns** and their impact on human health.
 
 ### What is this
-- USE Amazon Omics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  
+- USE Amazon HealthOmics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  
 - Video (launched at re:Invent 2022) - 40 minutes - [link](https://www.youtube.com/watch?v=46SLOjuMM6o)
 - Examples and implementation details are provided below.
 
@@ -34,7 +34,7 @@ Use [`Amazon Omics`](https://aws.amazon.com/omics/) to build quickly for common 
 
 ### How to do this
 
-To use Amazon omics, you can use the awscli or the AWS console. The steps below show hot to use the awscli tool. Additionally, below are two linked worked examples that you can use to evaluate the service. 
+To use Amazon Healthomics, you can use the awscli or the AWS console. The steps below show hot to use the awscli tool. Additionally, below are two linked worked examples that you can use to evaluate the service. 
 - Blog Announcement & Example: [How to use Amazon Omics](https://aws.amazon.com/blogs/aws/introducing-amazon-omics-a-purpose-built-service-to-store-query-and-analyze-genomic-and-biological-data-at-scale/)
 - AWS Omics Workshop Example: [Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/af31b35a-c7ba-4037-acd7-e70e9135b2f8/en-US)
 - AWS Omics End-to-End Example: [Tutorial](https://catalog.workshops.aws/amazon-omics-end-to-end/en-US) for AWS Builders Workshops
@@ -81,17 +81,17 @@ aws omics
 ```
 ### Architecture Pattern
 
-AWS Architecture from re:Invent launch talk linked at top of this page - Amazon Omics diagram below.  
+AWS Architecture from re:Invent launch talk linked at top of this page - Amazon HealthOmics diagram below.  
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-d.png">
 
 ### Learn More
 Watch 15 minute demo from AWS team - [link](https://www.youtube.com/watch?v=1HHDyZwKaBA)
-- [Amazon Omics](https://aws.amazon.com/omics/)
-- [Amazon Omics Documentation](https://docs.aws.amazon.com/omics/index.html)
-- [Amazon Omics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html)
-- [Amazon Omics Pricing](https://aws.amazon.com/omics/pricing/)
-- [Amazon Omics FAQs](https://aws.amazon.com/omics/faqs/)
+- [Amazon HealthOmics](https://aws.amazon.com/omics/)
+- [Amazon HealthOmics Documentation](https://docs.aws.amazon.com/omics/index.html)
+- [Amazon HealthOmics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html)
+- [Amazon HealthOmics Pricing](https://aws.amazon.com/omics/pricing/)
+- [Amazon HealthOmics FAQs](https://aws.amazon.com/omics/faqs/)
 
 
 
