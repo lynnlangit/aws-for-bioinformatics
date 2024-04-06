@@ -31,6 +31,7 @@ AWS Genomics provides a variety of public datasets that you can access for free 
 ---
 
 ### Learn More - AWS Public Datasets for Genomics by Example
+- 📘 Link to [AWS iGenomes](https://ewels.github.io/AWS-iGenomes/) query common reference genomes hosted on AWS S3 & GitHub repo - [link](https://github.com/ewels/AWS-iGenomes)
 - 📘 Link to [Genomic Datasets on AWS](https://registry.opendata.aws/tag/genomic/) lists genomic public datasets
 - An example analysis architecture using the 1000 Genomes dataset - [link](https://registry.opendata.aws/1000-genomes/) or [link](https://aws.amazon.com/1000genomes/) in shown below
     - AWS hosts these datasets and provides public access to the data via S3 buckets.
