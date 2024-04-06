@@ -1,21 +1,20 @@
 # Use Seqera for Nextflow for Genomic Data Analysis
 
 ### Why do this
- USE the [Seqera tools for the Nextflow pipeline language](https://cloud.seqera.io/) to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale on the cloud or on-prem environment of your choosing with minimal manual configuration and rich job run information visualizations. NOTE: Seqera tools was previously named 'NF-Tower'.
+ USE the [Seqera tools for the Nextflow pipeline language](https://cloud.seqera.io/) to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale on the cloud or on-prem environment of your choosing with minimal manual configuration and rich job run information visualizations. NOTE: Seqera tools was previously named 'NF-Tower' or 'Tower Forge'.
 
 ### What is this
-Use tools with Nextflow for ease of use.  Run jobs as scripts or containers on a single AWS EC2 Virtual Machine or a cluster of VMs. You can use AWS Batch to orchestrate your Nextflow jobs.
+Use **Nextflow tools** with Nextflow for ease of use on AWS Batch.  You can use AWS Batch to orchestrate your Nextflow jobs.
  - Understand core Nextflow features - [link](https://www.nextflow.io/index.html#Features)
- - Nextflow can run on AWS or many other providers (i.e. Azure, GCP, HPC...)
+ - Nextflow can run on AWS Batch or many other providers (i.e. Azure Batch, GCP Batch, HPC...)
  - Nextflow can run on AWS in several ways:
    - Run jobs on a single EC2 VMs (can run bioinformatics tools from Docker)
    - Run jobs on mulitple EC2 VMS using the **& AWS Batch** API
-   - Run jobs on mulitple Docker container images on ECS clusters (runs on EC2 VMS) using the **& AWS Batch** API
+   - Run jobs on mulitple Docker container images on ECS or EKS clusters (runs on EC2 VMS) using the **& AWS Batch** API
    - Run jobs on mulitple Docker container images on ECS clusters (runs on EC2 VMS) using the **& AWS Batch** API using the Nextflow Seqera Platform
 
-
 ### How to do (and verify) this
- - TEST one or more example (community) Nextflow pipelines by creating job runs on the Seqera Platform - [link](https://cloud.seqera.io/)
+ - TEST one or more example (community) Nextflow pipelines by creating job runs on the Seqera Platform - [link](https://cloud.seqera.io/) using either [Tower Forge or Manual](https://docs.seqera.io/platform/23.4.0/compute-envs/aws-batch)
  - CONFIGURE credentials for your own runtime environment (AWS, GCP...)
  - CONFIGURE pipeline params to use your own sample (input) data
  - REVIEW job run output in the Seqera Platform.  Examples screens shown below.
@@ -28,10 +27,11 @@ Use tools with Nextflow for ease of use.  Run jobs as scripts or containers on a
 
 ### Other Nextflow Tools 
 The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines in addition to Seqera for running and monitoring pipeline jobs.
- - 📘 Link to [nf-core](https://nf-co.re/) for locating reusable Nextflow pipelines
- - 📘 Link to [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
- - 📘 Link to [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
- - 📘 Link to info about [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
+ - 📘 Use [nf-core](https://nf-co.re/) for locating reusable Nextflow pipelines
+ - 📘 Use [Wave containers](https://www.nextflow.io/docs/latest/wave.html) for provisioning containers (with bioinformatics tools) for Nextflow pipelines
+ - 📘 Use [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
+ - 📘 Use [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
+ - 📘 Use [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
  
 ---
 
