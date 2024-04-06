@@ -1,7 +1,7 @@
 # Use Amazon HealtOmics
 
-## What is Amazon Omics? 
-Amazon HealthOmics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [Amazon Omics website](https://aws.amazon.com/omics/).
+## What is Amazon HealthOmics? 
+Amazon HealthOmics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [Amazon HealthOmics website](https://aws.amazon.com/omics/). NOTE: This service was previously named 'Amazon Omics'.
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
