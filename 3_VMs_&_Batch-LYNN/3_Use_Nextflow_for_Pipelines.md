@@ -39,10 +39,11 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
 
 ### Other Nextflow Tools 
 The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines in addition to Seqera for running and monitoring pipeline jobs.
- - 📘 Link to [nf-core](https://nf-co.re/) for locating reusable Nextflow pipelines
- - 📘 Link to [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
- - 📘 Link to [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
- - 📘 Link to info about [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
+ - 📘 Use [nf-core](https://nf-co.re/) for locating reusable Nextflow pipelines
+ - 📘 Use [Wave containers](https://www.nextflow.io/docs/latest/wave.html) for provisioning containers (with bioinformatics tools) for Nextflow pipelines
+ - 📘 Use [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
+ - 📘 Use [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
+ - 📘 Use [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html) for monitoring pipeline runs
  
 ---
  
