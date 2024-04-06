@@ -60,7 +60,7 @@ To use AWS Batch, you can use the awscli or the AWS console. The following steps
 
 ### Other Things to Know and Examples
 - There are a number of bioinformatics libraries (cromwell, Nextflow....) that are can use AWS Batch as an `execution backend provider`
-- Medium Article: [AWS Batch for Genomics](https://medium.com/@awsbio/aws-batch-for-genomics-1b2b2b2b2b2b)
+- Medium Article: [AWS Batch for Genomics](https://docs.opendata.aws/genomics-workflows/core-env/introduction.html)
 - GitHub Repo: [AWS Batch Architecture for Protein Folding](https://github.com/aws-solutions-library-samples/aws-batch-arch-for-protein-folding)
 
 
