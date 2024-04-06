@@ -13,6 +13,7 @@ Alternatively you can use bioinformatics pipeline & workflow languages and servi
 - [Use AWS EC2 Virtual Machines](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/1_Select_EC2_VMs.md)
 - [Use AWS Batch for scale-out, batch computing](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/2_Scale_out_AWS_Batch.md)
 - [Use Nextflow for Pipelines and Workflows](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/3_Use_Nextflow_for_Pipelines.md)
+- [Use Seqera Tools for Nextflow for Pipelines and Workflows](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/3a_Use_Seqera_for_Nextflow.md)
 - [Use Cromwell and WDL for Pipelines and Workflows](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/4_Use_Cromwell_%26_WDL_for_Pipelines.md)
 - [Use Amazon Omics to scale genomic processing](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/5_Use_Amazon_omics.md)
 
