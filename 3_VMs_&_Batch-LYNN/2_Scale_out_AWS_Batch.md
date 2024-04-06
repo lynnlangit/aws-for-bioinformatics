@@ -55,6 +55,7 @@ To use AWS Batch, you can use the awscli or the AWS console. The following steps
 
 ### Resources
 - [AWS Batch](https://aws.amazon.com/batch/)
+- [AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html)
 - [AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
 - [AWS Batch Developer Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
 - [AWS Batch API Reference](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html)
