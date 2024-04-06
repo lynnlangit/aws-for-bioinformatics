@@ -31,7 +31,7 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
  - 📘 Use [Wave containers](https://www.nextflow.io/docs/latest/wave.html) for provisioning containers (with bioinformatics tools) for Nextflow pipelines
  - 📘 Use [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
  - 📘 Use [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
- - 📘 Use [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
+ - 📘 Use [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html) for monitoring pipeline runs
  
 ---
 
