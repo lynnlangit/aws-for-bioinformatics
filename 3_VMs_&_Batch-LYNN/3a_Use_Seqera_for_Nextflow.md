@@ -1,10 +1,8 @@
 # Use Seqera for Nextflow for Genomic Data Analysis
 
-### Why do this
- USE the [Seqera tools for the Nextflow pipeline language](https://cloud.seqera.io/) to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale on the cloud or on-prem environment of your choosing with minimal manual configuration and rich job run information visualizations. NOTE: Seqera tools was previously named 'NF-Tower' or 'Tower Forge'.
-
-### What is this
-Use **Nextflow tools** with Nextflow for ease of use with AWS Batch.  You can use AWS Batch to orchestrate your Nextflow jobs.
+### Why do this & What is this
+- USE the [Seqera tools for the Nextflow pipeline language](https://cloud.seqera.io/) to define and run your genomic data analysis workflows (also called pipelines or jobs) at scale on the cloud or on-prem environment of your choosing with minimal manual configuration and rich job run information visualizations. NOTE: Seqera tools was previously named 'NF-Tower' or 'Tower Forge'.
+- USE **Nextflow tools** with Nextflow for ease of use with AWS Batch.  You can use AWS Batch to orchestrate your Nextflow jobs.
 
 ### How to do (and verify) this
  - TEST one or more example (community) Nextflow pipelines by creating job runs on the Seqera Platform - [link](https://cloud.seqera.io/) using either [Tower Forge or Manual](https://docs.seqera.io/platform/23.4.0/compute-envs/aws-batch)
