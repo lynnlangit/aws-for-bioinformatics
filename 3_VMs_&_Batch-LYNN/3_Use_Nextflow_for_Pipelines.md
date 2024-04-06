@@ -37,11 +37,12 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
     - Note that Nextflow (NF) on Dockstore is a bit different from CWL or WDL. 
     - Instead of having one workflow descriptor file, Nextflow with Dockstore uses two different kinds of files: A config file, `nextflow.config` and a descriptor file, generally called, `main.nf`.
 
-### Nextflow Tools 
-The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines.  
- - 📘 Link to using [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
- - 📘 Link to using [Nextflow Tower](https://www.seqera.io/blog/introducing-nextflow-tower/) for monitoring - screenshot shown below
- - 📘 Link to using [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
+### Other Nextflow Tools 
+The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines in addition to Seqera for running and monitoring pipeline jobs.
+ - 📘 Link to [nf-core](https://nf-co.re/) for locating reusable Nextflow pipelines
+ - 📘 Link to [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
+ - 📘 Link to [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
+ - 📘 Link to info about [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html)
  
 ---
  
