@@ -1,7 +1,7 @@
 # Use AWS Batch
 
 ## What is AWS Batch? 
-AWS Batch is a batch processing service that enables you to run batch computing workloads on the AWS Cloud. AWS Batch can dynamically provision the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.  AWS Batch can run batch jobs in a variety of compute environments, such as Amazon EC2, AWS Fargate, and Spot Instances. AWS Batch is designed to be flexible and efficient, so that you can run batch jobs of any scale.
+AWS Batch is a batch processing service that enables you to run batch computing workloads on the AWS Cloud. AWS Batch can dynamically provision the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.  AWS Batch can run batch jobs in a variety of compute environments, such as Amazon EC2 (with SPOT instances optionally), AWS Fargate (ECS), or EKS. AWS Batch is designed to be flexible and efficient, so that you can run batch jobs of any scale.
 
 ### Why do this
 Scale out your bioinformatics pipeline analysis using [`AWS Batch`](https://aws.amazon.com/batch/) to manage compute resources (VMs and Containers) to manage the pipeline job queue.
