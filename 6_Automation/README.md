@@ -5,11 +5,12 @@ In this section, you'll get information about using AWS tools for code & configu
 Also you'll use AWS Elastic Container Registry to host docker container images.  Additionally you'll use AWS CloudWatch to interpret service logs for monitoring.
 
 ### Here are the topic pages in this section:
-
-- Use Code Commit Repositories for code 
-- Use CloudFormation to deploy infrastructure
-- Use Container Registry to host container images
-- Monitor services with CloudWatch for reading logs
+- [Use AWS Genomics CLI for Code](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation/0_Use_aws_genomics-cli.md)
+- [Use Code Commit Repositories for code](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation/1_Use_Code_Repository.md) 
+- [Use CloudFormation to deploy infrastructure](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation/2_Use_CloudFormation.md)
+- [Use Container Registry to host container images](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation/3_Use_Container_Registry.md)
+- [Monitor services with CloudWatch for reading logs](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation/4_Monitor_with_CloudWatch.md)
+- [Setup CI-CD with CodePipeline](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/6_Automation/5_Setup_CI-CD_with_CodePipeline.md)
 
 ### More Information about DevOps
 
