@@ -18,7 +18,7 @@
 
 **Configure buckets appropriately to reduce costs!**  Storage can be the most significant AWS service cost for bioinformatics (due to the number and size of files involved in analysis) so be careful to select the storage class that fits your analysis best i.e. multi-regional, regional.... so as not to pay for unused resource s. Shown below are the [storage class options](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html).
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data-LYNN/images/s3-storage.png" width=600>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data/images/s3-storage.png" width=600>
 
 ### How to do this
  - CREATE a bucket with a globally unique name

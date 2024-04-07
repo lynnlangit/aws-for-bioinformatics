@@ -16,7 +16,7 @@ AWS Genomics provides a variety of public datasets that you can access for free 
  - AWS Marketplace filters allow you to seach for open data 
 
 ### How to do this
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data-LYNN/images/iGenomes.png" width=600>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data/images/iGenomes.png" width=600>
 
 - Link to [AWS iGenomes](https://ewels.github.io/AWS-iGenomes/) query common reference genomes hosted on AWS S3 & GitHub repo - [link](https://github.com/ewels/AWS-iGenomes)
 - Access via AWS S3 bucket URL (i.e. `s3://<my-genomics-bucket>/<my-folder>/<my-file>`)
