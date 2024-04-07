@@ -52,15 +52,6 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
 
 ![Nextflow using AWS Batch](https://github.com/lynnlangit/TeamTeri/blob/master/Images/nextflow-aws-batch.png)
  
- #### Nextflow v2 and Technical Info
- - 📝 Link to Nextflow v2 example workflow - [link](https://gist.github.com/lynnlangit/e5d3e86d632a7db796efae04145d44ff)
- - 📘 Link to Nextflow v2 migration notes - [link](https://www.nextflow.io/docs/latest/dsl2.html#dsl2-migration-notes)
-   - 📘 Link to paper on [containerized approaches to workflows(includes Nextflow)](https://www.preprints.org/manuscript/202001.0378/v1/download)
- - 📘 Links to understanding that Nextflow internal architecture.  
-   - NF is written in the [Groovy programming language](https://en.wikipedia.org/wiki/Apache_Groovy) 
-   - NF is designed to run on [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) instances 
- - 📺 Watch Nextflow v2 live coding - [link](https://www.youtube.com/watch?v=-Ne4OP0aiYw)
-
 ---
 
 ### Example NF Pipelines on AWS 
