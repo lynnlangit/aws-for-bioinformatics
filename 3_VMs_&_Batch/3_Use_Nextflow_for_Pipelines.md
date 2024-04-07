@@ -32,11 +32,12 @@ Shown below is a reference architecture for running Nextflow analysis on AWS usi
 ### Other Nextflow Tools 
 The Nextflow ecosystem includes a growing set of tools for scripting, registering, monitoring and tracing pipelines in addition to Seqera for running and monitoring pipeline jobs.
  - 📘 Use [nf-core](https://nf-co.re/) for locating reusable Nextflow pipelines
- - 📘 Build [Containers for Scientific Workflows](https://seqera.io/blog/building-containers-for-scientific-workflows/)
  - 📘 Use [Wave containers](https://www.nextflow.io/docs/latest/wave.html) for provisioning containers (with bioinformatics tools) for Nextflow pipelines
  - 📘 Use [nf-core tools](https://nf-co.re/tools) for configuring, running, monitoring and managing reusable Nextflow pipelines
+ - 🗄️ Link to [Nextflow test datasets](https://github.com/nf-core/test-datasets)
  - 📘 Use [Nextflow cli](https://www.nextflow.io/docs/edge/cli.html) for scripting 
  - 📘 Use [Nextflow tracing & viz tools](https://www.nextflow.io/docs/latest/tracing.html) for monitoring pipeline runs
+ - 📘 Link to [using `resume` with Nextflow](https://www.nextflow.io/blog/2019/demystifying-nextflow-resume.html)
  
 ---
  
@@ -46,20 +47,23 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
  - 📘 Huge list of [Learn Nextflow links](https://www.nextflow.io/blog/2022/learn-nextflow-in-2022.html)
  - 📘 Link to [Nextflow code patterns](http://nextflow-io.github.io/patterns/index.html)
  - :octocat: Link to [Awesome Nextflow links](https://github.com/nextflow-io/awesome-nextflow)
+ - 📘 Build [Containers for Scientific Workflows](https://seqera.io/blog/building-containers-for-scientific-workflows/)
  - 📺 Watch Nextflow presentations - [link](https://www.nextflow.io/presentations.html)
- - 🗄️ Link to [Nextflow test datasets](https://github.com/nf-core/test-datasets)
  - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown in the linked article
  - 📘 Read about [Pipeliner for Nextflow paper](https://www.biorxiv.org/content/biorxiv/early/2018/11/23/476515.full.pdf)
- - 📘 Link to [using `resume` with Nextflow](https://www.nextflow.io/blog/2019/demystifying-nextflow-resume.html)
+
  
 ---
 
-### Example NF Pipelines on AWS 
+### About Nextflow on AWS
 
-#### Nextflow on AWS
+#### General Guidance
  - 📘 Read Nextflow pipelines with AWS (docs) - [link](https://www.nextflow.io/docs/latest/awscloud.html)
- - 💻 Link to [Running GATK workflows on AWS: a user-friendly solution](https://aws.amazon.com/blogs/industries/running-gatk-workflows-on-aws-a-user-friendly-solution)
+ - 📘 Read Article: "Fusion file system and Mountpoint for Amazon S3 – understanding the differences" - [link](https://seqera.io/blog/mountpoint-for-amazon-s3-vs-fusion-file-system/)
  - 📘 Link to [Step-by-Step Guide to Running AI Workloads on AWS w/ NF-Tower](https://seqera.io/blog/running-ai-workloads-in-the-cloud-with-nextflow-tower-a-step-by-step-guide/)
+   
+ #### Example Pipelines 
+ - 💻 Link to [Running GATK workflows on AWS: a user-friendly solution](https://aws.amazon.com/blogs/industries/running-gatk-workflows-on-aws-a-user-friendly-solution)
  - 📘 Link to using [NF protein-DNA interactions and epigenomic profiling pipeline QC testing & viz tools with CI/CD](https://nf-co.re/cutandrun)
     - pipeline image (subway map style) shown below.
  - 🏃 Command to run a NF workflow using The Broad's `GATK 4` tools with Nextflow.io use this command 
