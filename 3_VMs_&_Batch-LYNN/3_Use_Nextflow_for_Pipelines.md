@@ -48,7 +48,7 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
  - 📺 Watch Nextflow presentations - [link](https://www.nextflow.io/presentations.html)
  - 🗄️ Link to [Nextflow test datasets](https://github.com/nf-core/test-datasets)
  - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown in the linked article
- - 💻 Link to [Quickstart using AWS Batch & Nextflow](https://aws-quickstart.s3.amazonaws.com/quickstart-nextflow/doc/nextflow-on-the-aws-cloud.pdf) & [more detail](https://aws.amazon.com/blogs/industries/running-gatk-workflows-on-aws-a-user-friendly-solution)
+ - 💻 Link to [Running GATK workflows on AWS: a user-friendly solution](https://aws.amazon.com/blogs/industries/running-gatk-workflows-on-aws-a-user-friendly-solution)
 
 ![Nextflow using AWS Batch](https://github.com/lynnlangit/TeamTeri/blob/master/Images/nextflow-aws-batch.png)
  
