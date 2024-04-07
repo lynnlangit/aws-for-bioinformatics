@@ -1,15 +1,20 @@
 # Use AWS HealthOmics
 
 ## What is AWS HealthOmics? 
-AWS HealthOmics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [AWS HealthOmics website](https://aws.amazon.com/omics/). NOTE: This service was previously named 'Amazon Omics'.
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
 
+AWS HealthOmics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [AWS HealthOmics website](https://aws.amazon.com/omics/). NOTE: This service was previously named 'Amazon Omics'.
+
 ### Why do this
+
 Use [`AWS HealthOmics`](https://aws.amazon.com/omics/) to build quickly for common multiomics use cases, such as:
 - **Genomics** - Store, query, and analyze genomic data to identify **genetic variants** and their impact on human health.
 - **Transcriptomics** - Store, query, and analyze transcriptomic data to identify **gene expression patterns** and their impact on human health.
 - **Proteomics** - Store, query, and analyze proteomic data to identify **protein expression patterns** and their impact on human health.
+- **36 Ready2Run Workflows** - Select, configure and run common workflows using optimized workflows which use workflow languages, such as Nextflow and run on AWS Batch.  Image shown below.
+
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/healthomics-ready.png">
 
 ### What is this
 - USE AWS HealthOmics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  
