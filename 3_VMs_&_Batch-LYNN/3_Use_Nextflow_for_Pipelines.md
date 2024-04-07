@@ -50,9 +50,6 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
  - 📘 Link to [using Nextflow with Kubernetes](https://www.nextflow.io/docs/edge/kubernetes.html) - high-level architecture shown in the linked article
  - 📘 Read about [Pipeliner for Nextflow paper](https://www.biorxiv.org/content/biorxiv/early/2018/11/23/476515.full.pdf)
  - 📘 Link to [using `resume` with Nextflow](https://www.nextflow.io/blog/2019/demystifying-nextflow-resume.html)
-
-
-![Nextflow using AWS Batch](https://github.com/lynnlangit/TeamTeri/blob/master/Images/nextflow-aws-batch.png)
  
 ---
 
