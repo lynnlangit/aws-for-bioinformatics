@@ -1,4 +1,4 @@
-# Use AWS HealtOmics
+# Use AWS HealthOmics
 
 ## What is AWS HealthOmics? 
 AWS HealthOmics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [AWS HealthOmics website](https://aws.amazon.com/omics/). NOTE: This service was previously named 'Amazon Omics'.
