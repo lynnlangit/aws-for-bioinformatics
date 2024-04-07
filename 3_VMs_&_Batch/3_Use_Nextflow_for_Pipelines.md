@@ -6,7 +6,7 @@
 ### What is this
 Nextflow is a reactive bioinformatics workflow framework & DSL for writing data-intensive computational pipelines.  Run jobs as scripts or containers on a single AWS EC2 Virtual Machine or a cluster of VMs. You can use AWS Batch to orchestrate your Nextflow jobs.
  - Understand core Nextflow features - [link](https://www.nextflow.io/index.html#Features)
- - Nextflow can run on AWS or many other providers (i.e. Azure, GCP, HPC, etc...)
+ - Nextflow can run on AWS or many other providers (i.e. Azure, GCP, HPC, etc...) using its configurable *Executors* feature
  - Nextflow can run jobs on AWS in several ways...
    - On a single EC2 VMs (can run bioinformatics tools from Docker)
    - On mulitple EC2 VMS using the **& AWS Batch** API
