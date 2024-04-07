@@ -31,5 +31,5 @@
 - 📘 Link to [pricing example](https://aws.amazon.com/serverless-workflows/pricing/)
 - 📘 Link to implementable example w/Step Functions (includes CF templates) and architecture shown below - [link](https://aws.amazon.com/solutions/implementations/genomics-secondary-analysis-using-aws-step-functions-and-aws-batch/)
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/5_Serverless_%26_ML-LYNN/1_Lambda/images/secondary-step-functions.png" width=800>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/5_Serverless_%26_ML/1_Lambda/images/secondary-step-functions.png" width=800>
  
