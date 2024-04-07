@@ -2,7 +2,7 @@
 
 ## What is AWS HealthOmics? 
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-concepts.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/omics-concepts.png">
 
 AWS HealthOmics is a purpose-built service to help bioinformaticians, researchers, and scientists store, query, and analyze genomic, transcriptomic, and other omics data and then generate insights from that data to improve health and advance scientific discoveries. Concepts shown below are from the [AWS HealthOmics website](https://aws.amazon.com/omics/). NOTE: This service was previously named 'Amazon Omics'.
 
@@ -14,7 +14,7 @@ Use [`AWS HealthOmics`](https://aws.amazon.com/omics/) to build quickly for comm
 - **Proteomics** - Store, query, and analyze proteomic data to identify **protein expression patterns** and their impact on human health.
 - **36 Ready2Run Workflows** - Select, configure and run common workflows using optimized workflows which use workflow languages, such as Nextflow and run on AWS Batch.  Image shown below.
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/healthomics-ready.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/healthomics-ready.png">
 
 ### What is this
 - USE AWS HealthOmics purpose-built genomic file stores to quickly store, query, and analyze genomic, transcriptomic, and proteomic data.  
@@ -89,7 +89,7 @@ aws omics
 
 AWS Architecture from re:Invent launch talk linked at top of this page - Amazon HealthOmics diagram below.  
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/omics-d.png">
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/omics-d.png">
 
 ### Learn More
 Watch 15 minute demo from AWS team - [link](https://www.youtube.com/watch?v=1HHDyZwKaBA)

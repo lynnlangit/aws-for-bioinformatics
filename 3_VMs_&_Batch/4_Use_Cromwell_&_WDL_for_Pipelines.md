@@ -31,7 +31,7 @@ Scaling AWS EC2 VM instances out (by dynamically adding instances to a cluster a
  - REFERENCE your scripts, jar files or docker container images for each of the bioinformatics tool used in your workflow
  - USE JSON files to configure the input/output parameters for each tool and also for EACH job execution
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch-LYNN/images/WDL-sections.png" width=800>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/WDL-sections.png" width=800>
 
 ### How to do this
 
