@@ -12,7 +12,7 @@ You can use AWS Machine Learning APIs to build machine learning (ML) application
  - Ability to use ML on text or natural language data without manually creating/training an ML model
  - Product names are `Amazon Textrack` and `Comprehend Medical` - features list [link](https://aws.amazon.com/comprehend/)
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/5_Serverless_%26_ML-LYNN/2_Machine_Learning/images/comprehend.png" width=800>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/5_Serverless_%26_ML/2_Machine_Learning/images/comprehend.png" width=800>
 
 ### Key considerations
  - Select the best-fit service for your use-case
