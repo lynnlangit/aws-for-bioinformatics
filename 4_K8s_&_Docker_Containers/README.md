@@ -25,7 +25,7 @@ For perspectives on different possible ways to run one or more bioinformatics to
     - Part Two - Scaling using EMR - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-2-emr-6dfc3cd91a1f)
     - Part Three - Scaling using Kubernetes (and image below) - [link](https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-3-kubernetes-5427d96f825b)
         
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/4_K8s_%26_Docker_Containers-KELLY/images/csiro-vs-k8.png" width=800>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/4_K8s_%26_Docker_Containers/images/csiro-vs-k8.png" width=800>
 
 
 
