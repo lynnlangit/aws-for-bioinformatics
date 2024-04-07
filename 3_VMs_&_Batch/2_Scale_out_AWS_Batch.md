@@ -16,6 +16,12 @@ AWS Batch can run batch jobs in one of three possible types of AWS compute envir
 
 AWS Batch is designed to be flexible and efficient, so that you can run batch jobs of any scale.  Sample AWS WebUI screens are shown below.
 
+To use AWS Batch, you must configure 4 key areas:
+1. Compute Environment - Fargate (ECS), EC2 or EKS, base environment to implement dynamic compute cluster for Batch
+2. Job Queue - One per Compute Environment, determines job run priority in that env, based on job defition configuration
+3. Job Definition - Configuration for each job to be run, includes values for job type, timeouts, container and more
+4. Job - Workflow (or pipeline) instance to be run based on Job Definition on a particular Job Queue and Compute Environment
+
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/batch-ui1.png">
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/batch-ui2.png">
 
