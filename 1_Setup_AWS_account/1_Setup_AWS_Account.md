@@ -22,7 +22,7 @@
  - Determine the best location (AWS data center):
     - AWS cloud has regional data centers which are further divded into zones within the physical data center location
     - global [AWS data center locations](https://Amazon.com/about-aws/global-infrastructure/regions-and-availability/)
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/fe8e733a7202f07f942e9bd44396a3a88ac59645/1_Setup_AWS_account-KELLY/images/aws-locations.png" width=900>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/fe8e733a7202f07f942e9bd44396a3a88ac59645/1_Setup_AWS_account/images/aws-locations.png" width=900>
 
 
  NOTE: There are many bioinformatics analysis workflow tools, libraries & solutions which can be run on top of core AWS services.  Examples include [cromwell](https://cromwell.readthedocs.io/en/stable/), [Nextflow.io](https://www.nextflow.io/) & many others. 

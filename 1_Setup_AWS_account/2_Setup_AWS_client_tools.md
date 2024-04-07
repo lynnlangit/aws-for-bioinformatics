@@ -17,7 +17,7 @@
         - ZERO INSTALL
         - Use Google chrome browser to access the AWS console
         - Use the search box within the AWS console to quickly jump within the console 
- <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/6e8b362667e3236a68c4190c043c051da443a0d0/1_Setup_AWS_account-KELLY/images/aws-console.png" width=900>
+ <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/6e8b362667e3236a68c4190c043c051da443a0d0/1_Setup_AWS_account/images/aws-console.png" width=900>
 
 ---
 
@@ -34,7 +34,7 @@ AWS CloudShell provides the following:
         - web preview functionality
         - built-in authorization for access to AWS Console projects and resources
         - built-in support for AWS Lambda functions
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/9fef4bd32ae28ed238ad8d63523ed41a06c7a677/1_Setup_AWS_account-KELLY/images/aws-cli.png" width=900>
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/9fef4bd32ae28ed238ad8d63523ed41a06c7a677/1_Setup_AWS_account/images/aws-cli.png" width=900>
 
 3. **AWS CLI** (Command Line Interface) - [link to CLI](https://aws.amazon.com/cli/) Installed locally on your laptop
 
