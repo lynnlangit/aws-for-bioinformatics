@@ -61,22 +61,6 @@ To use AWS Batch, you can use the awscli or the AWS console. The following steps
 - Use AWS Batch to run your bioinformatics pipeline on AWS Fargate
 - Use AWS Batch to run your bioinformatics pipeline on AWS Spot Instances
 
-
-### AWS Resources for AWS Batch
-- [AWS Batch](https://aws.amazon.com/batch/)
-- [AWS Batch Best Practices](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html)
-- [AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
-- [AWS Batch Developer Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
-- [AWS Batch API Reference](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html)
-- [AWS Batch CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/batch/index.html)
-- [AWS Batch Pricing](https://aws.amazon.com/batch/pricing/)
-- [AWS Batch FAQs](https://aws.amazon.com/batch/faqs/)
-- [AWS Batch Blog](https://aws.amazon.com/blogs/aws/aws-batch/)
-
-
- -----
-
-
 ### How to verify you've done it
  - Run your analysis, monitor for correct results (view files in your output bucket)
  - Monitor for service cost, execution time and adjust to meet your requirements
@@ -86,5 +70,16 @@ To use AWS Batch, you can use the awscli or the AWS console. The following steps
 - There are a number of bioinformatics libraries (cromwell, Nextflow....) that are can use AWS Batch as an `execution backend provider`
 - AWS Reference: [AWS Batch for Genomics](https://docs.opendata.aws/genomics-workflows/core-env/introduction.html)
 - GitHub Repo: [AWS Batch Architecture for Protein Folding](https://github.com/aws-solutions-library-samples/aws-batch-arch-for-protein-folding)
+
+### Learn More - AWS Resources for AWS Batch
+- [AWS Batch](https://aws.amazon.com/batch/)
+- [AWS Batch Best Practices](https://docs.aws.amazon.com/batch/latest/userguide/best-practices.html)
+- [AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
+- [AWS Batch Developer Guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
+- [AWS Batch API Reference](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html)
+- [AWS Batch CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/batch/index.html)
+- [AWS Batch Pricing](https://aws.amazon.com/batch/pricing/)
+- [AWS Batch FAQs](https://aws.amazon.com/batch/faqs/)
+- [AWS Batch Blog](https://aws.amazon.com/blogs/aws/aws-batch/)
 
 
