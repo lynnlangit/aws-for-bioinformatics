@@ -5,7 +5,8 @@
  - REPRODUCE your analysis on another AWS environment (or other public cloud)
 
 ### What is this
- - A AWS Deployment is a YAML file which describe a set of AWS services and their configuration properties using files. CloudFormation is the deployment service.
+ - An AWS Deployment is a YAML (or JSON) file which describe a set of AWS services and their configuration properties using files.
+ - CloudFormation is the deployment service which reads the Deployment file and executes the service configuration on your AWS account
 
    
 -----
@@ -27,5 +28,5 @@
  - Use AWS Marketplace CloudFormation Templates to quickly deploy popular software, such as WordPress or Jenkins, on AWS
 
 ### How to learn more
-- [AWS Deployment Manager](https://docs.aws.amazon.com/deploymentmanager/latest/userguide/what-is-deployment-manager.html)
+ - :octocat: Link to [AWS CloudFormation](https://aws.amazon.com/cloudformation/) - AWS service for deploying services
  - :octocat: Link to [cromwell deployment for AWS](https://github.com/hall-lab/cromwell-deployment) - includes scripts to deploy cromwell server & database

@@ -1,4 +1,4 @@
-# Monitor logs with AWS Operations (was CloudWatch)
+# Monitor logs with AWS CloudWatch
 
 ### Why do this
  - UNDERSTAND whether your service instance is working as expected
