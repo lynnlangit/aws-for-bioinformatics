@@ -16,6 +16,7 @@ Alternatively you can use bioinformatics pipeline & workflow languages and servi
 - [Use Seqera Tools for Nextflow for Pipelines and Workflows](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/3a_Use_Seqera_for_Nextflow.md)
 - [Use Cromwell and WDL for Pipelines and Workflows](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/4_Use_Cromwell_%26_WDL_for_Pipelines.md)
 - [Use AWS HealthOmics to scale genomic processing](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/5_Use_AWS_HealthOmics.md)
+- [Use Decision Tree for scaling patterns - NF example](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/6_Use_Decision_Tree_for_scaling.md)
 
 There are a number of possible ways to construct high volume data analysis workflows or pipelines on AWS with these purpose-built APIs.  In addition there is a specialized AWS API for scaling Genomics workloads on the AWS. This API is named AWS Batch.
 
