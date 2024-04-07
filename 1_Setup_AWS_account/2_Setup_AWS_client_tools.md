@@ -17,7 +17,7 @@
         - ZERO INSTALL
         - Use Google chrome browser to access the AWS console
         - Use the search box within the AWS console to quickly jump within the console 
- <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/6e8b362667e3236a68c4190c043c051da443a0d0/1_Setup_AWS_account/images/aws-console.png" width=900>
+ <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/1_Setup_AWS_account/images/aws-console.png" width=900>
 
 ---
 
