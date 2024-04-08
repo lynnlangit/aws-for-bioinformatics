@@ -10,8 +10,7 @@ This repo hosts a **free and open source** course **"AWS for Bioinformatics"**. 
 - 📺 **aws-for-bioinformatics** playlist on YouTube - [link](https://www.youtube.com/playlist?list=PL4Q4HssKcxYt48KtjpILjwTT-6s-zziDj). 
   - On the playlist are linked short 'AWS in action' screencasts --AND--
   - Also linked recordings of Lynn's public talks on building and deploying genomic solutions on AWS.
-  - ❗**IMPORTANT: This course is a WIP**, we'll be adding more resources frequently. 
-  - Please `watch` this Repo to get updates when we add material.
+- NOTE: This course is a WIP, I'll be adding more resources frequently. Please `watch` this Repo to get updates when we add material.
 
 This course covers a core AWS services used in a set of generic genomics reference architectures. We group these services by category (i.e. compute, storage, security, etc...) and explain in each section how and why to use these AWS services. Bioinformatics data, tools and libraries are used in examples.
   - for detail about the scenarios see the `Reference` section - [link](https://github.com/lynnlangit/aws-for-bioinformatics/tree/main/7_REF_Info)
