@@ -6,7 +6,7 @@ Alternatively you can use bioinformatics pipeline & workflow languages and servi
 
 ### Here are the topic pages in this section:
 
-- [Use Docker Container Image for Pipelines](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/4_K8s_%26_Docker_Containers/1_Use_Docker_Container_Image_for_Pipelines.md)
+- [Use Docker Container Image for Pipelines](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/4_K8s_%26_Docker_Containers/1_Use_Containers_in_Pipelines.md)
 - [Orchestrate Containers with GKE (Kubernetes)](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/4_K8s_%26_Docker_Containers/2_Orchestrate_Containers_with_GKE.md)
 - [Use Nextflow with Containers](https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/4_K8s_%26_Docker_Containers/3_Use_Nextflow_with_Containers.md)
 
