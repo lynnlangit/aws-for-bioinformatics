@@ -44,6 +44,7 @@ To use AWS HealthOmics, you can use the awscli or the AWS console. The steps bel
 - AWS HealthOmics Workshop Example: [Tutorial](https://catalog.us-east-1.prod.workshops.aws/workshops/af31b35a-c7ba-4037-acd7-e70e9135b2f8/en-US)
 - AWS HealthOmics End-to-End Example: [Tutorial](https://catalog.workshops.aws/amazon-omics-end-to-end/en-US) for AWS Builders Workshops
 - AWS HealthOmics Tutorials: [Tutorials](https://github.com/aws-samples/amazon-omics-tutorials)
+- Example Jupyter notebook, includes IAM role setup: [Notebook](https://github.com/aws-samples/amazon-omics-tutorials/blob/main/notebooks/200-omics_workflows.ipynb)
 
 
 #### Steps and Script
