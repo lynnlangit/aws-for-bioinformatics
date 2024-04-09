@@ -44,6 +44,7 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
 ### How to learn more
 
 #### General Nextflow
+ - 📘 Link to [Nextflow training](http://training.nextflow-io)
  - 📘 Huge list of [Learn Nextflow links](https://www.nextflow.io/blog/2022/learn-nextflow-in-2022.html)
  - 📘 Link to [Nextflow code patterns](http://nextflow-io.github.io/patterns/index.html)
  - :octocat: Link to [Awesome Nextflow links](https://github.com/nextflow-io/awesome-nextflow)
