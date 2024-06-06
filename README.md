@@ -1,6 +1,6 @@
 # AWS for Bioinformatics
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/aws-genomics.png" width=900>
+<kbd><img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/7_REF_Info/images/aws-genomics.png" width=900></kbd>
 
 You can use AWS to address key bioinformatics use cases (categories shown above / image from AWS documentation).  AWS includes tools and services which enable genomic researchers to ingest, process and analyze their genomic datasets using the elastic scale of the AWS cloud. 
 
