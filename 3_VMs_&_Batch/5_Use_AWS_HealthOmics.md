@@ -92,13 +92,16 @@ AWS Architecture from re:Invent launch talk linked at top of this page - Amazon 
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/omics-d.png">
 
-### Learn More
+### Learn More & Use Tools
 Watch 15 minute demo from AWS team - [link](https://www.youtube.com/watch?v=1HHDyZwKaBA)
-- [AWS HealthOmics](https://aws.amazon.com/omics/)
-- [AWS HealthOmics Documentation](https://docs.aws.amazon.com/omics/index.html)
-- [AWS HealthOmics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html)
-- [AWS HealthOmics Pricing](https://aws.amazon.com/omics/pricing/)
-- [AWS HealthOmics FAQs](https://aws.amazon.com/omics/faqs/)
+- [AWS HealthOmics](https://aws.amazon.com/omics/) - Main page
+- [AWS HealthOmics Documentation](https://docs.aws.amazon.com/omics/index.html) - Docs
+- [AWS HealthOmics CLI Reference](https://docs.aws.amazon.com/cli/latest/reference/omics/index.html) - CLI docs
+- [AWS HealthOmics Pricing](https://aws.amazon.com/omics/pricing/) - Costs
+- [AWS HealthOmics FAQs](https://aws.amazon.com/omics/faqs/) - FAQ
+- [AWS HealthOmics Tools](https://github.com/awslabs/amazon-omics-tools) - GitHub Repo with SDK and CLI Tools for working with the AWS HealthOmics Service.
+
+
 
 
 
