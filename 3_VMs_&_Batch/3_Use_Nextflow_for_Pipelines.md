@@ -62,6 +62,7 @@ The Nextflow ecosystem includes a growing set of tools for scripting, registerin
  - 📘 Read Nextflow pipelines with AWS (docs) - [link](https://www.nextflow.io/docs/latest/awscloud.html)
  - 📘 Read Article: "Fusion file system and Mountpoint for Amazon S3 – understanding the differences" - [link](https://seqera.io/blog/mountpoint-for-amazon-s3-vs-fusion-file-system/)
  - 📘 Link to [Step-by-Step Guide to Running AI Workloads on AWS w/ NF-Tower](https://seqera.io/blog/running-ai-workloads-in-the-cloud-with-nextflow-tower-a-step-by-step-guide/)
+ - :octocat: Link to [Notes on AWS Batch and NF](https://github.com/stevekm/nextflow-demos/tree/master/aws-batch)
    
  #### Example Pipelines 
  - 💻 Link to [Running GATK workflows on AWS: a user-friendly solution](https://aws.amazon.com/blogs/industries/running-gatk-workflows-on-aws-a-user-friendly-solution)
