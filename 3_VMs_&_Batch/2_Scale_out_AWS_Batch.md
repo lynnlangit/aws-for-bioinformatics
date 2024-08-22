@@ -82,4 +82,6 @@ To use AWS Batch, you can use the awscli or the AWS console. The following steps
 - [AWS Batch FAQs](https://aws.amazon.com/batch/faqs/)
 - [AWS Batch Blog](https://aws.amazon.com/blogs/aws/aws-batch/)
 
+### Case Study - AWS Batch at Extreme Scale for Genomics
+- [Institut Pasteur, a leading French virology research center, processed 20 petabytes of DNA data in record 30 hours, leveraging AWS Batch over a cluster of 2.18M AWS Graviton cores](https://aws.amazon.com/solutions/case-studies/case-study-institut-pasteur)
 
