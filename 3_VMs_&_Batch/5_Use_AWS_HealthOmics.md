@@ -12,7 +12,7 @@ Use [`AWS HealthOmics`](https://aws.amazon.com/omics/) to build quickly for comm
 - **Genomics** - Store, query, and analyze genomic data to identify **genetic variants** and their impact on human health.
 - **Transcriptomics** - Store, query, and analyze transcriptomic data to identify **gene expression patterns** and their impact on human health.
 - **Proteomics** - Store, query, and analyze proteomic data to identify **protein expression patterns** and their impact on human health.
-- **36 Ready2Run Workflows** - Select, configure and run common workflows using optimized workflows which use workflow languages, such as Nextflow and run on AWS Batch.  Image shown below.
+- **36 Ready2Run Workflows** - Select, configure and run common workflows using optimized workflows which use workflow languages, such as Nextflow and run on AWS Batch.  [Link to list of available workflows](https://docs.aws.amazon.com/omics/latest/dev/workflows-r2r-table.html) and screenshot of workflows shown below.
 
 <img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/healthomics-ready.png">
 
