@@ -16,7 +16,7 @@ Nextflow is a reactive bioinformatics workflow framework & DSL for writing data-
 Shown below is a reference architecture for running Nextflow analysis on AWS using the AWS Batch API.  
 - From this article - part one [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-1-of-3/) and part two [link](https://seqera.io/blog/nextflow-and-aws-batch-inside-the-integration-part-2-of-3)
 
-![Nextflow Architecture using AWS Genomics/AWS Batch](https://seqera.io/static/e732bd2954e8b788415d353acbf60614/42cbc/blog-nextflow-and-aws-batch-inside-the-integration-part-1-of-3-1.png)
+![Nextflow Architecture using AWS Genomics/AWS Batch](https://cdn.sanity.io/images/o2y1bt2g/seqera/e06e8ffd4c59c1281c4cd94243774d42235503eb-1600x758.png?w=1736&fit=max&auto=format)
 
 ### How to do this
  - SETUP prereqs for Nextflow on your VM - JDK, Docker, Graphviz(optional)
