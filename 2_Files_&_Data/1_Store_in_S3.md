@@ -35,6 +35,8 @@
 ----
 
 ### Other Things to Know
+AWS offers a number of possible optimizations for file-based storage.  Shown in the table below is a summary of more advanced options available.  
+<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/2_Files_%26_Data/images/storage-option.png" width=1000>
  - Design file archiving processes, i.e. move to appropriate storage tier based on file access patterns, if not accessing or over time (i.e. monthly...)
  - Delete files generated during processing (often called intermediate files) that are no longer needed when jobs complete
  - Read about 'requestor pays' S3 feature - [link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html)
