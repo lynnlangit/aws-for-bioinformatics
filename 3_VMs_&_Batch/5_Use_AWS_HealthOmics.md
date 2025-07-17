@@ -88,9 +88,9 @@ aws omics
 ```
 ### Architecture Pattern
 
-AWS Architecture from re:Invent launch talk linked at top of this page - Amazon HealthOmics diagram below.  
+AWS Architecture from Amazon HealthOmics [documentation](https://aws.amazon.com/solutions/guidance/development-automation-implementation-monitoring-of-bioinformatics-workflows-on-aws/) - diagram below.  
 
-<img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/omics-d.png">
+<kbd><img src="https://github.com/lynnlangit/aws-for-bioinformatics/blob/main/3_VMs_%26_Batch/images/health-omics-arch.png"></kbd>
 
 ### Learn More & Use Tools
 Watch 15 minute demo from AWS team - [link](https://www.youtube.com/watch?v=1HHDyZwKaBA)
